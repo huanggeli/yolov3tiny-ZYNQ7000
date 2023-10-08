@@ -1,0 +1,10 @@
+21:31:25 **** Incremental Build of configuration Debug for project detection_displayloop_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 55011 H:/VITIS-WORKSPACE/accel_test_system/accel_hardware_platform/export/accel_hardware_platform/accel_hardware_platform.xpfm standalone_domain H:/VITIS-WORKSPACE/accel_test_system/detection_displayloop_system/Debug/system.bif
+sdcard_gen --xpfm H:/VITIS-WORKSPACE/accel_test_system/accel_hardware_platform/export/accel_hardware_platform/accel_hardware_platform.xpfm --sys_config accel_hardware_platform --bif H:/VITIS-WORKSPACE/accel_test_system/detection_displayloop_system/Debug/system.bif --bitstream H:/VITIS-WORKSPACE/accel_test_system/detection_displayloop/_ide/bitstream/hardwareplatform.bit --elf H:/VITIS-WORKSPACE/accel_test_system/detection_displayloop/Debug/detection_displayloop.elf,ps7_cortexa9_0
+creating BOOT.BIN using H:/VITIS-WORKSPACE/accel_test_system/detection_displayloop/_ide/bitstream/hardwareplatform.bit
+Running H:/Xilinx/Vitis/2021.1/bin/bootgen  -image H:/VITIS-WORKSPACE/accel_test_system/detection_displayloop_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+21:31:29 Build Finished (took 3s.994ms)
+

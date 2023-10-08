@@ -1,0 +1,29 @@
+15:48:18 **** Incremental Build of configuration Debug for project display ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/display_demo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IH:/VITIS-WORKSPACE/accel_test_system/preprocessplat/export/preprocessplat/sw/preprocessplat/standalone_domain/bspinclude/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'main':
+../src/display_demo.c:75:6: warning: unused variable 'val' [-Wunused-variable]
+   75 |  u32 val;
+      |      ^~~
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: display.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LH:/VITIS-WORKSPACE/accel_test_system/preprocessplat/export/preprocessplat/sw/preprocessplat/standalone_domain/bsplib/lib -o "display.elf"  ./src/i2c/PS_i2c.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/adv7511.o ./src/display_demo.o ./src/ov5640.o ./src/vdma.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: display.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size display.elf  |tee "display.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70608	   2832	59468832	59542272	38c8b00	display.elf
+'Finished building: display.elf.size'
+' '
+
+15:48:19 Build Finished (took 709ms)
+

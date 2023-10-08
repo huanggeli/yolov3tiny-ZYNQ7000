@@ -1,0 +1,44 @@
+23:08:54 **** Incremental Build of configuration Debug for project hello ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IH:/VITIS-WORKSPACE/accel_test_system/convplat/export/convplat/sw/convplat/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'Load_pic':
+../src/helloworld.c:122:14: warning: passing argument 2 of 'f_read' makes pointer from integer without a cast [-Wint-conversion]
+  122 |  f_read(&fil,(UINTPTR)ifmInBuf[1],RESIZE_IMG_SIZE*8,&wr_tot);//文件系统指针；内存地址；读取长度；实际读取长度
+      |              ^~~~~~~~~~~~~~~~~~~~
+      |              |
+      |              unsigned int
+In file included from ../src/helloworld.c:58:
+H:/VITIS-WORKSPACE/accel_test_system/convplat/export/convplat/sw/convplat/standalone_domain/bspinclude/include/ff.h:275:32: note: expected 'void *' but argument is of type 'unsigned int'
+  275 | FRESULT f_read (FIL* fp, void* buff, UINT btr, UINT* br);   /* Read data from the file */
+      |                          ~~~~~~^~~~
+../src/helloworld.c:122:53: warning: passing argument 4 of 'f_read' from incompatible pointer type [-Wincompatible-pointer-types]
+  122 |  f_read(&fil,(UINTPTR)ifmInBuf[1],RESIZE_IMG_SIZE*8,&wr_tot);//文件系统指针；内存地址；读取长度；实际读取长度
+      |                                                     ^~~~~~~
+      |                                                     |
+      |                                                     uint32_t * {aka long unsigned int *}
+In file included from ../src/helloworld.c:58:
+H:/VITIS-WORKSPACE/accel_test_system/convplat/export/convplat/sw/convplat/standalone_domain/bspinclude/include/ff.h:275:54: note: expected 'UINT *' {aka 'unsigned int *'} but argument is of type 'uint32_t *' {aka 'long unsigned int *'}
+  275 | FRESULT f_read (FIL* fp, void* buff, UINT btr, UINT* br);   /* Read data from the file */
+      |                                                ~~~~~~^~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: hello.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LH:/VITIS-WORKSPACE/accel_test_system/convplat/export/convplat/sw/convplat/standalone_domain/bsplib/lib -o "hello.elf"  ./src/accel.o ./src/accel_data.o ./src/helloworld.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hello.elf  |tee "hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  68408	   2268	408602560	408673236	185bdbd4	hello.elf
+'Finished building: hello.elf.size'
+' '
+
+23:08:54 Build Finished (took 714ms)
+

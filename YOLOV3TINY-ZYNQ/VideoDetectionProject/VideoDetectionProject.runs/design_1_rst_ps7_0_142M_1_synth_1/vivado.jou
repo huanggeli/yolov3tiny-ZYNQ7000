@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sat Sep 16 16:10:03 2023
+# Process ID: 34344
+# Current directory: H:/Vivado/camerasignaltest/camerasignaltest.runs/design_1_rst_ps7_0_142M_1_synth_1
+# Command line: vivado.exe -log design_1_rst_ps7_0_142M_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_rst_ps7_0_142M_1.tcl
+# Log file: H:/Vivado/camerasignaltest/camerasignaltest.runs/design_1_rst_ps7_0_142M_1_synth_1/design_1_rst_ps7_0_142M_1.vds
+# Journal file: H:/Vivado/camerasignaltest/camerasignaltest.runs/design_1_rst_ps7_0_142M_1_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_rst_ps7_0_142M_1.tcl -notrace

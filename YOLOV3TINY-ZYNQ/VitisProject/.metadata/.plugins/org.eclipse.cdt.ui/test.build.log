@@ -1,0 +1,20 @@
+16:59:40 **** Incremental Build of configuration Debug for project test ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building target: test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LH:/VITIS-WORKSPACE/accel_test_system/823conv/export/823conv/sw/823conv/standalone_domain/bsplib/lib -o "test.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test.elf  |tee "test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22129	   1144	 268328	 291601	  47311	test.elf
+'Finished building: test.elf.size'
+' '
+
+16:59:41 Build Finished (took 566ms)
+

@@ -1,0 +1,70 @@
+20:15:30 **** Incremental Build of configuration Debug for project display-loop ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IH:/VITIS-WORKSPACE/accel_test_system/convnew/export/convnew/sw/convnew/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:98:27: warning: excess elements in array initializer
+   98 | char model_id[2]={'F','H','Y'};
+      |                           ^~~
+../src/main.c:98:27: note: (near initialization for 'model_id')
+../src/main.c: In function 'main':
+../src/main.c:152:5: warning: implicit declaration of function 'Load_pic' [-Wimplicit-function-declaration]
+  152 |     Load_pic();//加载图片
+      |     ^~~~~~~~
+../src/main.c:154:5: warning: implicit declaration of function 'Setup_Accel_System'; did you mean 'Setup_File_System'? [-Wimplicit-function-declaration]
+  154 |     Setup_Accel_System();//DMA初始化
+      |     ^~~~~~~~~~~~~~~~~~
+      |     Setup_File_System
+../src/main.c:164:5: warning: implicit declaration of function 'hls_draw' [-Wimplicit-function-declaration]
+  164 |     hls_draw();
+      |     ^~~~~~~~
+../src/main.c: At top level:
+../src/main.c:186:6: warning: conflicting types for 'hls_draw'
+  186 | void hls_draw(){
+      |      ^~~~~~~~
+../src/main.c:164:5: note: previous implicit declaration of 'hls_draw' was here
+  164 |     hls_draw();
+      |     ^~~~~~~~
+../src/main.c:276:6: warning: conflicting types for 'Load_pic'
+  276 | void Load_pic(){ //读取输入特征图
+      |      ^~~~~~~~
+../src/main.c:152:5: note: previous implicit declaration of 'Load_pic' was here
+  152 |     Load_pic();//加载图片
+      |     ^~~~~~~~
+../src/main.c: In function 'Load_pic':
+../src/main.c:279:44: warning: passing argument 4 of 'f_read' from incompatible pointer type [-Wincompatible-pointer-types]
+  279 |  f_read(&fil,ifmInBuf[1],RESIZE_IMG_SIZE*8,&wr_tot);//文件系统指针；内存地址；读取长度；实际读取长度
+      |                                            ^~~~~~~
+      |                                            |
+      |                                            uint32_t * {aka long unsigned int *}
+In file included from ../src/main.c:58:
+H:/VITIS-WORKSPACE/accel_test_system/convnew/export/convnew/sw/convnew/standalone_domain/bspinclude/include/ff.h:275:54: note: expected 'UINT *' {aka 'unsigned int *'} but argument is of type 'uint32_t *' {aka 'long unsigned int *'}
+  275 | FRESULT f_read (FIL* fp, void* buff, UINT btr, UINT* br);   /* Read data from the file */
+      |                                                ~~~~~~^~
+../src/main.c: At top level:
+../src/main.c:294:6: warning: conflicting types for 'Setup_Accel_System'
+  294 | void Setup_Accel_System(){
+      |      ^~~~~~~~~~~~~~~~~~
+../src/main.c:154:5: note: previous implicit declaration of 'Setup_Accel_System' was here
+  154 |     Setup_Accel_System();//DMA初始化
+      |     ^~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: display-loop.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LH:/VITIS-WORKSPACE/accel_test_system/convnew/export/convnew/sw/convnew/standalone_domain/bsplib/lib -o "display-loop.elf"  ./src/i2c/PS_i2c.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/accel.o ./src/accel_data.o ./src/adv7511.o ./src/main.o ./src/ov5640.o ./src/vdma.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: display-loop.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size display-loop.elf  |tee "display-loop.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 112848	   3820	427267872	427384540	19795edc	display-loop.elf
+'Finished building: display-loop.elf.size'
+' '
+
+20:15:30 Build Finished (took 707ms)
+

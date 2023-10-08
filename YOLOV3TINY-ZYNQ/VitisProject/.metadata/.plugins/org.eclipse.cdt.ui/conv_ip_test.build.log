@@ -1,0 +1,30 @@
+17:23:59 **** Build of configuration Debug for project conv_ip_test ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IH:/VITIS-WORKSPACE/accel_test_system/accelplatform/export/accelplatform/sw/accelplatform/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IH:/VITIS-WORKSPACE/accel_test_system/accelplatform/export/accelplatform/sw/accelplatform/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: conv_ip_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LH:/VITIS-WORKSPACE/accel_test_system/accelplatform/export/accelplatform/sw/accelplatform/standalone_domain/bsplib/lib -o "conv_ip_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: conv_ip_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size conv_ip_test.elf  |tee "conv_ip_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  21841	   1144	  22568	  45553	   b1f1	conv_ip_test.elf
+'Finished building: conv_ip_test.elf.size'
+' '
+
+17:24:00 Build Finished (took 813ms)
+

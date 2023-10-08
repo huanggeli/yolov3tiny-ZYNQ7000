@@ -1,0 +1,331 @@
+
+*** Running vivado
+    with args -log design_1_auto_pc_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_auto_pc_1.tcl
+
+
+
+****** Vivado v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source design_1_auto_pc_1.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'h:/Vivado/IP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'H:/Xilinx/Vivado/2021.1/data/ip'.
+Command: synth_design -top design_1_auto_pc_1 -part xc7z035ffg676-2 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z035'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z035'
+INFO: [Device 21-403] Loading part xc7z035ffg676-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 17760
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1362.672 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_1' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/synth/design_1_auto_pc_1.v:58]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_24_axi_protocol_converter' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4808]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_24_axi3_conv' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:954]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_24_b_downsizer' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2276]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_24_b_downsizer' (1#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2276]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_24_a_axi3_conv' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_axic_fifo' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_fifo_gen' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_async_rst' [H:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1175]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_async_rst' (2#1) [H:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1175]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_fifo_gen' (20#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_axic_fifo' (21#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_axic_fifo__parameterized0' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_fifo_gen__parameterized0' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_fifo_gen__parameterized0' (21#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_axic_fifo__parameterized0' (21#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_24_a_axi3_conv' (22#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_24_w_axi3_conv' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2004]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_24_w_axi3_conv' (23#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2004]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_24_a_axi3_conv__parameterized0' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_axic_fifo__parameterized1' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_fifo_gen__parameterized1' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_fifo_gen__parameterized1' (23#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_axic_fifo__parameterized1' (23#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_24_a_axi3_conv__parameterized0' (23#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_24_r_axi3_conv' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:1789]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_24_r_axi3_conv' (24#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:1789]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_24_axi3_conv' (25#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:954]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_24_axi_protocol_converter' (26#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4808]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_1' (27#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/synth/design_1_auto_pc_1.v:58]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1433.754 ; gain = 71.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1442.176 ; gain = 79.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1442.176 ; gain = 79.504
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 1449.199 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_ooc.xdc] for cell 'inst'
+Parsing XDC File [H:/Vivado/VideoDetectionProject/VideoDetectionProject.runs/design_1_auto_pc_1_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [H:/Vivado/VideoDetectionProject/VideoDetectionProject.runs/design_1_auto_pc_1_synth_1/dont_touch.xdc]
+INFO: [Project 1-1714] 3 XPM XDC files have been applied to the design.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1557.430 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 1557.469 ; gain = 0.039
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1557.469 ; gain = 194.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z035ffg676-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1557.469 ; gain = 194.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  H:/Vivado/VideoDetectionProject/VideoDetectionProject.runs/design_1_auto_pc_1_synth_1/dont_touch.xdc, line 9).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/\gen_axi4_axi3.axi3_conv_inst /\USE_WRITE.write_addr_inst /\USE_BURSTS.cmd_queue /inst/fifo_gen_inst/inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/\gen_axi4_axi3.axi3_conv_inst /\USE_WRITE.write_addr_inst /\USE_B_CHANNEL.cmd_b_queue /inst/fifo_gen_inst/inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/\gen_axi4_axi3.axi3_conv_inst /\USE_READ.USE_SPLIT_R.read_addr_inst /\USE_R_CHANNEL.cmd_queue /inst/fifo_gen_inst/inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst . (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1557.469 ; gain = 194.797
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'gpregsm1.curr_fwft_state_reg' in module 'rd_fwft'
+INFO: [Synth 8-6159] Found Keep on FSM register 'gpregsm1.curr_fwft_state_reg' in module 'rd_fwft', re-encoding will not be performed
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 invalid |                               00 |                               00
+            stage1_valid |                               10 |                               10
+       both_stages_valid |                               11 |                               11
+            stage2_valid |                               01 |                               01
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1557.469 ; gain = 194.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 2     
+	   2 Input    8 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 3     
+	   2 Input    5 Bit       Adders := 8     
+	   2 Input    4 Bit       Adders := 3     
++---XORs : 
+	   2 Input      1 Bit         XORs := 60    
++---Registers : 
+	               32 Bit    Registers := 6     
+	               16 Bit    Registers := 2     
+	               12 Bit    Registers := 2     
+	                8 Bit    Registers := 3     
+	                7 Bit    Registers := 2     
+	                6 Bit    Registers := 3     
+	                5 Bit    Registers := 14    
+	                4 Bit    Registers := 12    
+	                3 Bit    Registers := 8     
+	                2 Bit    Registers := 10    
+	                1 Bit    Registers := 55    
++---Muxes : 
+	   8 Input   32 Bit        Muxes := 2     
+	   2 Input   32 Bit        Muxes := 2     
+	   3 Input   16 Bit        Muxes := 2     
+	   2 Input   16 Bit        Muxes := 2     
+	   8 Input   12 Bit        Muxes := 2     
+	   2 Input    8 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 3     
+	   2 Input    2 Bit        Muxes := 39    
+	   4 Input    2 Bit        Muxes := 3     
+	   5 Input    2 Bit        Muxes := 3     
+	   3 Input    2 Bit        Muxes := 2     
+	   3 Input    1 Bit        Muxes := 3     
+	   2 Input    1 Bit        Muxes := 27    
+	   4 Input    1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 900 (col length:140)
+BRAMs: 1000 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1557.469 ; gain = 194.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++-------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+----------------+----------------------+---------------+
+|Module Name                                                                                                        | RTL Object                                                                    | Inference      | Size (Depth x Width) | Primitives    | 
++-------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+----------------+----------------------+---------------+
+|inst/\gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst               | inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg | User Attribute | 32 x 7               | RAM32M x 2    | 
+|inst/\gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst          | inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg | User Attribute | 32 x 5               | RAM32M x 1    | 
+|inst/\gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst  | inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg | User Attribute | 32 x 1               | RAM32X1D x 1  | 
++-------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+----------------+----------------------+---------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1557.469 ; gain = 194.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1557.469 ; gain = 194.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++-------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+----------------+----------------------+---------------+
+|Module Name                                                                                                        | RTL Object                                                                    | Inference      | Size (Depth x Width) | Primitives    | 
++-------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+----------------+----------------------+---------------+
+|inst/\gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst               | inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg | User Attribute | 32 x 7               | RAM32M x 2    | 
+|inst/\gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst          | inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg | User Attribute | 32 x 5               | RAM32M x 1    | 
+|inst/\gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst  | inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg | User Attribute | 32 x 1               | RAM32X1D x 1  | 
++-------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+----------------+----------------------+---------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1557.469 ; gain = 194.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1557.469 ; gain = 194.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1557.469 ; gain = 194.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1557.469 ; gain = 194.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1557.469 ; gain = 194.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1557.469 ; gain = 194.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1557.469 ; gain = 194.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |    16|
+|2     |LUT1     |    51|
+|3     |LUT2     |    48|
+|4     |LUT3     |    55|
+|5     |LUT4     |    67|
+|6     |LUT5     |   163|
+|7     |LUT6     |    85|
+|8     |RAM32M   |     2|
+|9     |RAM32X1D |     2|
+|10    |FDCE     |    69|
+|11    |FDPE     |    33|
+|12    |FDRE     |   335|
+|13    |FDSE     |     5|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1557.469 ; gain = 194.797
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 1557.469 ; gain = 79.504
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1557.469 ; gain = 194.797
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 1557.469 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1557.469 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 2 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 2 instances
+
+Synth Design complete, checksum: 44bc6806
+INFO: [Common 17-83] Releasing license: Synthesis
+50 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1557.469 ; gain = 194.797
+INFO: [Common 17-1381] The checkpoint 'H:/Vivado/VideoDetectionProject/VideoDetectionProject.runs/design_1_auto_pc_1_synth_1/design_1_auto_pc_1.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_auto_pc_1, cache-ID = f91e6d2ccd378b6f
+INFO: [Coretcl 2-1174] Renamed 57 cell refs.
+INFO: [Common 17-1381] The checkpoint 'H:/Vivado/VideoDetectionProject/VideoDetectionProject.runs/design_1_auto_pc_1_synth_1/design_1_auto_pc_1.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_auto_pc_1_utilization_synth.rpt -pb design_1_auto_pc_1_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Oct  8 21:01:47 2023...

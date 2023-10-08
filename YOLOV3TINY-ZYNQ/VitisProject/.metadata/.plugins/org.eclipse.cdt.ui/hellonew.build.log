@@ -1,0 +1,55 @@
+16:30:08 **** Incremental Build of configuration Debug for project hellonew ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/accel.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/accel.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IH:/VITIS-WORKSPACE/accel_test_system/823EVE/export/823EVE/sw/823EVE/standalone_domain/bspinclude/include -MMD -MP -MF"src/accel.d" -MT"src/accel.o" -o "src/accel.o" "../src/accel.c"
+../src/accel.c: In function 'out_OFM':
+../src/accel.c:334:41: warning: passing argument 4 of 'f_write' from incompatible pointer type [-Wincompatible-pointer-types]
+  334 |   f_write(&fil,ofmbuf,fmcol*fm_row*fmch,&wr_tot);
+      |                                         ^~~~~~~
+      |                                         |
+      |                                         uint32_t * {aka long unsigned int *}
+In file included from ../src/accel_data.h:4,
+                 from ../src/accel.h:5,
+                 from ../src/accel.c:1:
+H:/VITIS-WORKSPACE/accel_test_system/823EVE/export/823EVE/sw/823EVE/standalone_domain/bspinclude/include/ff.h:276:61: note: expected 'UINT *' {aka 'unsigned int *'} but argument is of type 'uint32_t *' {aka 'long unsigned int *'}
+  276 | FRESULT f_write (FIL* fp, const void* buff, UINT btw, UINT* bw); /* Write data to the file */
+      |                                                       ~~~~~~^~
+../src/accel.c: In function 'YOLOV3_TINY':
+../src/accel.c:360:10: warning: passing argument 1 of 'out_OFM' makes pointer from integer without a cast [-Wint-conversion]
+  360 |  out_OFM((uint8_t)*ofm_ddr_base_addr_in_list[MAX_TASK-1],418,258,255);
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |          |
+      |          unsigned char
+../src/accel.c:330:23: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'unsigned char'
+  330 | void out_OFM(uint8_t *ofmbuf,int fmcol,int fm_row,int fmch){
+      |              ~~~~~~~~~^~~~~~
+../src/accel.c: In function 'Detect':
+../src/accel.c:424:54: warning: implicit declaration of function 'fabs' [-Wimplicit-function-declaration]
+  424 |  xil_printf("prob: %d.%.08d\n\r", (int)(prob), (int)(fabs(prob)*100000000)%100000000);
+      |                                                      ^~~~
+../src/accel.c:424:54: warning: incompatible implicit declaration of built-in function 'fabs'
+../src/accel.c:2:1: note: include '<math.h>' or provide a declaration of 'fabs'
+    1 | #include "accel.h"
+  +++ |+#include <math.h>
+    2 | #include "xil_io.h"
+'Finished building: ../src/accel.c'
+' '
+'Building target: hellonew.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LH:/VITIS-WORKSPACE/accel_test_system/823EVE/export/823EVE/sw/823EVE/standalone_domain/bsplib/lib -o "hellonew.elf"  ./src/accel.o ./src/accel_data.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hellonew.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hellonew.elf  |tee "hellonew.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  69748	   2268	408602560	408674576	185be110	hellonew.elf
+'Finished building: hellonew.elf.size'
+' '
+
+16:30:09 Build Finished (took 667ms)
+

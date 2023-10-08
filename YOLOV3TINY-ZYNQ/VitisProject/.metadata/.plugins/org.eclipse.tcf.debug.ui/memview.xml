@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Memory>
+    <Block Addr="0x43c00000" Context="JTAG-jsn-JTAG-HS1-210249854819-4ba00477-0.0" Size="-1"/>
+    <Block Addr="0x43c00000" Context="JTAG-jsn-JTAG-HS1-210249854819-4ba00477-0.0" Size="-1"/>
+    <Block Addr="0x40400000" Context="JTAG-jsn-JTAG-HS1-210249854819-4ba00477-0.0" Size="-1"/>
+</Memory>

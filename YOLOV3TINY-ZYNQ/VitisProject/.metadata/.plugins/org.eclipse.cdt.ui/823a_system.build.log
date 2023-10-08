@@ -1,0 +1,10 @@
+19:35:22 **** Incremental Build of configuration Debug for project 823a_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 56413 H:/VITIS-WORKSPACE/accel_test_system/823EVE/export/823EVE/823EVE.xpfm standalone_domain H:/VITIS-WORKSPACE/accel_test_system/823a_system/Debug/system.bif
+sdcard_gen --xpfm H:/VITIS-WORKSPACE/accel_test_system/823EVE/export/823EVE/823EVE.xpfm --sys_config 823EVE --bif H:/VITIS-WORKSPACE/accel_test_system/823a_system/Debug/system.bif --bitstream H:/VITIS-WORKSPACE/accel_test_system/823a/_ide/bitstream/design_1_wrapper.bit --elf H:/VITIS-WORKSPACE/accel_test_system/823a/Debug/823a.elf,ps7_cortexa9_0
+creating BOOT.BIN using H:/VITIS-WORKSPACE/accel_test_system/823a/_ide/bitstream/design_1_wrapper.bit
+Running H:/Xilinx/Vitis/2021.1/bin/bootgen  -image H:/VITIS-WORKSPACE/accel_test_system/823a_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+19:35:28 Build Finished (took 5s.490ms)
+

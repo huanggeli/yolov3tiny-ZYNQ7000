@@ -1,0 +1,71 @@
+21:21:29 **** Incremental Build of configuration Debug for project all-test ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IH:/VITIS-WORKSPACE/accel_test_system/preprocessplat/export/preprocessplat/sw/preprocessplat/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:101:27: warning: excess elements in array initializer
+  101 | char model_id[2]={'F','H','Y'};
+      |                           ^~~
+../src/main.c:101:27: note: (near initialization for 'model_id')
+../src/main.c: In function 'main':
+../src/main.c:158:5: warning: implicit declaration of function 'Setup_Accel_System'; did you mean 'Setup_File_System'? [-Wimplicit-function-declaration]
+  158 |     Setup_Accel_System();//DMA初始化
+      |     ^~~~~~~~~~~~~~~~~~
+      |     Setup_File_System
+../src/main.c:163:5: warning: implicit declaration of function 'preprocess_initialize'; did you mean 'XHls_preprocess_Initialize'? [-Wimplicit-function-declaration]
+  163 |     preprocess_initialize();
+      |     ^~~~~~~~~~~~~~~~~~~~~
+      |     XHls_preprocess_Initialize
+../src/main.c:166:5: warning: implicit declaration of function 'hls_draw' [-Wimplicit-function-declaration]
+  166 |     hls_draw();
+      |     ^~~~~~~~
+../src/main.c: At top level:
+../src/main.c:186:6: warning: conflicting types for 'preprocess_initialize'
+  186 | void preprocess_initialize(){
+      |      ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c:163:5: note: previous implicit declaration of 'preprocess_initialize' was here
+  163 |     preprocess_initialize();
+      |     ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c:220:6: warning: conflicting types for 'hls_draw'
+  220 | void hls_draw(float conf){
+      |      ^~~~~~~~
+../src/main.c:166:5: note: previous implicit declaration of 'hls_draw' was here
+  166 |     hls_draw();
+      |     ^~~~~~~~
+../src/main.c: In function 'Load_pic':
+../src/main.c:325:44: warning: passing argument 4 of 'f_read' from incompatible pointer type [-Wincompatible-pointer-types]
+  325 |  f_read(&fil,ifmInBuf[1],RESIZE_IMG_SIZE*8,&wr_tot);//文件系统指针；内存地址；读取长度；实际读取长度
+      |                                            ^~~~~~~
+      |                                            |
+      |                                            uint32_t * {aka long unsigned int *}
+In file included from ../src/main.c:58:
+H:/VITIS-WORKSPACE/accel_test_system/preprocessplat/export/preprocessplat/sw/preprocessplat/standalone_domain/bspinclude/include/ff.h:275:54: note: expected 'UINT *' {aka 'unsigned int *'} but argument is of type 'uint32_t *' {aka 'long unsigned int *'}
+  275 | FRESULT f_read (FIL* fp, void* buff, UINT btr, UINT* br);   /* Read data from the file */
+      |                                                ~~~~~~^~
+../src/main.c: At top level:
+../src/main.c:340:6: warning: conflicting types for 'Setup_Accel_System'
+  340 | void Setup_Accel_System(){
+      |      ^~~~~~~~~~~~~~~~~~
+../src/main.c:158:5: note: previous implicit declaration of 'Setup_Accel_System' was here
+  158 |     Setup_Accel_System();//DMA初始化
+      |     ^~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: all-test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LH:/VITIS-WORKSPACE/accel_test_system/preprocessplat/export/preprocessplat/sw/preprocessplat/standalone_domain/bsplib/lib -o "all-test.elf"  ./src/i2c/PS_i2c.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/accel.o ./src/accel_data.o ./src/adv7511.o ./src/main.o ./src/ov5640.o ./src/vdma.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: all-test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size all-test.elf  |tee "all-test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115400	   3956	427267904	427387260	1979697c	all-test.elf
+'Finished building: all-test.elf.size'
+' '
+
+21:21:29 Build Finished (took 538ms)
+

@@ -1,0 +1,429 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Sep 17 04:15:30 2023
+# Process ID: 12464
+# Current directory: H:/Vivado/PREPROCESSTEST-basebroadOK/PREPROCESSTEST-basebroadOK.runs/design_1_ila_1_4_synth_1
+# Command line: vivado.exe -log design_1_ila_1_4.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_ila_1_4.tcl
+# Log file: H:/Vivado/PREPROCESSTEST-basebroadOK/PREPROCESSTEST-basebroadOK.runs/design_1_ila_1_4_synth_1/design_1_ila_1_4.vds
+# Journal file: H:/Vivado/PREPROCESSTEST-basebroadOK/PREPROCESSTEST-basebroadOK.runs/design_1_ila_1_4_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_ila_1_4.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'h:/Vivado/accel_conv_system_2021/source'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'h:/Vivado/ov5640/repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'h:/Vivado/conv-new/ip'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'h:/Vivado/accel_conv_system_2021/source/xilinx_com_hls_hls_preprocess_1_0'. The path is contained within another repository.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'H:/Xilinx/Vivado/2021.1/data/ip'.
+Command: synth_design -top design_1_ila_1_4 -part xc7z035ffg676-2 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z035'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z035'
+INFO: [Device 21-403] Loading part xc7z035ffg676-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 36572
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 1363.137 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_ila_1_4' [h:/Vivado/PREPROCESSTEST-basebroadOK/PREPROCESSTEST-basebroadOK.gen/sources_1/bd/design_1/ip/design_1_ila_1_4/synth/design_1_ila_1_4.v:84]
+INFO: [Synth 8-6157] synthesizing module 'CFGLUT5' [H:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:1524]
+INFO: [Synth 8-6155] done synthesizing module 'CFGLUT5' (8#1) [H:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:1524]
+INFO: [Synth 8-6157] synthesizing module 'CARRY4' [H:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:1487]
+INFO: [Synth 8-6155] done synthesizing module 'CARRY4' (9#1) [H:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:1487]
+INFO: [Synth 8-6157] synthesizing module 'SRLC32E' [H:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:101111]
+INFO: [Synth 8-6155] done synthesizing module 'SRLC32E' (19#1) [H:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:101111]
+INFO: [Synth 8-6157] synthesizing module 'SRL16E' [H:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:100961]
+INFO: [Synth 8-6155] done synthesizing module 'SRL16E' (21#1) [H:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:100961]
+INFO: [Synth 8-6157] synthesizing module 'SRLC16E' [H:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:101050]
+INFO: [Synth 8-6155] done synthesizing module 'SRLC16E' (23#1) [H:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:101050]
+INFO: [Synth 8-6157] synthesizing module 'FDRE' [H:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27837]
+INFO: [Synth 8-6155] done synthesizing module 'FDRE' (28#1) [H:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27837]
+WARNING: [Synth 8-7071] port 'clk_nobuf' of module 'ila_v6_2_11_ila' is unconnected for instance 'inst' [h:/Vivado/PREPROCESSTEST-basebroadOK/PREPROCESSTEST-basebroadOK.gen/sources_1/bd/design_1/ip/design_1_ila_1_4/synth/design_1_ila_1_4.v:3225]
+WARNING: [Synth 8-7071] port 'clkdiv_out' of module 'ila_v6_2_11_ila' is unconnected for instance 'inst' [h:/Vivado/PREPROCESSTEST-basebroadOK/PREPROCESSTEST-basebroadOK.gen/sources_1/bd/design_1/ip/design_1_ila_1_4/synth/design_1_ila_1_4.v:3225]
+WARNING: [Synth 8-7071] port 'trig_in' of module 'ila_v6_2_11_ila' is unconnected for instance 'inst' [h:/Vivado/PREPROCESSTEST-basebroadOK/PREPROCESSTEST-basebroadOK.gen/sources_1/bd/design_1/ip/design_1_ila_1_4/synth/design_1_ila_1_4.v:3225]
+WARNING: [Synth 8-7071] port 'trig_in_ack' of module 'ila_v6_2_11_ila' is unconnected for instance 'inst' [h:/Vivado/PREPROCESSTEST-basebroadOK/PREPROCESSTEST-basebroadOK.gen/sources_1/bd/design_1/ip/design_1_ila_1_4/synth/design_1_ila_1_4.v:3225]
+WARNING: [Synth 8-7071] port 'trig_out' of module 'ila_v6_2_11_ila' is unconnected for instance 'inst' [h:/Vivado/PREPROCESSTEST-basebroadOK/PREPROCESSTEST-basebroadOK.gen/sources_1/bd/design_1/ip/design_1_ila_1_4/synth/design_1_ila_1_4.v:3225]
+WARNING: [Synth 8-7071] port 'trig_out_ack' of module 'ila_v6_2_11_ila' is unconnected for instance 'inst' [h:/Vivado/PREPROCESSTEST-basebroadOK/PREPROCESSTEST-basebroadOK.gen/sources_1/bd/design_1/ip/design_1_ila_1_4/synth/design_1_ila_1_4.v:3225]
+WARNING: [Synth 8-7023] instance 'inst' of module 'ila_v6_2_11_ila' has 1033 connections declared, but only 1027 given [h:/Vivado/PREPROCESSTEST-basebroadOK/PREPROCESSTEST-basebroadOK.gen/sources_1/bd/design_1/ip/design_1_ila_1_4/synth/design_1_ila_1_4.v:3225]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ila_1_4' (46#1) [h:/Vivado/PREPROCESSTEST-basebroadOK/PREPROCESSTEST-basebroadOK.gen/sources_1/bd/design_1/ip/design_1_ila_1_4/synth/design_1_ila_1_4.v:84]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:51 ; elapsed = 00:01:23 . Memory (MB): peak = 1728.500 ; gain = 365.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:51 ; elapsed = 00:01:24 . Memory (MB): peak = 1728.500 ; gain = 365.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:51 ; elapsed = 00:01:24 . Memory (MB): peak = 1728.500 ; gain = 365.363
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.182 . Memory (MB): peak = 1728.500 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 128 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [h:/Vivado/PREPROCESSTEST-basebroadOK/PREPROCESSTEST-basebroadOK.gen/sources_1/bd/design_1/ip/design_1_ila_1_4/design_1_ila_1_4_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [h:/Vivado/PREPROCESSTEST-basebroadOK/PREPROCESSTEST-basebroadOK.gen/sources_1/bd/design_1/ip/design_1_ila_1_4/design_1_ila_1_4_ooc.xdc] for cell 'inst'
+Parsing XDC File [h:/Vivado/PREPROCESSTEST-basebroadOK/PREPROCESSTEST-basebroadOK.gen/sources_1/bd/design_1/ip/design_1_ila_1_4/ila_v6_2/constraints/ila.xdc] for cell 'inst'
+Finished Parsing XDC File [h:/Vivado/PREPROCESSTEST-basebroadOK/PREPROCESSTEST-basebroadOK.gen/sources_1/bd/design_1/ip/design_1_ila_1_4/ila_v6_2/constraints/ila.xdc] for cell 'inst'
+Parsing XDC File [H:/Vivado/PREPROCESSTEST-basebroadOK/PREPROCESSTEST-basebroadOK.runs/design_1_ila_1_4_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [H:/Vivado/PREPROCESSTEST-basebroadOK/PREPROCESSTEST-basebroadOK.runs/design_1_ila_1_4_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1728.500 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 93 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 80 instances
+  CFGLUT5 => SRLC32E: 13 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.224 . Memory (MB): peak = 1728.500 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:01:01 ; elapsed = 00:01:36 . Memory (MB): peak = 1728.500 ; gain = 365.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z035ffg676-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:01 ; elapsed = 00:01:36 . Memory (MB): peak = 1728.500 ; gain = 365.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  H:/Vivado/PREPROCESSTEST-basebroadOK/PREPROCESSTEST-basebroadOK.runs/design_1_ila_1_4_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:02 ; elapsed = 00:01:36 . Memory (MB): peak = 1728.500 ; gain = 365.363
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized0'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized1'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized2'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized3'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized4'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized5'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized6'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized7'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized8'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized9'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'ltlib_v1_0_0_generic_memrd'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized0'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized2'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized3'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized4'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized5'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized6'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized7'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized8'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized9'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+              RESET_ADDR |                          0000001 |                          0000001
+            REQUEST_READ |                          0000010 |                          0000010
+           WAIT_READ_ACK |                          0000100 |                          0000100
+             OUTPUT_DATA |                          0001000 |                          0001000
+                    IDLE |                          0010000 |                          0010000
+         INCREMENT_BLOCK |                          0100000 |                          0100000
+       INCREMENT_ADDRESS |                          1000000 |                          1000000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'ltlib_v1_0_0_generic_memrd'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:04 ; elapsed = 00:01:39 . Memory (MB): peak = 1728.500 ; gain = 365.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 900 (col length:140)
+BRAMs: 1000 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:17 ; elapsed = 00:01:53 . Memory (MB): peak = 1728.500 ; gain = 365.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:27 ; elapsed = 00:02:04 . Memory (MB): peak = 1728.500 ; gain = 365.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:27 ; elapsed = 00:02:04 . Memory (MB): peak = 1728.500 ; gain = 365.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:28 ; elapsed = 00:02:05 . Memory (MB): peak = 1728.500 ; gain = 365.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3295] tying undriven pin dummy_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[36] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[35] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[34] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[33] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[32] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[31] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[30] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[29] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[28] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[27] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[26] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[25] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[24] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[23] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[22] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[21] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[20] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[19] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[18] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[17] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[16] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[15] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[14] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[13] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[12] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[11] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[10] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[9] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[8] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[7] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[6] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[5] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[4] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[1] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[0] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:trig_in to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst:trig_out_ack to constant 0
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:32 ; elapsed = 00:02:08 . Memory (MB): peak = 1728.500 ; gain = 365.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:32 ; elapsed = 00:02:08 . Memory (MB): peak = 1728.500 ; gain = 365.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:32 ; elapsed = 00:02:09 . Memory (MB): peak = 1728.500 ; gain = 365.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:32 ; elapsed = 00:02:09 . Memory (MB): peak = 1728.500 ; gain = 365.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:32 ; elapsed = 00:02:09 . Memory (MB): peak = 1728.500 ; gain = 365.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:32 ; elapsed = 00:02:09 . Memory (MB): peak = 1728.500 ; gain = 365.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |    33|
+|2     |CFGLUT5  |    93|
+|3     |LUT1     |    37|
+|4     |LUT2     |    48|
+|5     |LUT3     |   100|
+|6     |LUT4     |   139|
+|7     |LUT5     |   136|
+|8     |LUT6     |   484|
+|9     |MUXF7    |    18|
+|10    |MUXF8    |     1|
+|11    |RAMB18E1 |     1|
+|12    |RAMB36E1 |     1|
+|13    |SRL16E   |    50|
+|14    |SRLC16E  |     2|
+|15    |SRLC32E  |    17|
+|16    |FDRE     |  1610|
+|17    |FDSE     |    10|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:32 ; elapsed = 00:02:09 . Memory (MB): peak = 1728.500 ; gain = 365.363
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:35 ; elapsed = 00:02:02 . Memory (MB): peak = 1728.500 ; gain = 365.363
+Synthesis Optimization Complete : Time (s): cpu = 00:01:32 ; elapsed = 00:02:09 . Memory (MB): peak = 1728.500 ; gain = 365.363
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 1728.500 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 147 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1728.500 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 93 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 80 instances
+  CFGLUT5 => SRLC32E: 13 instances
+
+Synth Design complete, checksum: ebece331
+INFO: [Common 17-83] Releasing license: Synthesis
+99 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:39 ; elapsed = 00:02:32 . Memory (MB): peak = 1728.500 ; gain = 365.363
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.collectionResultDisplayLimit
+INFO: [Common 17-1381] The checkpoint 'H:/Vivado/PREPROCESSTEST-basebroadOK/PREPROCESSTEST-basebroadOK.runs/design_1_ila_1_4_synth_1/design_1_ila_1_4.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_ila_1_4, cache-ID = a6fb590835c3cd3f
+INFO: [Coretcl 2-1174] Renamed 149 cell refs.
+INFO: [Common 17-1381] The checkpoint 'H:/Vivado/PREPROCESSTEST-basebroadOK/PREPROCESSTEST-basebroadOK.runs/design_1_ila_1_4_synth_1/design_1_ila_1_4.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_ila_1_4_utilization_synth.rpt -pb design_1_ila_1_4_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Sep 17 04:18:21 2023...

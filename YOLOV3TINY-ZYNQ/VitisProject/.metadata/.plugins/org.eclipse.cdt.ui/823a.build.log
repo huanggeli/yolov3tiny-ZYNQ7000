@@ -1,0 +1,10 @@
+19:35:32 **** Incremental Build of configuration Debug for project 823a ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+make[1]: Nothing to be done for 'main-build'.
+
+19:35:33 Build Finished (took 198ms)
+

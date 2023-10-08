@@ -1,0 +1,10 @@
+19:35:56 **** Build of configuration Debug for project display-loop_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 55607 H:/VITIS-WORKSPACE/accel_test_system/convnew/export/convnew/convnew.xpfm standalone_domain H:/VITIS-WORKSPACE/accel_test_system/display-loop_system/Debug/system.bif
+sdcard_gen --xpfm H:/VITIS-WORKSPACE/accel_test_system/convnew/export/convnew/convnew.xpfm --sys_config convnew --bif H:/VITIS-WORKSPACE/accel_test_system/display-loop_system/Debug/system.bif --bitstream H:/VITIS-WORKSPACE/accel_test_system/display-loop/_ide/bitstream/convnew.bit --elf H:/VITIS-WORKSPACE/accel_test_system/display-loop/Debug/display-loop.elf,ps7_cortexa9_0
+creating BOOT.BIN using H:/VITIS-WORKSPACE/accel_test_system/display-loop/_ide/bitstream/convnew.bit
+Running H:/Xilinx/Vitis/2021.1/bin/bootgen  -image H:/VITIS-WORKSPACE/accel_test_system/display-loop_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+19:36:02 Build Finished (took 5s.401ms)
+

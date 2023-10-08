@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Sep 17 04:15:30 2023
+# Process ID: 32712
+# Current directory: H:/Vivado/PREPROCESSTEST-basebroadOK/PREPROCESSTEST-basebroadOK.runs/design_1_xbar_2_synth_1
+# Command line: vivado.exe -log design_1_xbar_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_xbar_2.tcl
+# Log file: H:/Vivado/PREPROCESSTEST-basebroadOK/PREPROCESSTEST-basebroadOK.runs/design_1_xbar_2_synth_1/design_1_xbar_2.vds
+# Journal file: H:/Vivado/PREPROCESSTEST-basebroadOK/PREPROCESSTEST-basebroadOK.runs/design_1_xbar_2_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_xbar_2.tcl -notrace

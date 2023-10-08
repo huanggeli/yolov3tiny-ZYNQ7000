@@ -1,0 +1,10 @@
+21:14:33 **** Incremental Build of configuration Debug for project all-test_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 55011 H:/VITIS-WORKSPACE/accel_test_system/preprocessplat/export/preprocessplat/preprocessplat.xpfm standalone_domain H:/VITIS-WORKSPACE/accel_test_system/all-test_system/Debug/system.bif
+sdcard_gen --xpfm H:/VITIS-WORKSPACE/accel_test_system/preprocessplat/export/preprocessplat/preprocessplat.xpfm --sys_config preprocessplat --bif H:/VITIS-WORKSPACE/accel_test_system/all-test_system/Debug/system.bif --bitstream H:/VITIS-WORKSPACE/accel_test_system/all-test/_ide/bitstream/preprocesstest.bit --elf H:/VITIS-WORKSPACE/accel_test_system/all-test/Debug/all-test.elf,ps7_cortexa9_0
+creating BOOT.BIN using H:/VITIS-WORKSPACE/accel_test_system/all-test/_ide/bitstream/preprocesstest.bit
+Running H:/Xilinx/Vitis/2021.1/bin/bootgen  -image H:/VITIS-WORKSPACE/accel_test_system/all-test_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+21:14:37 Build Finished (took 4s.304ms)
+
