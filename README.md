@@ -41,7 +41,7 @@ Run the project,the video stream will be ouput in HDMI_OUT port, connect it into
 ## File structure description
 `IP` :Contains all custom IP cores that will be used  
 `sd` :Contains already trained neural network parameters  
-`VideoDetectionProject` : Contains the hardware design of the project, which is the Vivado design
+`VideoDetectionProject` : Contains the hardware design of the project, which is the Vivado design  
 `VitisProject` : Contains all software design of the project, which call vitis  
 
 More detailed information is written in the readme under each folder.
