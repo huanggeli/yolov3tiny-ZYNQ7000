@@ -54,5 +54,6 @@ More detailed information is written in the readme under each folder.
 `VitisProject` : 包含了软件设计，即VITIS工程  
 
 详细信息在各个子目录的readme中。
-
+## 自定义神经网络模型
+努力完善中...
 For any questions,feel free to contact email hglmunckid@163.com 
