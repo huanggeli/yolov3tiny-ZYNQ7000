@@ -2,33 +2,123 @@
 # Vivado v2021.1 (64-bit)
 # SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
 # IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
-# Start of session at: Sun Oct  8 21:03:41 2023
-# Process ID: 16912
-# Current directory: H:/Vivado/YOLOV3TINY-ZYNQ/VideoDetectionProject
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30632 H:\Vivado\YOLOV3TINY-ZYNQ\VideoDetectionProject\VideoDetectionProject.xpr
-# Log file: H:/Vivado/YOLOV3TINY-ZYNQ/VideoDetectionProject/vivado.log
-# Journal file: H:/Vivado/YOLOV3TINY-ZYNQ/VideoDetectionProject\vivado.jou
+# Start of session at: Mon Dec  4 20:20:09 2023
+# Process ID: 25924
+# Current directory: H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2444 H:\yolov3tiny-ZYNQ7000\YOLOV3TINY-ZYNQ\VideoDetectionProject\VideoDetectionProject.xpr
+# Log file: H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/vivado.log
+# Journal file: H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project H:/Vivado/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.xpr
-INFO: [Project 1-313] Project file moved from 'H:/Vivado/VideoDetectionProject' since last save.
+open_project H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject' since last save.
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'h:/Vivado/YOLOV3TINY-ZYNQ/IP'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'h:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/IP'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'h:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/IP/accel_conv_ip'. The path is contained within another repository.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'H:/Xilinx/Vivado/2021.1/data/ip'.
-open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:13 . Memory (MB): peak = 1437.590 ; gain = 75.207
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:17 . Memory (MB): peak = 1408.805 ; gain = 46.016
 update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.srcs/sources_1/imports/source/Accel_Conv.v]
+set_property is_enabled true [get_files  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.srcs/sources_1/imports/source/Accel_Conv.v]
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/synth_1
+
+launch_runs impl_1 -jobs 8
+[Mon Dec  4 20:21:46 2023] Launched synth_1...
+Run output will be captured here: H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/synth_1/runme.log
+[Mon Dec  4 20:21:46 2023] Launched impl_1...
+Run output will be captured here: H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/impl_1/runme.log
+open_bd_design {H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.srcs/sources_1/bd/design_1/design_1.bd}
+Reading block design file <H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.srcs/sources_1/bd/design_1/design_1.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+WARNING: [BD 41-176] The physical port 'M_AXI_GP0_aximm_wr_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'M_AXI_GP0_aximm_rd_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_HP0_aximm_wr_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_HP0_aximm_rd_socket' specified in the portmap, is not found on the block! 
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_142M
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:system_ila:1.1 - system_ila_0
+Adding component instance block -- www.alinx.com.cn:user:alinx_ov5640:5.4 - alinx_ov5640_0
+Adding component instance block -- xilinx.com:ip:axis_subset_converter:1.1 - axis_subset_converter_0
+Adding component instance block -- xilinx.com:ip:axi_vdma:6.3 - axi_vdma_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding component instance block -- digilentinc.com:ip:axi_dynclk:1.0 - axi_dynclk_0
+Adding component instance block -- xilinx.com:ip:v_tc:6.2 - v_tc_0
+Adding component instance block -- xilinx.com:ip:v_axi4s_vid_out:4.0 - v_axi4s_vid_out_0
+Adding component instance block -- xilinx.com:ip:axi_vdma:6.3 - axi_vdma_1
+Adding component instance block -- alinx.com.cn:user:i2c_extender:1.1 - i2c_extender_0
+Adding component instance block -- xilinx.com:ip:ila:6.2 - ila_3
+INFO: [xilinx.com:ip:ila:6.2-6] /ila_3: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
+Adding component instance block -- xilinx.com:ip:axis_subset_converter:1.1 - axis_subset_converter_1
+Adding component instance block -- xilinx.com:hls:hls_rect:1.0 - hls_rect_0
+Adding component instance block -- xilinx.com:ip:axis_subset_converter:1.1 - axis_subset_converter_2
+Adding component instance block -- xilinx.com:ip:ila:6.2 - ila_0
+INFO: [xilinx.com:ip:ila:6.2-6] /ila_0: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
+Adding component instance block -- xilinx.com:ip:ila:6.2 - out5640
+INFO: [xilinx.com:ip:ila:6.2-6] /out5640: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
+Adding component instance block -- xilinx.com:ip:ila:6.2 - subset5640
+INFO: [xilinx.com:ip:ila:6.2-6] /subset5640: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
+Adding component instance block -- xilinx.com:ip:axis_subset_converter:1.1 - axis_subset_converter_3
+Adding component instance block -- xilinx.com:ip:axis_broadcaster:1.1 - axis_broadcaster_0
+Adding component instance block -- xilinx.com:ip:ila:6.2 - broad0
+INFO: [xilinx.com:ip:ila:6.2-6] /broad0: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
+Adding component instance block -- xilinx.com:ip:ila:6.2 - broad1
+INFO: [xilinx.com:ip:ila:6.2-6] /broad1: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
+Adding component instance block -- xilinx.com:ip:axi_vdma:6.3 - axi_vdma_2
+Adding component instance block -- xilinx.com:ip:ila:6.2 - pre_out
+INFO: [xilinx.com:ip:ila:6.2-6] /pre_out: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
+Adding component instance block -- xilinx.com:ip:axis_subset_converter:1.1 - axis_subset_converter_4
+Adding component instance block -- xilinx.com:hls:hls_preprocess:1.0 - hls_preprocess_0
+Adding component instance block -- xilinx.com:user:Accel_Conv:1.0 - Accel_Conv_0
+Successfully read diagram <design_1> from block design file <H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.srcs/sources_1/bd/design_1/design_1.bd>
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7z035ffg676-2
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2539.750 ; gain = 13.414
+INFO: [Netlist 29-17] Analyzing 9243 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2021.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 3811.496 ; gain = 58.113
+Restored from archive | CPU: 3.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 3811.496 ; gain = 58.113
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 3811.496 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4492 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 812 instances
+  IOBUF => IOBUF (IBUF, OBUFT): 4 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 14 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 5 instances
+  RAM64M => RAM64M (RAMD64E(x4)): 3264 instances
+  SRLC32E => SRL16E: 393 instances
+
+open_run: Time (s): cpu = 00:00:26 ; elapsed = 00:00:38 . Memory (MB): peak = 4123.461 ; gain = 2274.316
+open_report: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 4686.551 ; gain = 535.910
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
 launch_runs impl_1 -to_step write_bitstream -jobs 8
-[Sun Oct  8 21:05:24 2023] Launched synth_1...
-Run output will be captured here: H:/Vivado/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/synth_1/runme.log
-[Sun Oct  8 21:05:24 2023] Launched impl_1...
-Run output will be captured here: H:/Vivado/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/impl_1/runme.log
-write_hw_platform -fixed -include_bit -force -file H:/Vivado/YOLOV3TINY-ZYNQ/VideoDetectionProject/hardwareplatform.xsa
-INFO: [Vivado 12-4895] Creating Hardware Platform: H:/Vivado/YOLOV3TINY-ZYNQ/VideoDetectionProject/hardwareplatform.xsa ...
+[Mon Dec  4 20:35:56 2023] Launched impl_1...
+Run output will be captured here: H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/impl_1/runme.log
+write_hw_platform -fixed -include_bit -force -file H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/design_1_wrapper.xsa
+INFO: [Vivado 12-4895] Creating Hardware Platform: H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/design_1_wrapper.xsa ...
 INFO: [Hsi 55-2053] elapsed time for repository (H:/Xilinx/Vivado/2021.1/data/embeddedsw) loading 1 seconds
 INFO: [Vivado 12-12464] The Hardware Platform can be used for Hardware
-INFO: [Vivado 12-4896] Successfully created Hardware Platform: H:/Vivado/YOLOV3TINY-ZYNQ/VideoDetectionProject/hardwareplatform.xsa
-write_hw_platform: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1696.910 ; gain = 165.906
-exit
-INFO: [Common 17-206] Exiting Vivado at Sun Oct  8 21:35:46 2023...
+INFO: [Vivado 12-4896] Successfully created Hardware Platform: H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/design_1_wrapper.xsa
+write_hw_platform: Time (s): cpu = 00:00:08 ; elapsed = 00:00:17 . Memory (MB): peak = 5542.078 ; gain = 512.527

@@ -16,9 +16,6 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_pr
 # IP: bd/design_1/ip/design_1_axi_dma_1_0/design_1_axi_dma_1_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_axi_dma_1_0 || ORIG_REF_NAME==design_1_axi_dma_1_0} -quiet] -quiet
 
-# IP: bd/design_1/ip/design_1_Accel_Conv_0_1/design_1_Accel_Conv_0_1.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_Accel_Conv_0_1 || ORIG_REF_NAME==design_1_Accel_Conv_0_1} -quiet] -quiet
-
 # IP: bd/design_1/ip/design_1_xbar_2/design_1_xbar_2.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_xbar_2 || ORIG_REF_NAME==design_1_xbar_2} -quiet] -quiet
 
@@ -118,4 +115,7 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_ax
 # IP: bd/design_1/ip/design_1_hls_preprocess_0_0/design_1_hls_preprocess_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_hls_preprocess_0_0 || ORIG_REF_NAME==design_1_hls_preprocess_0_0} -quiet] -quiet
 
-# XDC: h:/Vivado/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/design_1_ooc.xdc
+# IP: bd/design_1/ip/design_1_Accel_Conv_0_2/design_1_Accel_Conv_0_2.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_Accel_Conv_0_2 || ORIG_REF_NAME==design_1_Accel_Conv_0_2} -quiet] -quiet
+
+# XDC: h:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/design_1_ooc.xdc

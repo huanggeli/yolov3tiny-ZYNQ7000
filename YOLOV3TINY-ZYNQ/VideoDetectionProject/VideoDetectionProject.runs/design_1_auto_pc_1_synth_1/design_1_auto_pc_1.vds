@@ -2,17 +2,20 @@
 # Vivado v2021.1 (64-bit)
 # SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
 # IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
-# Start of session at: Sun Oct  8 21:01:14 2023
-# Process ID: 23480
-# Current directory: H:/Vivado/VideoDetectionProject/VideoDetectionProject.runs/design_1_auto_pc_1_synth_1
+# Start of session at: Mon Dec  4 19:55:05 2023
+# Process ID: 16792
+# Current directory: C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_auto_pc_1_synth_1
 # Command line: vivado.exe -log design_1_auto_pc_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_auto_pc_1.tcl
-# Log file: H:/Vivado/VideoDetectionProject/VideoDetectionProject.runs/design_1_auto_pc_1_synth_1/design_1_auto_pc_1.vds
-# Journal file: H:/Vivado/VideoDetectionProject/VideoDetectionProject.runs/design_1_auto_pc_1_synth_1\vivado.jou
+# Log file: C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_auto_pc_1_synth_1/design_1_auto_pc_1.vds
+# Journal file: C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_auto_pc_1_synth_1\vivado.jou
 #-----------------------------------------------------------
 source design_1_auto_pc_1.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'h:/Vivado/IP'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/IP'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/IP/accel_conv_ip'. The path is contained within another repository.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'H:/Xilinx/Vivado/2021.1/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.cache/ip 
 Command: synth_design -top design_1_auto_pc_1 -part xc7z035ffg676-2 -mode out_of_context
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z035'
@@ -20,88 +23,88 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z035
 INFO: [Device 21-403] Loading part xc7z035ffg676-2
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 17760
+INFO: [Synth 8-7075] Helper process launched with PID 10028
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1362.672 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1362.492 ; gain = 0.000
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_1' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/synth/design_1_auto_pc_1.v:58]
-INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_24_axi_protocol_converter' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4808]
-INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_24_axi3_conv' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:954]
-INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_24_b_downsizer' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2276]
-INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_24_b_downsizer' (1#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2276]
-INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_24_a_axi3_conv' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:62]
-INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_axic_fifo' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
-INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_fifo_gen' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_1' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/synth/design_1_auto_pc_1.v:58]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_24_axi_protocol_converter' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4808]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_24_axi3_conv' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:954]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_24_b_downsizer' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2276]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_24_b_downsizer' (1#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2276]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_24_a_axi3_conv' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_axic_fifo' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_fifo_gen' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
 INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_async_rst' [H:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1175]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_async_rst' (2#1) [H:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1175]
-INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_fifo_gen' (20#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
-INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_axic_fifo' (21#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
-INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_axic_fifo__parameterized0' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
-INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_fifo_gen__parameterized0' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
-INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_fifo_gen__parameterized0' (21#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
-INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_axic_fifo__parameterized0' (21#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
-INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_24_a_axi3_conv' (22#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:62]
-INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_24_w_axi3_conv' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2004]
-INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_24_w_axi3_conv' (23#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2004]
-INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_24_a_axi3_conv__parameterized0' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:62]
-INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_axic_fifo__parameterized1' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
-INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_fifo_gen__parameterized1' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
-INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_fifo_gen__parameterized1' (23#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
-INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_axic_fifo__parameterized1' (23#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
-INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_24_a_axi3_conv__parameterized0' (23#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:62]
-INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_24_r_axi3_conv' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:1789]
-INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_24_r_axi3_conv' (24#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:1789]
-INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_24_axi3_conv' (25#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:954]
-INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_24_axi_protocol_converter' (26#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4808]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_1' (27#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/synth/design_1_auto_pc_1.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_fifo_gen' (20#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_axic_fifo' (21#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_axic_fifo__parameterized0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_fifo_gen__parameterized0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_fifo_gen__parameterized0' (21#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_axic_fifo__parameterized0' (21#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_24_a_axi3_conv' (22#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_24_w_axi3_conv' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2004]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_24_w_axi3_conv' (23#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2004]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_24_a_axi3_conv__parameterized0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_axic_fifo__parameterized1' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_fifo_gen__parameterized1' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_fifo_gen__parameterized1' (23#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_axic_fifo__parameterized1' (23#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_24_a_axi3_conv__parameterized0' (23#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_24_r_axi3_conv' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:1789]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_24_r_axi3_conv' (24#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:1789]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_24_axi3_conv' (25#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:954]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_24_axi_protocol_converter' (26#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/6e0d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4808]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_1' (27#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/synth/design_1_auto_pc_1.v:58]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1433.754 ; gain = 71.082
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:12 . Memory (MB): peak = 1432.781 ; gain = 70.289
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1442.176 ; gain = 79.504
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 1432.781 ; gain = 70.289
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1442.176 ; gain = 79.504
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 1432.781 ; gain = 70.289
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 1449.199 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 1432.781 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_ooc.xdc] for cell 'inst'
-Finished Parsing XDC File [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_ooc.xdc] for cell 'inst'
-Parsing XDC File [H:/Vivado/VideoDetectionProject/VideoDetectionProject.runs/design_1_auto_pc_1_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [H:/Vivado/VideoDetectionProject/VideoDetectionProject.runs/design_1_auto_pc_1_synth_1/dont_touch.xdc]
+Parsing XDC File [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_ooc.xdc] for cell 'inst'
+Parsing XDC File [C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_auto_pc_1_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_auto_pc_1_synth_1/dont_touch.xdc]
 INFO: [Project 1-1714] 3 XPM XDC files have been applied to the design.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1557.430 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1455.133 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 1557.469 ; gain = 0.039
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.038 . Memory (MB): peak = 1466.539 ; gain = 11.406
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1557.469 ; gain = 194.797
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 1466.539 ; gain = 104.047
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z035ffg676-2
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1557.469 ; gain = 194.797
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 1466.539 ; gain = 104.047
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  H:/Vivado/VideoDetectionProject/VideoDetectionProject.runs/design_1_auto_pc_1_synth_1/dont_touch.xdc, line 9).
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_auto_pc_1_synth_1/dont_touch.xdc, line 9).
 Applied set_property KEEP_HIERARCHY = SOFT for inst/\gen_axi4_axi3.axi3_conv_inst /\USE_WRITE.write_addr_inst /\USE_BURSTS.cmd_queue /inst/fifo_gen_inst/inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst . (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for inst/\gen_axi4_axi3.axi3_conv_inst /\USE_WRITE.write_addr_inst /\USE_B_CHANNEL.cmd_b_queue /inst/fifo_gen_inst/inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst . (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for inst/\gen_axi4_axi3.axi3_conv_inst /\USE_READ.USE_SPLIT_R.read_addr_inst /\USE_R_CHANNEL.cmd_queue /inst/fifo_gen_inst/inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst . (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1557.469 ; gain = 194.797
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 1466.539 ; gain = 104.047
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'gpregsm1.curr_fwft_state_reg' in module 'rd_fwft'
 INFO: [Synth 8-6159] Found Keep on FSM register 'gpregsm1.curr_fwft_state_reg' in module 'rd_fwft', re-encoding will not be performed
@@ -114,7 +117,7 @@ INFO: [Synth 8-6159] Found Keep on FSM register 'gpregsm1.curr_fwft_state_reg' i
             stage2_valid |                               01 |                               01
 ---------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1557.469 ; gain = 194.797
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:18 . Memory (MB): peak = 1466.539 ; gain = 104.047
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -171,7 +174,7 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1557.469 ; gain = 194.797
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:20 . Memory (MB): peak = 1466.539 ; gain = 104.047
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -194,13 +197,13 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1557.469 ; gain = 194.797
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:24 . Memory (MB): peak = 1466.539 ; gain = 104.047
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1557.469 ; gain = 194.797
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:25 . Memory (MB): peak = 1466.539 ; gain = 104.047
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -222,7 +225,7 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1557.469 ; gain = 194.797
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:25 . Memory (MB): peak = 1466.539 ; gain = 104.047
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -240,37 +243,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1557.469 ; gain = 194.797
+Finished IO Insertion : Time (s): cpu = 00:00:14 ; elapsed = 00:00:27 . Memory (MB): peak = 1466.539 ; gain = 104.047
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1557.469 ; gain = 194.797
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:14 ; elapsed = 00:00:27 . Memory (MB): peak = 1466.539 ; gain = 104.047
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1557.469 ; gain = 194.797
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:00:27 . Memory (MB): peak = 1466.539 ; gain = 104.047
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1557.469 ; gain = 194.797
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:14 ; elapsed = 00:00:27 . Memory (MB): peak = 1466.539 ; gain = 104.047
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1557.469 ; gain = 194.797
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:27 . Memory (MB): peak = 1466.539 ; gain = 104.047
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1557.469 ; gain = 194.797
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:14 ; elapsed = 00:00:27 . Memory (MB): peak = 1466.539 ; gain = 104.047
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -301,18 +304,18 @@ Report Cell Usage:
 |13    |FDSE     |     5|
 +------+---------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1557.469 ; gain = 194.797
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:27 . Memory (MB): peak = 1466.539 ; gain = 104.047
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 1557.469 ; gain = 79.504
-Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1557.469 ; gain = 194.797
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:07 ; elapsed = 00:00:25 . Memory (MB): peak = 1466.539 ; gain = 70.289
+Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:27 . Memory (MB): peak = 1466.539 ; gain = 104.047
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 1557.469 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 1466.953 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1557.469 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1485.832 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 4 instances were transformed.
   RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 2 instances
@@ -320,12 +323,12 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 
 Synth Design complete, checksum: 44bc6806
 INFO: [Common 17-83] Releasing license: Synthesis
-50 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+50 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1557.469 ; gain = 194.797
-INFO: [Common 17-1381] The checkpoint 'H:/Vivado/VideoDetectionProject/VideoDetectionProject.runs/design_1_auto_pc_1_synth_1/design_1_auto_pc_1.dcp' has been generated.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_auto_pc_1, cache-ID = f91e6d2ccd378b6f
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:33 . Memory (MB): peak = 1485.832 ; gain = 123.340
+INFO: [Common 17-1381] The checkpoint 'C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_auto_pc_1_synth_1/design_1_auto_pc_1.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_auto_pc_1, cache-ID = 7ce497317e896d1c
 INFO: [Coretcl 2-1174] Renamed 57 cell refs.
-INFO: [Common 17-1381] The checkpoint 'H:/Vivado/VideoDetectionProject/VideoDetectionProject.runs/design_1_auto_pc_1_synth_1/design_1_auto_pc_1.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_auto_pc_1_synth_1/design_1_auto_pc_1.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_auto_pc_1_utilization_synth.rpt -pb design_1_auto_pc_1_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sun Oct  8 21:01:47 2023...
+INFO: [Common 17-206] Exiting Vivado at Mon Dec  4 19:55:43 2023...

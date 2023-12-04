@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<item key="scw_hwspec" value="H:\Vivado\YOLOV3TINY-ZYNQ\VideoDetectionProject"/>
-	<item key="scw_hwspec_file_selection" value="H:\Vivado\PREPROCESS-ROLLBACK"/>
+	<item key="scw_hwspec_file_selection" value="H:\yolov3tiny-ZYNQ7000\YOLOV3TINY-ZYNQ\VideoDetectionProject"/>
 </section>

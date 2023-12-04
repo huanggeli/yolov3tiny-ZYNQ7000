@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="detection_displayloop" location="H:/VITIS-WORKSPACE/accel_test_system/detection_displayloop" platform="H:/VITIS-WORKSPACE/accel_test_system/accel_hardware_platform/export/accel_hardware_platform/accel_hardware_platform.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="detection_displayloop_system" sysConfig="accel_hardware_platform" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="d5b916d404f0aa1e4564af41fedc0642">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.74854435">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.1553466888" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

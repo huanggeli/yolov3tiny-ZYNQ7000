@@ -11,8 +11,11 @@
 
 source design_1_system_ila_0_0.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'h:/Vivado/IP'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/IP'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/IP/accel_conv_ip'. The path is contained within another repository.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'H:/Xilinx/Vivado/2021.1/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.cache/ip 
 Command: synth_design -top design_1_system_ila_0_0 -part xc7z035ffg676-2 -mode out_of_context
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z035'
@@ -20,19 +23,19 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z035
 INFO: [Device 21-403] Loading part xc7z035ffg676-2
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 6552
+INFO: [Synth 8-7075] Helper process launched with PID 26520
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1363.137 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1353.281 ; gain = 0.000
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'design_1_system_ila_0_0' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/synth/design_1_system_ila_0_0.v:216]
-WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/synth/design_1_system_ila_0_0.v:346]
-INFO: [Synth 8-6157] synthesizing module 'bd_f60c' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.v:10]
-INFO: [Synth 8-6157] synthesizing module 'bd_f60c_g_inst_0' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/synth/bd_f60c_g_inst_0.v:116]
-INFO: [Synth 8-6157] synthesizing module 'bd_f60c_g_inst_0_gigantic_mux' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/bd_f60c_g_inst_0_gigantic_mux.v:63]
-INFO: [Synth 8-6155] done synthesizing module 'bd_f60c_g_inst_0_gigantic_mux' (2#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/bd_f60c_g_inst_0_gigantic_mux.v:63]
-INFO: [Synth 8-6155] done synthesizing module 'bd_f60c_g_inst_0' (3#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/synth/bd_f60c_g_inst_0.v:116]
-WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.v:316]
-INFO: [Synth 8-6157] synthesizing module 'bd_f60c_ila_lib_0' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/synth/bd_f60c_ila_lib_0.v:84]
+INFO: [Synth 8-6157] synthesizing module 'design_1_system_ila_0_0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/synth/design_1_system_ila_0_0.v:216]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/synth/design_1_system_ila_0_0.v:346]
+INFO: [Synth 8-6157] synthesizing module 'bd_f60c' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.v:10]
+INFO: [Synth 8-6157] synthesizing module 'bd_f60c_g_inst_0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/synth/bd_f60c_g_inst_0.v:116]
+INFO: [Synth 8-6157] synthesizing module 'bd_f60c_g_inst_0_gigantic_mux' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/bd_f60c_g_inst_0_gigantic_mux.v:63]
+INFO: [Synth 8-6155] done synthesizing module 'bd_f60c_g_inst_0_gigantic_mux' (2#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/bd_f60c_g_inst_0_gigantic_mux.v:63]
+INFO: [Synth 8-6155] done synthesizing module 'bd_f60c_g_inst_0' (3#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/synth/bd_f60c_g_inst_0.v:116]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.v:316]
+INFO: [Synth 8-6157] synthesizing module 'bd_f60c_ila_lib_0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/synth/bd_f60c_ila_lib_0.v:84]
 INFO: [Synth 8-6157] synthesizing module 'CFGLUT5' [H:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:1524]
 INFO: [Synth 8-6155] done synthesizing module 'CFGLUT5' (11#1) [H:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:1524]
 INFO: [Synth 8-6157] synthesizing module 'CARRY4' [H:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:1487]
@@ -45,100 +48,100 @@ INFO: [Synth 8-6157] synthesizing module 'SRLC16E' [H:/Xilinx/Vivado/2021.1/scri
 INFO: [Synth 8-6155] done synthesizing module 'SRLC16E' (26#1) [H:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:101050]
 INFO: [Synth 8-6157] synthesizing module 'FDRE' [H:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27837]
 INFO: [Synth 8-6155] done synthesizing module 'FDRE' (31#1) [H:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27837]
-WARNING: [Synth 8-7071] port 'clk_nobuf' of module 'ila_v6_2_11_ila' is unconnected for instance 'inst' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/synth/bd_f60c_ila_lib_0.v:3279]
-WARNING: [Synth 8-7071] port 'clkdiv_out' of module 'ila_v6_2_11_ila' is unconnected for instance 'inst' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/synth/bd_f60c_ila_lib_0.v:3279]
-WARNING: [Synth 8-7071] port 'trig_in' of module 'ila_v6_2_11_ila' is unconnected for instance 'inst' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/synth/bd_f60c_ila_lib_0.v:3279]
-WARNING: [Synth 8-7071] port 'trig_in_ack' of module 'ila_v6_2_11_ila' is unconnected for instance 'inst' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/synth/bd_f60c_ila_lib_0.v:3279]
-WARNING: [Synth 8-7071] port 'trig_out' of module 'ila_v6_2_11_ila' is unconnected for instance 'inst' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/synth/bd_f60c_ila_lib_0.v:3279]
-WARNING: [Synth 8-7071] port 'trig_out_ack' of module 'ila_v6_2_11_ila' is unconnected for instance 'inst' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/synth/bd_f60c_ila_lib_0.v:3279]
-WARNING: [Synth 8-7023] instance 'inst' of module 'ila_v6_2_11_ila' has 1033 connections declared, but only 1027 given [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/synth/bd_f60c_ila_lib_0.v:3279]
-INFO: [Synth 8-6155] done synthesizing module 'bd_f60c_ila_lib_0' (49#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/synth/bd_f60c_ila_lib_0.v:84]
-INFO: [Synth 8-6157] synthesizing module 'bd_f60c_slot_0_ar_0' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_5/synth/bd_f60c_slot_0_ar_0.v:60]
-INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_4_xlconcat' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
-INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_4_xlconcat' (50#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
-INFO: [Synth 8-6155] done synthesizing module 'bd_f60c_slot_0_ar_0' (51#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_5/synth/bd_f60c_slot_0_ar_0.v:60]
-INFO: [Synth 8-6157] synthesizing module 'bd_f60c_slot_0_aw_0' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_2/synth/bd_f60c_slot_0_aw_0.v:60]
-INFO: [Synth 8-6155] done synthesizing module 'bd_f60c_slot_0_aw_0' (52#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_2/synth/bd_f60c_slot_0_aw_0.v:60]
-INFO: [Synth 8-6157] synthesizing module 'bd_f60c_slot_0_b_0' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_4/synth/bd_f60c_slot_0_b_0.v:60]
-INFO: [Synth 8-6155] done synthesizing module 'bd_f60c_slot_0_b_0' (53#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_4/synth/bd_f60c_slot_0_b_0.v:60]
-INFO: [Synth 8-6157] synthesizing module 'bd_f60c_slot_0_r_0' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_6/synth/bd_f60c_slot_0_r_0.v:60]
-INFO: [Synth 8-6155] done synthesizing module 'bd_f60c_slot_0_r_0' (54#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_6/synth/bd_f60c_slot_0_r_0.v:60]
-INFO: [Synth 8-6157] synthesizing module 'bd_f60c_slot_0_w_0' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_3/synth/bd_f60c_slot_0_w_0.v:60]
-INFO: [Synth 8-6155] done synthesizing module 'bd_f60c_slot_0_w_0' (55#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_3/synth/bd_f60c_slot_0_w_0.v:60]
-INFO: [Synth 8-6157] synthesizing module 'bd_f60c_slot_1_ar_0' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_10/synth/bd_f60c_slot_1_ar_0.v:60]
-INFO: [Synth 8-6155] done synthesizing module 'bd_f60c_slot_1_ar_0' (56#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_10/synth/bd_f60c_slot_1_ar_0.v:60]
-INFO: [Synth 8-6157] synthesizing module 'bd_f60c_slot_1_aw_0' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_7/synth/bd_f60c_slot_1_aw_0.v:60]
-INFO: [Synth 8-6155] done synthesizing module 'bd_f60c_slot_1_aw_0' (57#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_7/synth/bd_f60c_slot_1_aw_0.v:60]
-INFO: [Synth 8-6157] synthesizing module 'bd_f60c_slot_1_b_0' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_9/synth/bd_f60c_slot_1_b_0.v:60]
-INFO: [Synth 8-6155] done synthesizing module 'bd_f60c_slot_1_b_0' (58#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_9/synth/bd_f60c_slot_1_b_0.v:60]
-INFO: [Synth 8-6157] synthesizing module 'bd_f60c_slot_1_r_0' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_11/synth/bd_f60c_slot_1_r_0.v:60]
-INFO: [Synth 8-6155] done synthesizing module 'bd_f60c_slot_1_r_0' (59#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_11/synth/bd_f60c_slot_1_r_0.v:60]
-INFO: [Synth 8-6157] synthesizing module 'bd_f60c_slot_1_w_0' [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_8/synth/bd_f60c_slot_1_w_0.v:60]
-INFO: [Synth 8-6155] done synthesizing module 'bd_f60c_slot_1_w_0' (60#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_8/synth/bd_f60c_slot_1_w_0.v:60]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'g_inst'. This will prevent further optimization [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.v:229]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_lib'. This will prevent further optimization [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.v:316]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'slot_0_aw'. This will prevent further optimization [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.v:358]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'slot_0_w'. This will prevent further optimization [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.v:370]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'slot_0_b'. This will prevent further optimization [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.v:362]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'slot_0_ar'. This will prevent further optimization [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.v:354]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'slot_0_r'. This will prevent further optimization [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.v:366]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'slot_1_aw'. This will prevent further optimization [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.v:378]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'slot_1_w'. This will prevent further optimization [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.v:390]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'slot_1_b'. This will prevent further optimization [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.v:382]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'slot_1_ar'. This will prevent further optimization [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.v:374]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'slot_1_r'. This will prevent further optimization [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.v:386]
-INFO: [Synth 8-6155] done synthesizing module 'bd_f60c' (61#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.v:10]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_system_ila_0_0' (62#1) [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/synth/design_1_system_ila_0_0.v:216]
+WARNING: [Synth 8-7071] port 'clk_nobuf' of module 'ila_v6_2_11_ila' is unconnected for instance 'inst' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/synth/bd_f60c_ila_lib_0.v:3279]
+WARNING: [Synth 8-7071] port 'clkdiv_out' of module 'ila_v6_2_11_ila' is unconnected for instance 'inst' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/synth/bd_f60c_ila_lib_0.v:3279]
+WARNING: [Synth 8-7071] port 'trig_in' of module 'ila_v6_2_11_ila' is unconnected for instance 'inst' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/synth/bd_f60c_ila_lib_0.v:3279]
+WARNING: [Synth 8-7071] port 'trig_in_ack' of module 'ila_v6_2_11_ila' is unconnected for instance 'inst' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/synth/bd_f60c_ila_lib_0.v:3279]
+WARNING: [Synth 8-7071] port 'trig_out' of module 'ila_v6_2_11_ila' is unconnected for instance 'inst' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/synth/bd_f60c_ila_lib_0.v:3279]
+WARNING: [Synth 8-7071] port 'trig_out_ack' of module 'ila_v6_2_11_ila' is unconnected for instance 'inst' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/synth/bd_f60c_ila_lib_0.v:3279]
+WARNING: [Synth 8-7023] instance 'inst' of module 'ila_v6_2_11_ila' has 1033 connections declared, but only 1027 given [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/synth/bd_f60c_ila_lib_0.v:3279]
+INFO: [Synth 8-6155] done synthesizing module 'bd_f60c_ila_lib_0' (49#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/synth/bd_f60c_ila_lib_0.v:84]
+INFO: [Synth 8-6157] synthesizing module 'bd_f60c_slot_0_ar_0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_5/synth/bd_f60c_slot_0_ar_0.v:60]
+INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_4_xlconcat' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_4_xlconcat' (50#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'bd_f60c_slot_0_ar_0' (51#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_5/synth/bd_f60c_slot_0_ar_0.v:60]
+INFO: [Synth 8-6157] synthesizing module 'bd_f60c_slot_0_aw_0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_2/synth/bd_f60c_slot_0_aw_0.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'bd_f60c_slot_0_aw_0' (52#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_2/synth/bd_f60c_slot_0_aw_0.v:60]
+INFO: [Synth 8-6157] synthesizing module 'bd_f60c_slot_0_b_0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_4/synth/bd_f60c_slot_0_b_0.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'bd_f60c_slot_0_b_0' (53#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_4/synth/bd_f60c_slot_0_b_0.v:60]
+INFO: [Synth 8-6157] synthesizing module 'bd_f60c_slot_0_r_0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_6/synth/bd_f60c_slot_0_r_0.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'bd_f60c_slot_0_r_0' (54#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_6/synth/bd_f60c_slot_0_r_0.v:60]
+INFO: [Synth 8-6157] synthesizing module 'bd_f60c_slot_0_w_0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_3/synth/bd_f60c_slot_0_w_0.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'bd_f60c_slot_0_w_0' (55#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_3/synth/bd_f60c_slot_0_w_0.v:60]
+INFO: [Synth 8-6157] synthesizing module 'bd_f60c_slot_1_ar_0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_10/synth/bd_f60c_slot_1_ar_0.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'bd_f60c_slot_1_ar_0' (56#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_10/synth/bd_f60c_slot_1_ar_0.v:60]
+INFO: [Synth 8-6157] synthesizing module 'bd_f60c_slot_1_aw_0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_7/synth/bd_f60c_slot_1_aw_0.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'bd_f60c_slot_1_aw_0' (57#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_7/synth/bd_f60c_slot_1_aw_0.v:60]
+INFO: [Synth 8-6157] synthesizing module 'bd_f60c_slot_1_b_0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_9/synth/bd_f60c_slot_1_b_0.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'bd_f60c_slot_1_b_0' (58#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_9/synth/bd_f60c_slot_1_b_0.v:60]
+INFO: [Synth 8-6157] synthesizing module 'bd_f60c_slot_1_r_0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_11/synth/bd_f60c_slot_1_r_0.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'bd_f60c_slot_1_r_0' (59#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_11/synth/bd_f60c_slot_1_r_0.v:60]
+INFO: [Synth 8-6157] synthesizing module 'bd_f60c_slot_1_w_0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_8/synth/bd_f60c_slot_1_w_0.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'bd_f60c_slot_1_w_0' (60#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_8/synth/bd_f60c_slot_1_w_0.v:60]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'g_inst'. This will prevent further optimization [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.v:229]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_lib'. This will prevent further optimization [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.v:316]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'slot_0_aw'. This will prevent further optimization [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.v:358]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'slot_0_w'. This will prevent further optimization [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.v:370]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'slot_0_b'. This will prevent further optimization [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.v:362]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'slot_0_ar'. This will prevent further optimization [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.v:354]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'slot_0_r'. This will prevent further optimization [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.v:366]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'slot_1_aw'. This will prevent further optimization [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.v:378]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'slot_1_w'. This will prevent further optimization [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.v:390]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'slot_1_b'. This will prevent further optimization [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.v:382]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'slot_1_ar'. This will prevent further optimization [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.v:374]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'slot_1_r'. This will prevent further optimization [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.v:386]
+INFO: [Synth 8-6155] done synthesizing module 'bd_f60c' (61#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_system_ila_0_0' (62#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/synth/design_1_system_ila_0_0.v:216]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1775.586 ; gain = 412.449
+Finished RTL Elaboration : Time (s): cpu = 00:00:24 ; elapsed = 00:00:42 . Memory (MB): peak = 1775.211 ; gain = 421.930
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1775.586 ; gain = 412.449
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:42 . Memory (MB): peak = 1775.211 ; gain = 421.930
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1775.586 ; gain = 412.449
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:42 . Memory (MB): peak = 1775.211 ; gain = 421.930
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.210 . Memory (MB): peak = 1775.586 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.201 . Memory (MB): peak = 1775.211 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 392 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0_ooc.xdc] for cell 'inst'
-Finished Parsing XDC File [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0_ooc.xdc] for cell 'inst'
-Parsing XDC File [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc] for cell 'inst/ila_lib/inst'
-Finished Parsing XDC File [h:/Vivado/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc] for cell 'inst/ila_lib/inst'
-Parsing XDC File [H:/Vivado/VideoDetectionProject/VideoDetectionProject.runs/design_1_system_ila_0_0_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [H:/Vivado/VideoDetectionProject/VideoDetectionProject.runs/design_1_system_ila_0_0_synth_1/dont_touch.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [H:/Vivado/VideoDetectionProject/VideoDetectionProject.runs/design_1_system_ila_0_0_synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_system_ila_0_0_propImpl.xdc].
+Parsing XDC File [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc] for cell 'inst/ila_lib/inst'
+Finished Parsing XDC File [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc] for cell 'inst/ila_lib/inst'
+Parsing XDC File [C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_system_ila_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_system_ila_0_0_synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_system_ila_0_0_synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_system_ila_0_0_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_system_ila_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1775.586 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1797.926 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 284 instances were transformed.
   CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 244 instances
   CFGLUT5 => SRLC32E: 40 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.193 . Memory (MB): peak = 1775.586 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.243 . Memory (MB): peak = 1798.238 ; gain = 0.312
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1775.586 ; gain = 412.449
+Finished Constraint Validation : Time (s): cpu = 00:00:32 ; elapsed = 00:00:53 . Memory (MB): peak = 1798.238 ; gain = 444.957
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z035ffg676-2
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1775.586 ; gain = 412.449
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:32 ; elapsed = 00:00:53 . Memory (MB): peak = 1798.238 ; gain = 444.957
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property KEEP_HIERARCHY = SOFT for inst/ila_lib/inst. (constraint file  H:/Vivado/VideoDetectionProject/VideoDetectionProject.runs/design_1_system_ila_0_0_synth_1/dont_touch.xdc, line 47).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/ila_lib/inst. (constraint file  C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_system_ila_0_0_synth_1/dont_touch.xdc, line 47).
 Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for inst/ila_lib. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for inst/g_inst. (constraint file  auto generated constraint).
@@ -153,7 +156,7 @@ Applied set_property KEEP_HIERARCHY = SOFT for inst/slot_1_b. (constraint file  
 Applied set_property KEEP_HIERARCHY = SOFT for inst/slot_1_ar. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for inst/slot_1_r. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:38 ; elapsed = 00:00:38 . Memory (MB): peak = 1775.586 ; gain = 412.449
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:00:53 . Memory (MB): peak = 1798.238 ; gain = 444.957
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s'
 INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized0'
@@ -588,7 +591,7 @@ INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in m
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'ltlib_v1_0_0_generic_memrd'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:40 ; elapsed = 00:00:40 . Memory (MB): peak = 1775.586 ; gain = 412.449
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:35 ; elapsed = 00:00:57 . Memory (MB): peak = 1798.238 ; gain = 444.957
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -609,25 +612,25 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:53 ; elapsed = 00:00:54 . Memory (MB): peak = 1775.586 ; gain = 412.449
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:45 ; elapsed = 00:01:15 . Memory (MB): peak = 1798.238 ; gain = 444.957
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:58 ; elapsed = 00:00:59 . Memory (MB): peak = 1775.586 ; gain = 412.449
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:48 ; elapsed = 00:01:20 . Memory (MB): peak = 1798.238 ; gain = 444.957
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:58 ; elapsed = 00:00:59 . Memory (MB): peak = 1775.586 ; gain = 412.449
+Finished Timing Optimization : Time (s): cpu = 00:00:48 ; elapsed = 00:01:21 . Memory (MB): peak = 1798.238 ; gain = 444.957
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:59 ; elapsed = 00:01:00 . Memory (MB): peak = 1775.586 ; gain = 412.449
+Finished Technology Mapping : Time (s): cpu = 00:00:49 ; elapsed = 00:01:22 . Memory (MB): peak = 1798.238 ; gain = 444.957
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -685,37 +688,37 @@ INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[0] to constant 0
 INFO: [Synth 8-3295] tying undriven pin inst:trig_in to constant 0
 INFO: [Synth 8-3295] tying undriven pin inst:trig_out_ack to constant 0
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:01 ; elapsed = 00:01:02 . Memory (MB): peak = 1775.586 ; gain = 412.449
+Finished IO Insertion : Time (s): cpu = 00:00:50 ; elapsed = 00:01:24 . Memory (MB): peak = 1798.238 ; gain = 444.957
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:01 ; elapsed = 00:01:02 . Memory (MB): peak = 1775.586 ; gain = 412.449
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:50 ; elapsed = 00:01:24 . Memory (MB): peak = 1798.238 ; gain = 444.957
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:02 ; elapsed = 00:01:02 . Memory (MB): peak = 1775.586 ; gain = 412.449
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:50 ; elapsed = 00:01:24 . Memory (MB): peak = 1798.238 ; gain = 444.957
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:02 ; elapsed = 00:01:02 . Memory (MB): peak = 1775.586 ; gain = 412.449
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:50 ; elapsed = 00:01:24 . Memory (MB): peak = 1798.238 ; gain = 444.957
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:02 ; elapsed = 00:01:03 . Memory (MB): peak = 1775.586 ; gain = 412.449
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:50 ; elapsed = 00:01:25 . Memory (MB): peak = 1798.238 ; gain = 444.957
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:02 ; elapsed = 00:01:03 . Memory (MB): peak = 1775.586 ; gain = 412.449
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:50 ; elapsed = 00:01:25 . Memory (MB): peak = 1798.238 ; gain = 444.957
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -737,9 +740,9 @@ Report Cell Usage:
 |4     |LUT2     |    98|
 |5     |LUT3     |   179|
 |6     |LUT4     |   346|
-|7     |LUT5     |   172|
-|8     |LUT6     |  1179|
-|9     |MUXF7    |   121|
+|7     |LUT5     |   171|
+|8     |LUT6     |  1180|
+|9     |MUXF7    |   120|
 |10    |MUXF8    |     5|
 |11    |RAMB18E1 |     1|
 |12    |RAMB36E1 |     6|
@@ -750,31 +753,31 @@ Report Cell Usage:
 |17    |FDSE     |    10|
 +------+---------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:02 ; elapsed = 00:01:03 . Memory (MB): peak = 1775.586 ; gain = 412.449
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:50 ; elapsed = 00:01:25 . Memory (MB): peak = 1798.238 ; gain = 444.957
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:27 ; elapsed = 00:00:58 . Memory (MB): peak = 1775.586 ; gain = 412.449
-Synthesis Optimization Complete : Time (s): cpu = 00:01:02 ; elapsed = 00:01:03 . Memory (MB): peak = 1775.586 ; gain = 412.449
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:01:18 . Memory (MB): peak = 1798.238 ; gain = 421.930
+Synthesis Optimization Complete : Time (s): cpu = 00:00:50 ; elapsed = 00:01:25 . Memory (MB): peak = 1798.238 ; gain = 444.957
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.102 . Memory (MB): peak = 1775.586 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 518 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.091 . Memory (MB): peak = 1798.238 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 517 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1775.586 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1798.238 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 284 instances were transformed.
   CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 244 instances
   CFGLUT5 => SRLC32E: 40 instances
 
-Synth Design complete, checksum: f72b8d
+Synth Design complete, checksum: a39b2897
 INFO: [Common 17-83] Releasing license: Synthesis
-194 Infos, 9 Warnings, 0 Critical Warnings and 0 Errors encountered.
+194 Infos, 11 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:06 ; elapsed = 00:01:08 . Memory (MB): peak = 1775.586 ; gain = 412.449
-INFO: [Common 17-1381] The checkpoint 'H:/Vivado/VideoDetectionProject/VideoDetectionProject.runs/design_1_system_ila_0_0_synth_1/design_1_system_ila_0_0.dcp' has been generated.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_system_ila_0_0, cache-ID = 2ace5a445bf4cb64
+synth_design: Time (s): cpu = 00:00:52 ; elapsed = 00:01:31 . Memory (MB): peak = 1798.238 ; gain = 444.957
+INFO: [Common 17-1381] The checkpoint 'C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_system_ila_0_0_synth_1/design_1_system_ila_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_system_ila_0_0, cache-ID = ed9c511ed6fe52a5
 INFO: [Coretcl 2-1174] Renamed 324 cell refs.
-INFO: [Common 17-1381] The checkpoint 'H:/Vivado/VideoDetectionProject/VideoDetectionProject.runs/design_1_system_ila_0_0_synth_1/design_1_system_ila_0_0.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_system_ila_0_0_synth_1/design_1_system_ila_0_0.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_system_ila_0_0_utilization_synth.rpt -pb design_1_system_ila_0_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sun Oct  8 21:02:33 2023...
+INFO: [Common 17-206] Exiting Vivado at Mon Dec  4 19:55:58 2023...

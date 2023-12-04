@@ -1,5 +1,5 @@
-set_property SRC_FILE_INFO {cfile:H:/Vivado/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.srcs/constrs_1/new/hdmi_out.xdc rfile:../../../VideoDetectionProject.srcs/constrs_1/new/hdmi_out.xdc id:1} [current_design]
-set_property SRC_FILE_INFO {cfile:H:/Vivado/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.srcs/constrs_1/new/an5642.xdc rfile:../../../VideoDetectionProject.srcs/constrs_1/new/an5642.xdc id:2} [current_design]
+set_property SRC_FILE_INFO {cfile:H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.srcs/constrs_1/new/hdmi_out.xdc rfile:../../../VideoDetectionProject.srcs/constrs_1/new/hdmi_out.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.srcs/constrs_1/new/an5642.xdc rfile:../../../VideoDetectionProject.srcs/constrs_1/new/an5642.xdc id:2} [current_design]
 set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN K15 [get_ports hdmi_out_clk]
 set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]

@@ -2,19 +2,20 @@
 # Vivado v2021.1 (64-bit)
 # SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
 # IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
-# Start of session at: Sat Sep 16 16:13:45 2023
-# Process ID: 31824
-# Current directory: H:/Vivado/camerasignaltest/camerasignaltest.runs/design_1_axi_vdma_0_0_synth_1
+# Start of session at: Mon Dec  4 19:53:32 2023
+# Process ID: 25632
+# Current directory: C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_axi_vdma_0_0_synth_1
 # Command line: vivado.exe -log design_1_axi_vdma_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_vdma_0_0.tcl
-# Log file: H:/Vivado/camerasignaltest/camerasignaltest.runs/design_1_axi_vdma_0_0_synth_1/design_1_axi_vdma_0_0.vds
-# Journal file: H:/Vivado/camerasignaltest/camerasignaltest.runs/design_1_axi_vdma_0_0_synth_1\vivado.jou
+# Log file: C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_axi_vdma_0_0_synth_1/design_1_axi_vdma_0_0.vds
+# Journal file: C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_axi_vdma_0_0_synth_1\vivado.jou
 #-----------------------------------------------------------
 source design_1_axi_vdma_0_0.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'h:/Vivado/accel_conv_system_2021/source'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'h:/Vivado/ov5640/repo'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'h:/Vivado/conv-new/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/IP'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/IP/accel_conv_ip'. The path is contained within another repository.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'H:/Xilinx/Vivado/2021.1/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.cache/ip 
 Command: synth_design -top design_1_axi_vdma_0_0 -part xc7z035ffg676-2 -mode out_of_context
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z035'
@@ -22,11 +23,11 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z035
 INFO: [Device 21-403] Loading part xc7z035ffg676-2
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 35720
+INFO: [Synth 8-7075] Helper process launched with PID 27556
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1329.039 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1329.734 ; gain = 0.000
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'design_1_axi_vdma_0_0' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/synth/design_1_axi_vdma_0_0.vhd:108]
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_vdma_0_0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/synth/design_1_axi_vdma_0_0.vhd:108]
 	Parameter C_S_AXI_LITE_ADDR_WIDTH bound to: 9 - type: integer 
 	Parameter C_S_AXI_LITE_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_DLYTMR_RESOLUTION bound to: 125 - type: integer 
@@ -91,121 +92,121 @@ INFO: [Synth 8-638] synthesizing module 'design_1_axi_vdma_0_0' [h:/Vivado/camer
 	Parameter C_SELECT_XPM bound to: 0 - type: integer 
 	Parameter C_ENABLE_VERT_FLIP bound to: 0 - type: integer 
 	Parameter C_FAMILY bound to: zynq - type: string 
-INFO: [Synth 8-3491] module 'axi_vdma' declared at 'h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:69488' bound to instance 'U0' of component 'axi_vdma' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/synth/design_1_axi_vdma_0_0.vhd:343]
-INFO: [Synth 8-638] synthesizing module 'axi_vdma' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:69927]
-INFO: [Synth 8-638] synthesizing module 'axi_vdma_rst_module' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:16461]
-INFO: [Synth 8-638] synthesizing module 'axi_vdma_reset' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:14866]
-INFO: [Synth 8-638] synthesizing module 'cdc_sync' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-3491] module 'axi_vdma' declared at 'c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:69488' bound to instance 'U0' of component 'axi_vdma' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/synth/design_1_axi_vdma_0_0.vhd:343]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:69927]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_rst_module' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:16461]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_reset' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:14866]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'REG_P_IN_cdc_from' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:219]
+INFO: [Synth 8-113] binding component instance 'REG_P_IN_cdc_from' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:219]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'REG_P_IN2_cdc_to' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:232]
+INFO: [Synth 8-113] binding component instance 'REG_P_IN2_cdc_to' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:232]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'P_IN_CROSS2SCNDRY_s_out_d2' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:269]
+INFO: [Synth 8-113] binding component instance 'P_IN_CROSS2SCNDRY_s_out_d2' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:269]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'P_IN_CROSS2SCNDRY_s_out_d3' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:279]
+INFO: [Synth 8-113] binding component instance 'P_IN_CROSS2SCNDRY_s_out_d3' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:279]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'P_IN_CROSS2SCNDRY_s_out_d4' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:289]
+INFO: [Synth 8-113] binding component instance 'P_IN_CROSS2SCNDRY_s_out_d4' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:289]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'P_IN_CROSS2SCNDRY_s_out_d5' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:299]
+INFO: [Synth 8-113] binding component instance 'P_IN_CROSS2SCNDRY_s_out_d5' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:299]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'P_IN_CROSS2SCNDRY_s_out_d6' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:309]
+INFO: [Synth 8-113] binding component instance 'P_IN_CROSS2SCNDRY_s_out_d6' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:309]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'P_IN_CROSS2SCNDRY_s_out_d7' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:320]
+INFO: [Synth 8-113] binding component instance 'P_IN_CROSS2SCNDRY_s_out_d7' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:320]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'P_IN_CROSS2SCNDRY_scndry_out' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:330]
+INFO: [Synth 8-113] binding component instance 'P_IN_CROSS2SCNDRY_scndry_out' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:330]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 's_rst_d1' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:339]
+INFO: [Synth 8-113] binding component instance 's_rst_d1' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:339]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 's_rst_d2' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:347]
+INFO: [Synth 8-113] binding component instance 's_rst_d2' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:347]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 's_rst_d3' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:355]
+INFO: [Synth 8-113] binding component instance 's_rst_d3' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:355]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 's_rst_d4' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:364]
+INFO: [Synth 8-113] binding component instance 's_rst_d4' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:364]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 's_rst_d5' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:374]
+INFO: [Synth 8-113] binding component instance 's_rst_d5' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:374]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 's_rst_d6' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:383]
+INFO: [Synth 8-113] binding component instance 's_rst_d6' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:383]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 's_rst_d7' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:392]
-INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (1#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
-INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized0' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-113] binding component instance 's_rst_d7' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:392]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (1#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'REG_PLEVEL_IN_cdc_from' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:491]
+INFO: [Synth 8-113] binding component instance 'REG_PLEVEL_IN_cdc_from' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:491]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:514]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:514]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:545]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:545]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:554]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:554]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:564]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:564]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:574]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:574]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:584]
-INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized0' (1#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_reset' (2#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:14866]
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_rst_module' (3#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:16461]
-INFO: [Synth 8-638] synthesizing module 'axi_vdma_reg_if' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:39917]
-INFO: [Synth 8-638] synthesizing module 'axi_vdma_lite_if' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:16956]
-INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized1' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:584]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized0' (1#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_reset' (2#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:14866]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_rst_module' (3#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:16461]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_reg_if' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:39917]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_lite_if' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:16956]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized1' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'REG_P_IN_cdc_from' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:219]
+INFO: [Synth 8-113] binding component instance 'REG_P_IN_cdc_from' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:219]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'REG_P_IN2_cdc_to' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:232]
+INFO: [Synth 8-113] binding component instance 'REG_P_IN2_cdc_to' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:232]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'P_IN_CROSS2SCNDRY_s_out_d2' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:269]
+INFO: [Synth 8-113] binding component instance 'P_IN_CROSS2SCNDRY_s_out_d2' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:269]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'P_IN_CROSS2SCNDRY_s_out_d3' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:279]
+INFO: [Synth 8-113] binding component instance 'P_IN_CROSS2SCNDRY_s_out_d3' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:279]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'P_IN_CROSS2SCNDRY_s_out_d4' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:289]
+INFO: [Synth 8-113] binding component instance 'P_IN_CROSS2SCNDRY_s_out_d4' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:289]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'P_IN_CROSS2SCNDRY_s_out_d5' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:299]
+INFO: [Synth 8-113] binding component instance 'P_IN_CROSS2SCNDRY_s_out_d5' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:299]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'P_IN_CROSS2SCNDRY_s_out_d6' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:309]
+INFO: [Synth 8-113] binding component instance 'P_IN_CROSS2SCNDRY_s_out_d6' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:309]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'P_IN_CROSS2SCNDRY_s_out_d7' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:320]
+INFO: [Synth 8-113] binding component instance 'P_IN_CROSS2SCNDRY_s_out_d7' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:320]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'P_IN_CROSS2SCNDRY_scndry_out' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:330]
+INFO: [Synth 8-113] binding component instance 'P_IN_CROSS2SCNDRY_scndry_out' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:330]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 's_rst_d1' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:339]
+INFO: [Synth 8-113] binding component instance 's_rst_d1' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:339]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 's_rst_d2' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:347]
+INFO: [Synth 8-113] binding component instance 's_rst_d2' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:347]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 's_rst_d3' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:355]
+INFO: [Synth 8-113] binding component instance 's_rst_d3' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:355]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 's_rst_d4' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:364]
+INFO: [Synth 8-113] binding component instance 's_rst_d4' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:364]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 's_rst_d5' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:374]
+INFO: [Synth 8-113] binding component instance 's_rst_d5' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:374]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 's_rst_d6' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:383]
+INFO: [Synth 8-113] binding component instance 's_rst_d6' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:383]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 's_rst_d7' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:392]
-INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized1' (3#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_lite_if' (4#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:16956]
-INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized2' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-113] binding component instance 's_rst_d7' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:392]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized1' (3#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_lite_if' (4#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:16956]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized2' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'REG_PLEVEL_IN_cdc_from' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:491]
+INFO: [Synth 8-113] binding component instance 'REG_PLEVEL_IN_cdc_from' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:491]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:514]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:514]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:545]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:545]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:554]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:554]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:564]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:564]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:574]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:574]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:584]
-INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized2' (4#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_reg_if' (5#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:39917]
-INFO: [Synth 8-638] synthesizing module 'axi_vdma_intrpt' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:40643]
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_intrpt' (6#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:40643]
-INFO: [Synth 8-638] synthesizing module 'axi_vdma_skid_buf' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:41500]
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_skid_buf' (7#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:41500]
-INFO: [Synth 8-638] synthesizing module 'axi_vdma_s2mm_axis_dwidth_converter' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:69110]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:584]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized2' (4#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_reg_if' (5#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:39917]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_intrpt' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:40643]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_intrpt' (6#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:40643]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_skid_buf' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:41500]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_skid_buf' (7#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:41500]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_s2mm_axis_dwidth_converter' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:69110]
 	Parameter C_S_AXIS_TDATA_WIDTH bound to: 24 - type: integer 
 	Parameter C_M_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_AXIS_TID_WIDTH bound to: 1 - type: integer 
@@ -213,62 +214,62 @@ INFO: [Synth 8-638] synthesizing module 'axi_vdma_s2mm_axis_dwidth_converter' [h
 	Parameter C_S_AXIS_TUSER_WIDTH bound to: 3 - type: integer 
 	Parameter C_M_AXIS_TUSER_WIDTH bound to: 4 - type: integer 
 	Parameter C_FAMILY bound to: zynq - type: string 
-INFO: [Synth 8-3491] module 'axi_vdma_v6_3_12_axis_dwidth_converter_v1_0_axis_dwidth_converter' declared at 'h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:1938' bound to instance 'S2MM_AXIS_DWIDTH_CONVERTER_I' of component 'axi_vdma_v6_3_12_axis_dwidth_converter_v1_0_axis_dwidth_converter' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:69241]
-INFO: [Synth 8-6157] synthesizing module 'axi_vdma_v6_3_12_axis_dwidth_converter_v1_0_axis_dwidth_converter' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:1938]
-INFO: [Synth 8-6157] synthesizing module 'axi_vdma_v6_3_12_axis_dwidth_converter_v1_0_axisc_upsizer' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:1191]
-INFO: [Synth 8-6155] done synthesizing module 'axi_vdma_v6_3_12_axis_dwidth_converter_v1_0_axisc_upsizer' (8#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:1191]
-INFO: [Synth 8-6157] synthesizing module 'axi_vdma_v6_3_12_axis_dwidth_converter_v1_0_axisc_downsizer' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:1558]
-INFO: [Synth 8-6155] done synthesizing module 'axi_vdma_v6_3_12_axis_dwidth_converter_v1_0_axisc_downsizer' (9#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:1558]
-INFO: [Synth 8-6157] synthesizing module 'axi_vdma_v6_3_12_axis_register_slice_v1_0_axis_register_slice' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:979]
-INFO: [Synth 8-6157] synthesizing module 'axi_vdma_v6_3_12_axis_infrastructure_v1_0_util_axis2vector' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:63]
-INFO: [Synth 8-6155] done synthesizing module 'axi_vdma_v6_3_12_axis_infrastructure_v1_0_util_axis2vector' (10#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:63]
-INFO: [Synth 8-6157] synthesizing module 'axi_vdma_v6_3_12_axis_register_slice_v1_0_axisc_register_slice' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:391]
-INFO: [Synth 8-6155] done synthesizing module 'axi_vdma_v6_3_12_axis_register_slice_v1_0_axisc_register_slice' (11#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:391]
-INFO: [Synth 8-6157] synthesizing module 'axi_vdma_v6_3_12_axis_infrastructure_v1_0_util_vector2axis' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:228]
-INFO: [Synth 8-6155] done synthesizing module 'axi_vdma_v6_3_12_axis_infrastructure_v1_0_util_vector2axis' (12#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:228]
-INFO: [Synth 8-6155] done synthesizing module 'axi_vdma_v6_3_12_axis_register_slice_v1_0_axis_register_slice' (13#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:979]
-INFO: [Synth 8-6157] synthesizing module 'axi_vdma_v6_3_12_axis_register_slice_v1_0_axis_register_slice__parameterized0' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:979]
-INFO: [Synth 8-6157] synthesizing module 'axi_vdma_v6_3_12_axis_infrastructure_v1_0_util_axis2vector__parameterized0' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:63]
-INFO: [Synth 8-6155] done synthesizing module 'axi_vdma_v6_3_12_axis_infrastructure_v1_0_util_axis2vector__parameterized0' (13#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:63]
-INFO: [Synth 8-6157] synthesizing module 'axi_vdma_v6_3_12_axis_register_slice_v1_0_axisc_register_slice__parameterized0' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:391]
-INFO: [Synth 8-6155] done synthesizing module 'axi_vdma_v6_3_12_axis_register_slice_v1_0_axisc_register_slice__parameterized0' (13#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:391]
-INFO: [Synth 8-6157] synthesizing module 'axi_vdma_v6_3_12_axis_infrastructure_v1_0_util_vector2axis__parameterized0' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:228]
-INFO: [Synth 8-6155] done synthesizing module 'axi_vdma_v6_3_12_axis_infrastructure_v1_0_util_vector2axis__parameterized0' (13#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:228]
-INFO: [Synth 8-6155] done synthesizing module 'axi_vdma_v6_3_12_axis_register_slice_v1_0_axis_register_slice__parameterized0' (13#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:979]
-INFO: [Synth 8-6155] done synthesizing module 'axi_vdma_v6_3_12_axis_dwidth_converter_v1_0_axis_dwidth_converter' (14#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:1938]
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_s2mm_axis_dwidth_converter' (15#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:69110]
-INFO: [Synth 8-638] synthesizing module 'axi_vdma_reg_module' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:39071]
-INFO: [Synth 8-638] synthesizing module 'axi_vdma_register' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:18717]
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_register' (16#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:18717]
-INFO: [Synth 8-638] synthesizing module 'axi_vdma_regdirect' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:20533]
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_regdirect' (17#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:20533]
-INFO: [Synth 8-638] synthesizing module 'axi_vdma_reg_mux' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:29596]
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_reg_mux' (18#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:29596]
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_reg_module' (19#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:39071]
-INFO: [Synth 8-638] synthesizing module 'axi_vdma_mngr' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:64248]
-INFO: [Synth 8-638] synthesizing module 'axi_vdma_sm' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:61909]
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_sm' (20#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:61909]
-INFO: [Synth 8-638] synthesizing module 'axi_vdma_cmdsts_if' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:63125]
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_cmdsts_if' (21#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:63125]
-INFO: [Synth 8-638] synthesizing module 'axi_vdma_sts_mngr' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:63632]
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_sts_mngr' (22#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:63632]
-INFO: [Synth 8-638] synthesizing module 'axi_vdma_vidreg_module' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:56087]
-INFO: [Synth 8-638] synthesizing module 'axi_vdma_vregister' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:53973]
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_vregister' (23#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:53973]
-INFO: [Synth 8-638] synthesizing module 'axi_vdma_vaddrreg_mux' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:55564]
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_vaddrreg_mux' (24#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:55564]
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_vidreg_module' (25#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:56087]
-INFO: [Synth 8-638] synthesizing module 'axi_vdma_genlock_mngr' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:58630]
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_genlock_mngr' (26#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:58630]
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_mngr' (27#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:64248]
-INFO: [Synth 8-638] synthesizing module 'axi_vdma_fsync_gen' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:53102]
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_fsync_gen' (28#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:53102]
-INFO: [Synth 8-638] synthesizing module 'axi_vdma_vid_cdc' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:13253]
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_vid_cdc' (29#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:13253]
-INFO: [Synth 8-638] synthesizing module 'axi_vdma_sof_gen' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:41253]
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_sof_gen' (30#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:41253]
-INFO: [Synth 8-638] synthesizing module 'axi_vdma_s2mm_linebuf' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:49284]
-INFO: [Synth 8-638] synthesizing module 'axi_vdma_sfifo' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:42057]
+INFO: [Synth 8-3491] module 'axi_vdma_v6_3_12_axis_dwidth_converter_v1_0_axis_dwidth_converter' declared at 'c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:1938' bound to instance 'S2MM_AXIS_DWIDTH_CONVERTER_I' of component 'axi_vdma_v6_3_12_axis_dwidth_converter_v1_0_axis_dwidth_converter' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:69241]
+INFO: [Synth 8-6157] synthesizing module 'axi_vdma_v6_3_12_axis_dwidth_converter_v1_0_axis_dwidth_converter' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:1938]
+INFO: [Synth 8-6157] synthesizing module 'axi_vdma_v6_3_12_axis_dwidth_converter_v1_0_axisc_upsizer' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:1191]
+INFO: [Synth 8-6155] done synthesizing module 'axi_vdma_v6_3_12_axis_dwidth_converter_v1_0_axisc_upsizer' (8#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:1191]
+INFO: [Synth 8-6157] synthesizing module 'axi_vdma_v6_3_12_axis_dwidth_converter_v1_0_axisc_downsizer' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:1558]
+INFO: [Synth 8-6155] done synthesizing module 'axi_vdma_v6_3_12_axis_dwidth_converter_v1_0_axisc_downsizer' (9#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:1558]
+INFO: [Synth 8-6157] synthesizing module 'axi_vdma_v6_3_12_axis_register_slice_v1_0_axis_register_slice' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:979]
+INFO: [Synth 8-6157] synthesizing module 'axi_vdma_v6_3_12_axis_infrastructure_v1_0_util_axis2vector' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:63]
+INFO: [Synth 8-6155] done synthesizing module 'axi_vdma_v6_3_12_axis_infrastructure_v1_0_util_axis2vector' (10#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:63]
+INFO: [Synth 8-6157] synthesizing module 'axi_vdma_v6_3_12_axis_register_slice_v1_0_axisc_register_slice' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:391]
+INFO: [Synth 8-6155] done synthesizing module 'axi_vdma_v6_3_12_axis_register_slice_v1_0_axisc_register_slice' (11#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:391]
+INFO: [Synth 8-6157] synthesizing module 'axi_vdma_v6_3_12_axis_infrastructure_v1_0_util_vector2axis' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:228]
+INFO: [Synth 8-6155] done synthesizing module 'axi_vdma_v6_3_12_axis_infrastructure_v1_0_util_vector2axis' (12#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:228]
+INFO: [Synth 8-6155] done synthesizing module 'axi_vdma_v6_3_12_axis_register_slice_v1_0_axis_register_slice' (13#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:979]
+INFO: [Synth 8-6157] synthesizing module 'axi_vdma_v6_3_12_axis_register_slice_v1_0_axis_register_slice__parameterized0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:979]
+INFO: [Synth 8-6157] synthesizing module 'axi_vdma_v6_3_12_axis_infrastructure_v1_0_util_axis2vector__parameterized0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:63]
+INFO: [Synth 8-6155] done synthesizing module 'axi_vdma_v6_3_12_axis_infrastructure_v1_0_util_axis2vector__parameterized0' (13#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:63]
+INFO: [Synth 8-6157] synthesizing module 'axi_vdma_v6_3_12_axis_register_slice_v1_0_axisc_register_slice__parameterized0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:391]
+INFO: [Synth 8-6155] done synthesizing module 'axi_vdma_v6_3_12_axis_register_slice_v1_0_axisc_register_slice__parameterized0' (13#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:391]
+INFO: [Synth 8-6157] synthesizing module 'axi_vdma_v6_3_12_axis_infrastructure_v1_0_util_vector2axis__parameterized0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:228]
+INFO: [Synth 8-6155] done synthesizing module 'axi_vdma_v6_3_12_axis_infrastructure_v1_0_util_vector2axis__parameterized0' (13#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:228]
+INFO: [Synth 8-6155] done synthesizing module 'axi_vdma_v6_3_12_axis_register_slice_v1_0_axis_register_slice__parameterized0' (13#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:979]
+INFO: [Synth 8-6155] done synthesizing module 'axi_vdma_v6_3_12_axis_dwidth_converter_v1_0_axis_dwidth_converter' (14#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.v:1938]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_s2mm_axis_dwidth_converter' (15#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:69110]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_reg_module' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:39071]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_register' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:18717]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_register' (16#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:18717]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_regdirect' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:20533]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_regdirect' (17#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:20533]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_reg_mux' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:29596]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_reg_mux' (18#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:29596]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_reg_module' (19#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:39071]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_mngr' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:64248]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_sm' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:61909]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_sm' (20#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:61909]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_cmdsts_if' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:63125]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_cmdsts_if' (21#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:63125]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_sts_mngr' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:63632]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_sts_mngr' (22#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:63632]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_vidreg_module' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:56087]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_vregister' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:53973]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_vregister' (23#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:53973]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_vaddrreg_mux' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:55564]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_vaddrreg_mux' (24#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:55564]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_vidreg_module' (25#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:56087]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_genlock_mngr' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:58630]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_genlock_mngr' (26#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:58630]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_mngr' (27#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:64248]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_fsync_gen' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:53102]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_fsync_gen' (28#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:53102]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_vid_cdc' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:13253]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_vid_cdc' (29#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:13253]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_sof_gen' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:41253]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_sof_gen' (30#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:41253]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_s2mm_linebuf' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:49284]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_sfifo' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:42057]
 	Parameter FIFO_MEMORY_TYPE bound to: auto - type: string 
 	Parameter FIFO_WRITE_DEPTH bound to: 4096 - type: integer 
 	Parameter WRITE_DATA_WIDTH bound to: 37 - type: integer 
@@ -284,7 +285,7 @@ INFO: [Synth 8-638] synthesizing module 'axi_vdma_sfifo' [h:/Vivado/camerasignal
 	Parameter DOUT_RESET_VALUE bound to: 0 - type: string 
 	Parameter ECC_MODE bound to: no_ecc - type: string 
 	Parameter WAKEUP_TIME bound to: 0 - type: integer 
-INFO: [Synth 8-3491] module 'xpm_fifo_sync' declared at 'H:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1951' bound to instance 'xpm_fifo_sync_inst' of component 'xpm_fifo_sync' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:42264]
+INFO: [Synth 8-3491] module 'xpm_fifo_sync' declared at 'H:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1951' bound to instance 'xpm_fifo_sync_inst' of component 'xpm_fifo_sync' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:42264]
 INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_sync' [H:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1951]
 INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_base' [H:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:56]
 INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base' [H:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
@@ -307,103 +308,103 @@ INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized2' [H:/
 INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized2' (34#1) [H:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1858]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_base' (35#1) [H:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:56]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_sync' (36#1) [H:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1951]
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_sfifo' (37#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:42057]
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_s2mm_linebuf' (38#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:49284]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:55439]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_mm2s_omit_wrap' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:53209]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_mm2s_omit_wrap' (39#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:53209]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_s2mm_full_wrap' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:49997]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_reset' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:153]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_reset' (40#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:153]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_cmd_status' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:2698]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_f' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
-INFO: [Synth 8-638] synthesizing module 'cntr_incr_decr_addn_f' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
-INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f' (41#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
-INFO: [Synth 8-638] synthesizing module 'dynshreg_f' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
-INFO: [Synth 8-256] done synthesizing module 'dynshreg_f' (42#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f' (43#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f' (44#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo' (45#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized0' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized0' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized0' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
-INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized0' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
-INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized0' (45#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized0' (45#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized0' (45#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized0' (45#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_cmd_status' (46#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:2698]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_wr_status_cntl' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:17704]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized1' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized1' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized1' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
-INFO: [Synth 8-638] synthesizing module 'cntr_incr_decr_addn_f__parameterized0' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
-INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f__parameterized0' (46#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
-INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized1' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
-INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized1' (46#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized1' (46#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized1' (46#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized1' (46#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized2' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized2' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized2' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
-INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized2' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
-INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized2' (46#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized2' (46#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized2' (46#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized2' (46#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_wr_status_cntl' (47#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:17704]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_ibttcc' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:25731]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_ibttcc' (48#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:25731]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_s2mm_realign' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:47011]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized3' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized3' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized3' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
-INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized3' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
-INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized3' (48#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized3' (48#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized3' (48#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized3' (48#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_s2mm_dre' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:36563]
-INFO: [Synth 8-226] default block is never used [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:41821]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_dre_mux2_1_x_n' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:29950]
-INFO: [Synth 8-226] default block is never used [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:29966]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_dre_mux2_1_x_n' (49#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:29950]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_dre_mux4_1_x_n' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:30097]
-INFO: [Synth 8-226] default block is never used [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:30113]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_dre_mux4_1_x_n' (50#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:30097]
-INFO: [Synth 8-226] default block is never used [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:42049]
-INFO: [Synth 8-226] default block is never used [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:42096]
-INFO: [Synth 8-226] default block is never used [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:42143]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_dre' (51#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:36563]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_s2mm_scatter' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:45117]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_mssai_skid_buf' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:44167]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_ms_strb_set' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:42603]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_ms_strb_set' (52#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:42603]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_mssai_skid_buf' (53#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:44167]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_strb_gen2' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:4342]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_strb_gen2' (54#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:4342]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_slice' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:44856]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_slice' (55#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:44856]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized4' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized4' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized4' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
-INFO: [Synth 8-638] synthesizing module 'cntr_incr_decr_addn_f__parameterized1' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
-INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f__parameterized1' (55#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
-INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized4' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
-INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized4' (55#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized4' (55#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized4' (55#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized4' (55#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_scatter' (56#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:45117]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_realign' (57#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:47011]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_indet_btt' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:28430]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_stbs_set' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:23410]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_stbs_set' (58#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:23410]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_sfifo_autord' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1295]
-INFO: [Synth 8-638] synthesizing module 'sync_fifo_fg' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/a5cb/hdl/lib_fifo_v1_0_rfs.vhd:2250]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_sfifo' (37#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:42057]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_s2mm_linebuf' (38#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:49284]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:55439]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_mm2s_omit_wrap' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:53209]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_mm2s_omit_wrap' (39#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:53209]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_s2mm_full_wrap' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:49997]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_reset' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:153]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_reset' (40#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:153]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_cmd_status' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:2698]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'cntr_incr_decr_addn_f' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f' (41#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f' (42#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f' (43#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f' (44#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo' (45#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized0' (45#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized0' (45#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized0' (45#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized0' (45#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_cmd_status' (46#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:2698]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_wr_status_cntl' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:17704]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized1' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized1' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized1' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'cntr_incr_decr_addn_f__parameterized0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f__parameterized0' (46#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized1' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized1' (46#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized1' (46#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized1' (46#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized1' (46#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized2' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized2' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized2' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized2' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized2' (46#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized2' (46#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized2' (46#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized2' (46#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_wr_status_cntl' (47#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:17704]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_ibttcc' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:25731]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_ibttcc' (48#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:25731]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_s2mm_realign' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:47011]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized3' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized3' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized3' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized3' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized3' (48#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized3' (48#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized3' (48#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized3' (48#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_s2mm_dre' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:36563]
+INFO: [Synth 8-226] default block is never used [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:41821]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_dre_mux2_1_x_n' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:29950]
+INFO: [Synth 8-226] default block is never used [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:29966]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_dre_mux2_1_x_n' (49#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:29950]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_dre_mux4_1_x_n' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:30097]
+INFO: [Synth 8-226] default block is never used [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:30113]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_dre_mux4_1_x_n' (50#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:30097]
+INFO: [Synth 8-226] default block is never used [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:42049]
+INFO: [Synth 8-226] default block is never used [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:42096]
+INFO: [Synth 8-226] default block is never used [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:42143]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_dre' (51#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:36563]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_s2mm_scatter' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:45117]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_mssai_skid_buf' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:44167]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_ms_strb_set' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:42603]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_ms_strb_set' (52#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:42603]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_mssai_skid_buf' (53#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:44167]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_strb_gen2' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:4342]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_strb_gen2' (54#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:4342]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_slice' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:44856]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_slice' (55#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:44856]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized4' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized4' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized4' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'cntr_incr_decr_addn_f__parameterized1' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f__parameterized1' (55#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized4' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized4' (55#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized4' (55#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized4' (55#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized4' (55#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_scatter' (56#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:45117]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_realign' (57#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:47011]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_indet_btt' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:28430]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_stbs_set' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:23410]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_stbs_set' (58#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:23410]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_sfifo_autord' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1295]
+INFO: [Synth 8-638] synthesizing module 'sync_fifo_fg' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/a5cb/hdl/lib_fifo_v1_0_rfs.vhd:2250]
 	Parameter FIFO_MEMORY_TYPE bound to: auto - type: string 
 	Parameter FIFO_WRITE_DEPTH bound to: 16 - type: integer 
 	Parameter WRITE_DATA_WIDTH bound to: 13 - type: integer 
@@ -419,7 +420,7 @@ INFO: [Synth 8-638] synthesizing module 'sync_fifo_fg' [h:/Vivado/camerasignalte
 	Parameter DOUT_RESET_VALUE bound to: 0 - type: string 
 	Parameter ECC_MODE bound to: no_ecc - type: string 
 	Parameter WAKEUP_TIME bound to: 0 - type: integer 
-INFO: [Synth 8-3491] module 'xpm_fifo_sync' declared at 'H:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1951' bound to instance 'xpm_fifo_sync_inst' of component 'xpm_fifo_sync' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/a5cb/hdl/lib_fifo_v1_0_rfs.vhd:2627]
+INFO: [Synth 8-3491] module 'xpm_fifo_sync' declared at 'H:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1951' bound to instance 'xpm_fifo_sync_inst' of component 'xpm_fifo_sync' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/a5cb/hdl/lib_fifo_v1_0_rfs.vhd:2627]
 INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_sync__parameterized1' [H:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1951]
 INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_base__parameterized0' [H:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:56]
 INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized3' [H:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1858]
@@ -438,10 +439,10 @@ INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized6' [H:/
 INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized6' (58#1) [H:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1858]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_base__parameterized0' (58#1) [H:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:56]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_sync__parameterized1' (58#1) [H:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1951]
-INFO: [Synth 8-256] done synthesizing module 'sync_fifo_fg' (59#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/a5cb/hdl/lib_fifo_v1_0_rfs.vhd:2250]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_sfifo_autord' (60#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1295]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_sfifo_autord__parameterized0' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1295]
-INFO: [Synth 8-638] synthesizing module 'sync_fifo_fg__parameterized0' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/a5cb/hdl/lib_fifo_v1_0_rfs.vhd:2250]
+INFO: [Synth 8-256] done synthesizing module 'sync_fifo_fg' (59#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/a5cb/hdl/lib_fifo_v1_0_rfs.vhd:2250]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_sfifo_autord' (60#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1295]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_sfifo_autord__parameterized0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1295]
+INFO: [Synth 8-638] synthesizing module 'sync_fifo_fg__parameterized0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/a5cb/hdl/lib_fifo_v1_0_rfs.vhd:2250]
 	Parameter FIFO_MEMORY_TYPE bound to: block - type: string 
 	Parameter FIFO_WRITE_DEPTH bound to: 1024 - type: integer 
 	Parameter WRITE_DATA_WIDTH bound to: 74 - type: integer 
@@ -457,7 +458,7 @@ INFO: [Synth 8-638] synthesizing module 'sync_fifo_fg__parameterized0' [h:/Vivad
 	Parameter DOUT_RESET_VALUE bound to: 0 - type: string 
 	Parameter ECC_MODE bound to: no_ecc - type: string 
 	Parameter WAKEUP_TIME bound to: 0 - type: integer 
-INFO: [Synth 8-3491] module 'xpm_fifo_sync' declared at 'H:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1951' bound to instance 'xpm_fifo_sync_inst' of component 'xpm_fifo_sync' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/a5cb/hdl/lib_fifo_v1_0_rfs.vhd:2627]
+INFO: [Synth 8-3491] module 'xpm_fifo_sync' declared at 'H:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1951' bound to instance 'xpm_fifo_sync_inst' of component 'xpm_fifo_sync' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/a5cb/hdl/lib_fifo_v1_0_rfs.vhd:2627]
 INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_sync__parameterized3' [H:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1951]
 INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_base__parameterized1' [H:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:56]
 INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized7' [H:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1858]
@@ -475,102 +476,102 @@ INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized10' [H:
 INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized10' (60#1) [H:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1858]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_base__parameterized1' (60#1) [H:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:56]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_sync__parameterized3' (60#1) [H:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1951]
-INFO: [Synth 8-256] done synthesizing module 'sync_fifo_fg__parameterized0' (60#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/a5cb/hdl/lib_fifo_v1_0_rfs.vhd:2250]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_sfifo_autord__parameterized0' (60#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1295]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_stbs_set__parameterized0' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:23410]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_stbs_set__parameterized0' (60#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:23410]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_skid_buf' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:19500]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_skid_buf' (61#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:19500]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_indet_btt' (62#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:28430]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_addr_cntl' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:10000]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized5' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized5' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized5' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
-INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized5' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
-INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized5' (62#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized5' (62#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized5' (62#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized5' (62#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_addr_cntl' (63#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:10000]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_wrdata_cntl' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:15674]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_strb_gen2__parameterized0' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:4342]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_strb_gen2__parameterized0' (63#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:4342]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized6' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized6' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
-INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized6' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
-INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized6' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
-INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized6' (63#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized6' (63#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized6' (63#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized6' (63#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_wrdata_cntl' (64#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:15674]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_skid2mm_buf' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:18998]
-INFO: [Synth 8-638] synthesizing module 'axi_datamover_wr_demux' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:14117]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_wr_demux' (65#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:14117]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_skid2mm_buf' (66#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:18998]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_full_wrap' (67#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:49997]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover' (68#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:55439]
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma' (69#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:69927]
-INFO: [Synth 8-256] done synthesizing module 'design_1_axi_vdma_0_0' (70#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/synth/design_1_axi_vdma_0_0.vhd:108]
+INFO: [Synth 8-256] done synthesizing module 'sync_fifo_fg__parameterized0' (60#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/a5cb/hdl/lib_fifo_v1_0_rfs.vhd:2250]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_sfifo_autord__parameterized0' (60#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1295]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_stbs_set__parameterized0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:23410]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_stbs_set__parameterized0' (60#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:23410]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_skid_buf' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:19500]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_skid_buf' (61#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:19500]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_indet_btt' (62#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:28430]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_addr_cntl' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:10000]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized5' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized5' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized5' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized5' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized5' (62#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized5' (62#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized5' (62#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized5' (62#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_addr_cntl' (63#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:10000]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_wrdata_cntl' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:15674]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_strb_gen2__parameterized0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:4342]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_strb_gen2__parameterized0' (63#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:4342]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized6' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized6' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized6' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized6' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized6' (63#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized6' (63#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized6' (63#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized6' (63#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_wrdata_cntl' (64#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:15674]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_skid2mm_buf' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:18998]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_wr_demux' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:14117]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_wr_demux' (65#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:14117]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_skid2mm_buf' (66#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:18998]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_full_wrap' (67#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:49997]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover' (68#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/1e21/hdl/axi_datamover_v5_1_vh_rfs.vhd:55439]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma' (69#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/66f2/hdl/axi_vdma_v6_3_rfs.vhd:69927]
+INFO: [Synth 8-256] done synthesizing module 'design_1_axi_vdma_0_0' (70#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/synth/design_1_axi_vdma_0_0.vhd:108]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 1512.887 ; gain = 183.848
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:15 . Memory (MB): peak = 1514.172 ; gain = 184.438
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 1512.887 ; gain = 183.848
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:16 . Memory (MB): peak = 1514.172 ; gain = 184.438
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 1512.887 ; gain = 183.848
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:16 . Memory (MB): peak = 1514.172 ; gain = 184.438
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.246 . Memory (MB): peak = 1512.887 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.175 . Memory (MB): peak = 1514.172 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 129 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0_ooc.xdc] for cell 'U0'
-Finished Parsing XDC File [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0_ooc.xdc] for cell 'U0'
-Parsing XDC File [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0.xdc] for cell 'U0'
-Finished Parsing XDC File [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0.xdc] for cell 'U0'
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_axi_vdma_0_0_propImpl.xdc].
+Parsing XDC File [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0.xdc] for cell 'U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_axi_vdma_0_0_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_axi_vdma_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Parsing XDC File [H:/Vivado/camerasignaltest/camerasignaltest.runs/design_1_axi_vdma_0_0_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [H:/Vivado/camerasignaltest/camerasignaltest.runs/design_1_axi_vdma_0_0_synth_1/dont_touch.xdc]
-Parsing XDC File [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0_clocks.xdc] for cell 'U0'
-Finished Parsing XDC File [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0_clocks.xdc] for cell 'U0'
+Parsing XDC File [C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_axi_vdma_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_axi_vdma_0_0_synth_1/dont_touch.xdc]
+Parsing XDC File [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0_clocks.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0_clocks.xdc] for cell 'U0'
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [H:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_axi_vdma_0_0_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_axi_vdma_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 INFO: [Project 1-1714] 3 XPM XDC files have been applied to the design.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1562.527 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1547.348 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 129 instances were transformed.
   FDR => FDRE: 129 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.085 . Memory (MB): peak = 1563.430 ; gain = 0.902
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.074 . Memory (MB): peak = 1547.586 ; gain = 0.238
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:25 ; elapsed = 00:00:32 . Memory (MB): peak = 1563.430 ; gain = 234.391
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:24 . Memory (MB): peak = 1547.586 ; gain = 217.852
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z035ffg676-2
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:25 ; elapsed = 00:00:32 . Memory (MB): peak = 1563.430 ; gain = 234.391
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:24 . Memory (MB): peak = 1547.586 ; gain = 217.852
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  H:/Vivado/camerasignaltest/camerasignaltest.runs/design_1_axi_vdma_0_0_synth_1/dont_touch.xdc, line 9).
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_axi_vdma_0_0_synth_1/dont_touch.xdc, line 9).
 Applied set_property KEEP_HIERARCHY = SOFT for U0/\GEN_SPRT_FOR_S2MM.S2MM_LINEBUFFER_I /\GEN_S2MM_FLUSH_SOF_LOGIC.GEN_LINEBUFFER_FLUSH_SOF.GEN_SYNC_FIFO_FLUSH_SOF.I_LINEBUFFER_FIFO /xpm_fifo_sync_inst. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for U0/I_PRMRY_DATAMOVER/\GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER /\GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT /I_DATA_FIFO/\BLK_MEM.I_SYNC_FIFOGEN_FIFO /\xpm_fifo_instance.xpm_fifo_sync_inst . (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for U0/I_PRMRY_DATAMOVER/\GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER /\GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT /I_XD_FIFO/\NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO /\xpm_fifo_instance.xpm_fifo_sync_inst . (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:32 . Memory (MB): peak = 1563.430 ; gain = 234.391
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:24 . Memory (MB): peak = 1547.586 ; gain = 217.852
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi_vdma_v6_3_12_axis_dwidth_converter_v1_0_axisc_upsizer'
 INFO: [Synth 8-802] inferred FSM for state register 'dmacntrl_cs_reg' in module 'axi_vdma_sm'
@@ -664,7 +665,7 @@ INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM 
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'gen_fwft.curr_fwft_state_reg' using encoding 'sequential' in module 'xpm_fifo_base__parameterized1'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:29 ; elapsed = 00:00:38 . Memory (MB): peak = 1563.430 ; gain = 234.391
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:29 . Memory (MB): peak = 1547.586 ; gain = 217.852
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -786,7 +787,7 @@ INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:39 ; elapsed = 00:00:50 . Memory (MB): peak = 1563.430 ; gain = 234.391
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:38 . Memory (MB): peak = 1547.586 ; gain = 217.852
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 ---------------------------------------------------------------------------------
@@ -818,14 +819,14 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:45 ; elapsed = 00:00:57 . Memory (MB): peak = 1563.430 ; gain = 234.391
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:44 . Memory (MB): peak = 1547.586 ; gain = 217.852
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:49 ; elapsed = 00:01:02 . Memory (MB): peak = 1563.430 ; gain = 234.391
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:47 . Memory (MB): peak = 1547.586 ; gain = 217.852
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -854,7 +855,7 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:51 ; elapsed = 00:01:05 . Memory (MB): peak = 1563.430 ; gain = 234.391
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:49 . Memory (MB): peak = 1547.586 ; gain = 217.852
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -872,37 +873,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:55 ; elapsed = 00:01:10 . Memory (MB): peak = 1563.430 ; gain = 234.391
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:52 . Memory (MB): peak = 1547.586 ; gain = 217.852
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:55 ; elapsed = 00:01:10 . Memory (MB): peak = 1563.430 ; gain = 234.391
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:52 . Memory (MB): peak = 1547.586 ; gain = 217.852
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:55 ; elapsed = 00:01:10 . Memory (MB): peak = 1563.430 ; gain = 234.391
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:53 . Memory (MB): peak = 1547.586 ; gain = 217.852
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:55 ; elapsed = 00:01:10 . Memory (MB): peak = 1563.430 ; gain = 234.391
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:53 . Memory (MB): peak = 1547.586 ; gain = 217.852
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:56 ; elapsed = 00:01:10 . Memory (MB): peak = 1563.430 ; gain = 234.391
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:53 . Memory (MB): peak = 1547.586 ; gain = 217.852
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:56 ; elapsed = 00:01:10 . Memory (MB): peak = 1563.430 ; gain = 234.391
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:53 . Memory (MB): peak = 1547.586 ; gain = 217.852
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -965,18 +966,18 @@ Report Cell Usage:
 |17    |FDSE     |    76|
 +------+---------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:56 ; elapsed = 00:01:10 . Memory (MB): peak = 1563.430 ; gain = 234.391
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:53 . Memory (MB): peak = 1547.586 ; gain = 217.852
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:35 ; elapsed = 00:01:06 . Memory (MB): peak = 1563.430 ; gain = 183.848
-Synthesis Optimization Complete : Time (s): cpu = 00:00:56 ; elapsed = 00:01:11 . Memory (MB): peak = 1563.430 ; gain = 234.391
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:49 . Memory (MB): peak = 1547.586 ; gain = 184.438
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:53 . Memory (MB): peak = 1547.586 ; gain = 217.852
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.152 . Memory (MB): peak = 1567.707 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.126 . Memory (MB): peak = 1547.586 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 188 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1583.617 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1550.258 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 97 instances were transformed.
   FDR => FDRE: 94 instances
@@ -985,12 +986,12 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 
 Synth Design complete, checksum: b2cfe0ec
 INFO: [Common 17-83] Releasing license: Synthesis
-373 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+371 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:02 ; elapsed = 00:01:18 . Memory (MB): peak = 1583.617 ; gain = 254.578
-INFO: [Common 17-1381] The checkpoint 'H:/Vivado/camerasignaltest/camerasignaltest.runs/design_1_axi_vdma_0_0_synth_1/design_1_axi_vdma_0_0.dcp' has been generated.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_axi_vdma_0_0, cache-ID = e1e634444acbb131
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:59 . Memory (MB): peak = 1550.258 ; gain = 220.523
+INFO: [Common 17-1381] The checkpoint 'C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_axi_vdma_0_0_synth_1/design_1_axi_vdma_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_axi_vdma_0_0, cache-ID = 62d589f3c08aecf9
 INFO: [Coretcl 2-1174] Renamed 128 cell refs.
-INFO: [Common 17-1381] The checkpoint 'H:/Vivado/camerasignaltest/camerasignaltest.runs/design_1_axi_vdma_0_0_synth_1/design_1_axi_vdma_0_0.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_axi_vdma_0_0_synth_1/design_1_axi_vdma_0_0.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_axi_vdma_0_0_utilization_synth.rpt -pb design_1_axi_vdma_0_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sat Sep 16 16:15:13 2023...
+INFO: [Common 17-206] Exiting Vivado at Mon Dec  4 19:54:44 2023...

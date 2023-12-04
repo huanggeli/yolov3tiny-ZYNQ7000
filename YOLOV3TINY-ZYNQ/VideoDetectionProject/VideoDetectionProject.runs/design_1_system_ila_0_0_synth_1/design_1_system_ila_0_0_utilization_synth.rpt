@@ -1,7 +1,7 @@
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
-| Date         : Sun Oct  8 21:02:31 2023
+| Date         : Mon Dec  4 19:55:57 2023
 | Host         : DESKTOP-0QC1VIS running 64-bit major release  (build 9200)
 | Command      : report_utilization -file design_1_system_ila_0_0_utilization_synth.rpt -pb design_1_system_ila_0_0_utilization_synth.pb
 | Design       : design_1_system_ila_0_0
@@ -38,7 +38,7 @@ Table of Contents
 | Slice Registers            | 3583 |     0 |          0 |    343800 |  1.04 |
 |   Register as Flip Flop    | 3583 |     0 |          0 |    343800 |  1.04 |
 |   Register as Latch        |    0 |     0 |          0 |    343800 |  0.00 |
-| F7 Muxes                   |  121 |     0 |          0 |    109300 |  0.11 |
+| F7 Muxes                   |  120 |     0 |          0 |    109300 |  0.11 |
 | F8 Muxes                   |    5 |     0 |          0 |     54650 | <0.01 |
 +----------------------------+------+-------+------------+-----------+-------+
 * Warning! The Final LUT count, after physical optimizations and full implementation, is typically lower. Run opt_design after synthesis, if not already completed, for a more realistic count.
@@ -157,13 +157,13 @@ Table of Contents
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
 | FDRE     | 3573 |        Flop & Latch |
-| LUT6     | 1179 |                 LUT |
+| LUT6     | 1180 |                 LUT |
 | SRL16E   |  470 |  Distributed Memory |
 | LUT4     |  346 |                 LUT |
 | SRLC32E  |  301 |  Distributed Memory |
 | LUT3     |  179 |                 LUT |
-| LUT5     |  172 |                 LUT |
-| MUXF7    |  121 |               MuxFx |
+| LUT5     |  171 |                 LUT |
+| MUXF7    |  120 |               MuxFx |
 | CARRY4   |  101 |          CarryLogic |
 | LUT2     |   98 |                 LUT |
 | LUT1     |   66 |                 LUT |

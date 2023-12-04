@@ -2,11 +2,11 @@
 # Vivado v2021.1 (64-bit)
 # SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
 # IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
-# Start of session at: Fri Sep  8 10:17:44 2023
-# Process ID: 130320
-# Current directory: H:/Vivado/conv-new/conv-new.runs/design_1_processing_system7_0_0_synth_1
+# Start of session at: Mon Dec  4 19:52:03 2023
+# Process ID: 25656
+# Current directory: C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_processing_system7_0_0_synth_1
 # Command line: vivado.exe -log design_1_processing_system7_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_processing_system7_0_0.tcl
-# Log file: H:/Vivado/conv-new/conv-new.runs/design_1_processing_system7_0_0_synth_1/design_1_processing_system7_0_0.vds
-# Journal file: H:/Vivado/conv-new/conv-new.runs/design_1_processing_system7_0_0_synth_1\vivado.jou
+# Log file: C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_processing_system7_0_0_synth_1/design_1_processing_system7_0_0.vds
+# Journal file: C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_processing_system7_0_0_synth_1\vivado.jou
 #-----------------------------------------------------------
 source design_1_processing_system7_0_0.tcl -notrace

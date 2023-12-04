@@ -612,3 +612,10 @@ timestamp=[2023-10-08 21:30:45], mode=BUILD, duration=0:00:00.600, duration_ms=6
 timestamp=[2023-10-08 21:31:17], mode=PLATFORM_GENERATION, duration=0:00:06.187, duration_ms=6187, data={name=accel_hardware_platform}
 timestamp=[2023-10-08 21:31:24], mode=BUILD, duration=0:00:01.542, duration_ms=1542, data={name=detection_displayloop, configuration=Debug, clean_build=false}
 timestamp=[2023-10-08 21:31:29], mode=BUILD, duration=0:00:03.996, duration_ms=3996, data={name=detection_displayloop_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 20:41:40], mode=WORKBENCH_START, duration=0:00:06.292, duration_ms=6292, data={}
+timestamp=[2023-12-04 20:41:41], mode=WORKBENCH_UI_INIT, duration=0:00:00.550, duration_ms=550, data={editors_count=40, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,accel_hardware_platform,detection_displayloop,detection_displayloop_system}
+timestamp=[2023-12-04 20:41:41], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.057, duration_ms=57, data={}
+timestamp=[2023-12-04 20:42:56], mode=PLATFORM_GENERATION, duration=0:00:01.542, duration_ms=1542, data={name=accel_hardware_platform}
+timestamp=[2023-12-04 20:47:13], mode=PLATFORM_GENERATION, duration=0:00:01.405, duration_ms=1405, data={name=accel_hardware_platform}
+timestamp=[2023-12-04 20:47:17], mode=BUILD, duration=0:00:00.487, duration_ms=487, data={name=detection_displayloop, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 20:47:21], mode=BUILD, duration=0:00:03.885, duration_ms=3885, data={name=detection_displayloop_system, configuration=Debug, clean_build=false}

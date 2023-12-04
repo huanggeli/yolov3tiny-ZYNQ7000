@@ -1,7 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:Debugger_display-Default,org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_display_system,org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_all-test_system,org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_detection_displayloop_system
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_detection_displayloop_system
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:Debugger_823a-Default/activeLaunchMode=embdebug
 org.eclipse.launchbar.core.descriptorType.default\:Debugger_all-test-Default/activeLaunchMode=embrun
@@ -26,6 +26,8 @@ org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_all-test_syste
 org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_cameradisplay_system/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_conv_ip_test_system/activeLaunchMode=systemdebug
 org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_conv_ip_test_system/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_detection_displayloop_system/activeLaunchMode=systemrun
+org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_detection_displayloop_system/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_display-loop_system/activeLaunchMode=systemrun
 org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_display_system/activeLaunchMode=systemrun
 org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_hello_system/activeLaunchMode=systemrun

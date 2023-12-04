@@ -2,11 +2,11 @@
 # Vivado v2021.1 (64-bit)
 # SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
 # IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
-# Start of session at: Sat Sep 16 16:11:34 2023
-# Process ID: 30160
-# Current directory: H:/Vivado/camerasignaltest/camerasignaltest.runs/design_1_axi_vdma_1_0_synth_1
+# Start of session at: Mon Dec  4 19:52:03 2023
+# Process ID: 22072
+# Current directory: C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_axi_vdma_1_0_synth_1
 # Command line: vivado.exe -log design_1_axi_vdma_1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_vdma_1_0.tcl
-# Log file: H:/Vivado/camerasignaltest/camerasignaltest.runs/design_1_axi_vdma_1_0_synth_1/design_1_axi_vdma_1_0.vds
-# Journal file: H:/Vivado/camerasignaltest/camerasignaltest.runs/design_1_axi_vdma_1_0_synth_1\vivado.jou
+# Log file: C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_axi_vdma_1_0_synth_1/design_1_axi_vdma_1_0.vds
+# Journal file: C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_axi_vdma_1_0_synth_1\vivado.jou
 #-----------------------------------------------------------
 source design_1_axi_vdma_1_0.tcl -notrace

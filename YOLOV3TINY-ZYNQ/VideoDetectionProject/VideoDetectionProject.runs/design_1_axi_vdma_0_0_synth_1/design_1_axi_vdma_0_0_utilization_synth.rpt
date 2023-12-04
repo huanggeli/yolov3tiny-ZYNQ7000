@@ -1,7 +1,7 @@
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
-| Date         : Sat Sep 16 16:15:12 2023
+| Date         : Mon Dec  4 19:54:43 2023
 | Host         : DESKTOP-0QC1VIS running 64-bit major release  (build 9200)
 | Command      : report_utilization -file design_1_axi_vdma_0_0_utilization_synth.rpt -pb design_1_axi_vdma_0_0_utilization_synth.pb
 | Design       : design_1_axi_vdma_0_0
@@ -30,8 +30,8 @@ Table of Contents
 +----------------------------+------+-------+------------+-----------+-------+
 |          Site Type         | Used | Fixed | Prohibited | Available | Util% |
 +----------------------------+------+-------+------------+-----------+-------+
-| Slice LUTs*                | 1954 |     0 |          0 |    171900 |  1.14 |
-|   LUT as Logic             | 1762 |     0 |          0 |    171900 |  1.03 |
+| Slice LUTs*                | 1961 |     0 |          0 |    171900 |  1.14 |
+|   LUT as Logic             | 1769 |     0 |          0 |    171900 |  1.03 |
 |   LUT as Memory            |  192 |     0 |          0 |     70400 |  0.27 |
 |     LUT as Distributed RAM |   10 |     0 |            |           |       |
 |     LUT as Shift Register  |  182 |     0 |            |           |       |

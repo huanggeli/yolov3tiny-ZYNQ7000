@@ -23,7 +23,6 @@ OUTS = $(addsuffix .o, $(basename $(wildcard *.c)))
 OBJECTS = $(addsuffix .o, $(basename $(wildcard *.c *.cpp)))
 ASSEMBLY_OBJECTS = $(addsuffix .o, $(basename $(wildcard *.S)))
 
-
 libs:
 	echo "Compiling hls_preprocess"
 	$(COMPILER) $(COMPILER_FLAGS) $(EXTRA_COMPILER_FLAGS) $(INCLUDES) $(LIBSOURCES)

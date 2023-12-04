@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='H:/Vivado/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/synth_1'
+HD_PWD='H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

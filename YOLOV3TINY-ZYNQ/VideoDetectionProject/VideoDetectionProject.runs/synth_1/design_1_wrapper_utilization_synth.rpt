@@ -1,7 +1,7 @@
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
-| Date         : Sun Oct  8 21:06:04 2023
+| Date         : Mon Dec  4 20:22:19 2023
 | Host         : DESKTOP-0QC1VIS running 64-bit major release  (build 9200)
 | Command      : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
 | Design       : design_1_wrapper
@@ -196,7 +196,7 @@ Table of Contents
 | design_1_auto_pc_1                 |    1 |
 | design_1_auto_pc_0                 |    1 |
 | design_1_alinx_ov5640_0_0          |    1 |
-| design_1_Accel_Conv_0_1            |    1 |
+| design_1_Accel_Conv_0_2            |    1 |
 +------------------------------------+------+
 
 

@@ -12,6 +12,7 @@ COMPILER_FLAGS=
 EXTRA_COMPILER_FLAGS=
 LIB=libxil.a
 
+
 RELEASEDIR=../../../lib
 INCLUDEDIR=../../../include
 INCLUDES=-I./. -I${INCLUDEDIR}
@@ -22,7 +23,6 @@ OUTS = $(addsuffix .o, $(basename $(wildcard *.c)))
 
 OBJECTS = $(addsuffix .o, $(basename $(wildcard *.c *.cpp)))
 ASSEMBLY_OBJECTS = $(addsuffix .o, $(basename $(wildcard *.S)))
-
 
 libs:
 	echo "Compiling hls_rect"

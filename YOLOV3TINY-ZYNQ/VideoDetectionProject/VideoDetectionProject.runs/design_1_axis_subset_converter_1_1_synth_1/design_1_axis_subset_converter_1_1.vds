@@ -2,19 +2,20 @@
 # Vivado v2021.1 (64-bit)
 # SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
 # IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
-# Start of session at: Sat Sep 16 16:12:18 2023
-# Process ID: 32300
-# Current directory: H:/Vivado/camerasignaltest/camerasignaltest.runs/design_1_axis_subset_converter_1_1_synth_1
+# Start of session at: Mon Dec  4 19:52:03 2023
+# Process ID: 16772
+# Current directory: C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_axis_subset_converter_1_1_synth_1
 # Command line: vivado.exe -log design_1_axis_subset_converter_1_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axis_subset_converter_1_1.tcl
-# Log file: H:/Vivado/camerasignaltest/camerasignaltest.runs/design_1_axis_subset_converter_1_1_synth_1/design_1_axis_subset_converter_1_1.vds
-# Journal file: H:/Vivado/camerasignaltest/camerasignaltest.runs/design_1_axis_subset_converter_1_1_synth_1\vivado.jou
+# Log file: C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_axis_subset_converter_1_1_synth_1/design_1_axis_subset_converter_1_1.vds
+# Journal file: C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_axis_subset_converter_1_1_synth_1\vivado.jou
 #-----------------------------------------------------------
 source design_1_axis_subset_converter_1_1.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'h:/Vivado/accel_conv_system_2021/source'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'h:/Vivado/ov5640/repo'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'h:/Vivado/conv-new/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/IP'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/IP/accel_conv_ip'. The path is contained within another repository.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'H:/Xilinx/Vivado/2021.1/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.cache/ip 
 Command: synth_design -top design_1_axis_subset_converter_1_1 -part xc7z035ffg676-2 -mode out_of_context
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z035'
@@ -22,77 +23,77 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z035
 INFO: [Device 21-403] Loading part xc7z035ffg676-2
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 30708
+INFO: [Synth 8-7075] Helper process launched with PID 28316
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1315.648 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1671.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'design_1_axis_subset_converter_1_1' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/synth/design_1_axis_subset_converter_1_1.v:58]
-INFO: [Synth 8-6157] synthesizing module 'top_design_1_axis_subset_converter_1_1' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/top_design_1_axis_subset_converter_1_1.v:60]
-INFO: [Synth 8-6157] synthesizing module 'axis_subset_converter_v1_1_24_core' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/cdd1/hdl/axis_subset_converter_v1_1_vl_rfs.v:62]
-INFO: [Synth 8-6155] done synthesizing module 'axis_subset_converter_v1_1_24_core' (1#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ipshared/cdd1/hdl/axis_subset_converter_v1_1_vl_rfs.v:62]
-INFO: [Synth 8-6157] synthesizing module 'tdata_design_1_axis_subset_converter_1_1' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/tdata_design_1_axis_subset_converter_1_1.v:48]
-INFO: [Synth 8-6155] done synthesizing module 'tdata_design_1_axis_subset_converter_1_1' (2#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/tdata_design_1_axis_subset_converter_1_1.v:48]
-INFO: [Synth 8-6157] synthesizing module 'tuser_design_1_axis_subset_converter_1_1' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/tuser_design_1_axis_subset_converter_1_1.v:48]
-INFO: [Synth 8-6155] done synthesizing module 'tuser_design_1_axis_subset_converter_1_1' (3#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/tuser_design_1_axis_subset_converter_1_1.v:48]
-INFO: [Synth 8-6157] synthesizing module 'tid_design_1_axis_subset_converter_1_1' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/tid_design_1_axis_subset_converter_1_1.v:48]
-INFO: [Synth 8-6155] done synthesizing module 'tid_design_1_axis_subset_converter_1_1' (4#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/tid_design_1_axis_subset_converter_1_1.v:48]
-INFO: [Synth 8-6157] synthesizing module 'tdest_design_1_axis_subset_converter_1_1' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/tdest_design_1_axis_subset_converter_1_1.v:48]
-INFO: [Synth 8-6155] done synthesizing module 'tdest_design_1_axis_subset_converter_1_1' (5#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/tdest_design_1_axis_subset_converter_1_1.v:48]
-INFO: [Synth 8-6157] synthesizing module 'tstrb_design_1_axis_subset_converter_1_1' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/tstrb_design_1_axis_subset_converter_1_1.v:48]
-INFO: [Synth 8-6155] done synthesizing module 'tstrb_design_1_axis_subset_converter_1_1' (6#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/tstrb_design_1_axis_subset_converter_1_1.v:48]
-INFO: [Synth 8-6157] synthesizing module 'tkeep_design_1_axis_subset_converter_1_1' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/tkeep_design_1_axis_subset_converter_1_1.v:48]
-INFO: [Synth 8-6155] done synthesizing module 'tkeep_design_1_axis_subset_converter_1_1' (7#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/tkeep_design_1_axis_subset_converter_1_1.v:48]
-INFO: [Synth 8-6157] synthesizing module 'tlast_design_1_axis_subset_converter_1_1' [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/tlast_design_1_axis_subset_converter_1_1.v:48]
-INFO: [Synth 8-6155] done synthesizing module 'tlast_design_1_axis_subset_converter_1_1' (8#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/tlast_design_1_axis_subset_converter_1_1.v:48]
-INFO: [Synth 8-6155] done synthesizing module 'top_design_1_axis_subset_converter_1_1' (9#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/top_design_1_axis_subset_converter_1_1.v:60]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_axis_subset_converter_1_1' (10#1) [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/synth/design_1_axis_subset_converter_1_1.v:58]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axis_subset_converter_1_1' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/synth/design_1_axis_subset_converter_1_1.v:58]
+INFO: [Synth 8-6157] synthesizing module 'top_design_1_axis_subset_converter_1_1' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/top_design_1_axis_subset_converter_1_1.v:60]
+INFO: [Synth 8-6157] synthesizing module 'axis_subset_converter_v1_1_24_core' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/cdd1/hdl/axis_subset_converter_v1_1_vl_rfs.v:62]
+INFO: [Synth 8-6155] done synthesizing module 'axis_subset_converter_v1_1_24_core' (1#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/cdd1/hdl/axis_subset_converter_v1_1_vl_rfs.v:62]
+INFO: [Synth 8-6157] synthesizing module 'tdata_design_1_axis_subset_converter_1_1' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/tdata_design_1_axis_subset_converter_1_1.v:48]
+INFO: [Synth 8-6155] done synthesizing module 'tdata_design_1_axis_subset_converter_1_1' (2#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/tdata_design_1_axis_subset_converter_1_1.v:48]
+INFO: [Synth 8-6157] synthesizing module 'tuser_design_1_axis_subset_converter_1_1' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/tuser_design_1_axis_subset_converter_1_1.v:48]
+INFO: [Synth 8-6155] done synthesizing module 'tuser_design_1_axis_subset_converter_1_1' (3#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/tuser_design_1_axis_subset_converter_1_1.v:48]
+INFO: [Synth 8-6157] synthesizing module 'tid_design_1_axis_subset_converter_1_1' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/tid_design_1_axis_subset_converter_1_1.v:48]
+INFO: [Synth 8-6155] done synthesizing module 'tid_design_1_axis_subset_converter_1_1' (4#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/tid_design_1_axis_subset_converter_1_1.v:48]
+INFO: [Synth 8-6157] synthesizing module 'tdest_design_1_axis_subset_converter_1_1' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/tdest_design_1_axis_subset_converter_1_1.v:48]
+INFO: [Synth 8-6155] done synthesizing module 'tdest_design_1_axis_subset_converter_1_1' (5#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/tdest_design_1_axis_subset_converter_1_1.v:48]
+INFO: [Synth 8-6157] synthesizing module 'tstrb_design_1_axis_subset_converter_1_1' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/tstrb_design_1_axis_subset_converter_1_1.v:48]
+INFO: [Synth 8-6155] done synthesizing module 'tstrb_design_1_axis_subset_converter_1_1' (6#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/tstrb_design_1_axis_subset_converter_1_1.v:48]
+INFO: [Synth 8-6157] synthesizing module 'tkeep_design_1_axis_subset_converter_1_1' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/tkeep_design_1_axis_subset_converter_1_1.v:48]
+INFO: [Synth 8-6155] done synthesizing module 'tkeep_design_1_axis_subset_converter_1_1' (7#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/tkeep_design_1_axis_subset_converter_1_1.v:48]
+INFO: [Synth 8-6157] synthesizing module 'tlast_design_1_axis_subset_converter_1_1' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/tlast_design_1_axis_subset_converter_1_1.v:48]
+INFO: [Synth 8-6155] done synthesizing module 'tlast_design_1_axis_subset_converter_1_1' (8#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/tlast_design_1_axis_subset_converter_1_1.v:48]
+INFO: [Synth 8-6155] done synthesizing module 'top_design_1_axis_subset_converter_1_1' (9#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/hdl/top_design_1_axis_subset_converter_1_1.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axis_subset_converter_1_1' (10#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/synth/design_1_axis_subset_converter_1_1.v:58]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1315.648 ; gain = 0.000
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 1671.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1315.648 ; gain = 0.000
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 1671.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1315.648 ; gain = 0.000
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 1671.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1315.648 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1671.047 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/design_1_axis_subset_converter_1_1_ooc.xdc] for cell 'inst'
-Finished Parsing XDC File [h:/Vivado/camerasignaltest/camerasignaltest.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/design_1_axis_subset_converter_1_1_ooc.xdc] for cell 'inst'
-Parsing XDC File [H:/Vivado/camerasignaltest/camerasignaltest.runs/design_1_axis_subset_converter_1_1_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [H:/Vivado/camerasignaltest/camerasignaltest.runs/design_1_axis_subset_converter_1_1_synth_1/dont_touch.xdc]
+Parsing XDC File [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/design_1_axis_subset_converter_1_1_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_1_1/design_1_axis_subset_converter_1_1_ooc.xdc] for cell 'inst'
+Parsing XDC File [C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_axis_subset_converter_1_1_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_axis_subset_converter_1_1_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1353.738 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1671.047 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1359.746 ; gain = 6.008
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.138 . Memory (MB): peak = 1671.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 1359.746 ; gain = 44.098
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:28 . Memory (MB): peak = 1671.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z035ffg676-2
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 1359.746 ; gain = 44.098
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:28 . Memory (MB): peak = 1671.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  H:/Vivado/camerasignaltest/camerasignaltest.runs/design_1_axis_subset_converter_1_1_synth_1/dont_touch.xdc, line 9).
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_axis_subset_converter_1_1_synth_1/dont_touch.xdc, line 9).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 1359.746 ; gain = 44.098
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:28 . Memory (MB): peak = 1671.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 1359.746 ; gain = 44.098
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:29 . Memory (MB): peak = 1671.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -114,25 +115,25 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 1359.746 ; gain = 44.098
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:31 . Memory (MB): peak = 1671.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 1382.199 ; gain = 66.551
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:37 . Memory (MB): peak = 1671.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 1382.199 ; gain = 66.551
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:37 . Memory (MB): peak = 1671.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 1401.289 ; gain = 85.641
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:37 . Memory (MB): peak = 1671.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -150,37 +151,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 1407.066 ; gain = 91.418
+Finished IO Insertion : Time (s): cpu = 00:00:10 ; elapsed = 00:00:40 . Memory (MB): peak = 1671.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 1407.066 ; gain = 91.418
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:10 ; elapsed = 00:00:40 . Memory (MB): peak = 1671.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 1407.066 ; gain = 91.418
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:10 ; elapsed = 00:00:40 . Memory (MB): peak = 1671.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 1407.066 ; gain = 91.418
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:10 ; elapsed = 00:00:40 . Memory (MB): peak = 1671.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 1407.066 ; gain = 91.418
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:40 . Memory (MB): peak = 1671.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 1407.066 ; gain = 91.418
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:10 ; elapsed = 00:00:40 . Memory (MB): peak = 1671.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -198,26 +199,26 @@ Report Cell Usage:
 +-+-----+------+
 +-+-----+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 1407.066 ; gain = 91.418
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:10 ; elapsed = 00:00:40 . Memory (MB): peak = 1671.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:26 . Memory (MB): peak = 1407.066 ; gain = 47.320
-Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 1407.066 ; gain = 91.418
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:28 . Memory (MB): peak = 1671.047 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:10 ; elapsed = 00:00:40 . Memory (MB): peak = 1671.047 ; gain = 0.000
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1407.066 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1671.047 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1439.941 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1671.047 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 Synth Design complete, checksum: b2ed66c8
 INFO: [Common 17-83] Releasing license: Synthesis
-37 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+35 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:35 . Memory (MB): peak = 1444.953 ; gain = 129.305
-INFO: [Common 17-1381] The checkpoint 'H:/Vivado/camerasignaltest/camerasignaltest.runs/design_1_axis_subset_converter_1_1_synth_1/design_1_axis_subset_converter_1_1.dcp' has been generated.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_axis_subset_converter_1_1, cache-ID = 9c623b1cc617a07d
-INFO: [Common 17-1381] The checkpoint 'H:/Vivado/camerasignaltest/camerasignaltest.runs/design_1_axis_subset_converter_1_1_synth_1/design_1_axis_subset_converter_1_1.dcp' has been generated.
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:48 . Memory (MB): peak = 1671.047 ; gain = 193.281
+INFO: [Common 17-1381] The checkpoint 'C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_axis_subset_converter_1_1_synth_1/design_1_axis_subset_converter_1_1.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_axis_subset_converter_1_1, cache-ID = 9bbe77b491db1ec2
+INFO: [Common 17-1381] The checkpoint 'C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_axis_subset_converter_1_1_synth_1/design_1_axis_subset_converter_1_1.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_axis_subset_converter_1_1_utilization_synth.rpt -pb design_1_axis_subset_converter_1_1_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sat Sep 16 16:13:02 2023...
+INFO: [Common 17-206] Exiting Vivado at Mon Dec  4 19:53:12 2023...

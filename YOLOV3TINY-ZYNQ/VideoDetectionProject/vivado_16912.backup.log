@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Oct  8 21:03:41 2023
+# Process ID: 16912
+# Current directory: H:/Vivado/YOLOV3TINY-ZYNQ/VideoDetectionProject
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30632 H:\Vivado\YOLOV3TINY-ZYNQ\VideoDetectionProject\VideoDetectionProject.xpr
+# Log file: H:/Vivado/YOLOV3TINY-ZYNQ/VideoDetectionProject/vivado.log
+# Journal file: H:/Vivado/YOLOV3TINY-ZYNQ/VideoDetectionProject\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project H:/Vivado/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.xpr
+INFO: [Project 1-313] Project file moved from 'H:/Vivado/VideoDetectionProject' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'h:/Vivado/YOLOV3TINY-ZYNQ/IP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'H:/Xilinx/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:13 . Memory (MB): peak = 1437.590 ; gain = 75.207
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Oct  8 21:05:24 2023] Launched synth_1...
+Run output will be captured here: H:/Vivado/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/synth_1/runme.log
+[Sun Oct  8 21:05:24 2023] Launched impl_1...
+Run output will be captured here: H:/Vivado/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/impl_1/runme.log
+write_hw_platform -fixed -include_bit -force -file H:/Vivado/YOLOV3TINY-ZYNQ/VideoDetectionProject/hardwareplatform.xsa
+INFO: [Vivado 12-4895] Creating Hardware Platform: H:/Vivado/YOLOV3TINY-ZYNQ/VideoDetectionProject/hardwareplatform.xsa ...
+INFO: [Hsi 55-2053] elapsed time for repository (H:/Xilinx/Vivado/2021.1/data/embeddedsw) loading 1 seconds
+INFO: [Vivado 12-12464] The Hardware Platform can be used for Hardware
+INFO: [Vivado 12-4896] Successfully created Hardware Platform: H:/Vivado/YOLOV3TINY-ZYNQ/VideoDetectionProject/hardwareplatform.xsa
+write_hw_platform: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1696.910 ; gain = 165.906
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Oct  8 21:35:46 2023...

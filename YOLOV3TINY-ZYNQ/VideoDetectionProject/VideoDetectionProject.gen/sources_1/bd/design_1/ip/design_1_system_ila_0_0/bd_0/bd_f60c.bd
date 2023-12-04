@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0xB8FD99AF01B326EC",
+      "boundary_crc": "0xB8FD99AF3D0A8CA0",
       "design_src": "SBD",
       "device": "xc7z035ffg676-2",
       "name": "bd_f60c",
@@ -56,7 +56,7 @@
             "value_src": "default"
           },
           "FREQ_HZ": {
-            "value": "142857132",
+            "value": "200000000",
             "value_src": "default"
           },
           "HAS_BRESP": {
@@ -187,7 +187,7 @@
             "value_src": "default"
           },
           "FREQ_HZ": {
-            "value": "142857132",
+            "value": "200000000",
             "value_src": "default"
           },
           "HAS_BRESP": {
@@ -305,7 +305,7 @@
             "value_src": "default_prop"
           },
           "FREQ_HZ": {
-            "value": "142857132",
+            "value": "200000000",
             "value_src": "default_prop"
           },
           "FREQ_TOLERANCE_HZ": {
@@ -363,7 +363,7 @@
             "value": "0"
           },
           "C_ILA_CLK_FREQ": {
-            "value": "142857132"
+            "value": "200000000"
           },
           "C_INPUT_PIPE_STAGES": {
             "value": "0"

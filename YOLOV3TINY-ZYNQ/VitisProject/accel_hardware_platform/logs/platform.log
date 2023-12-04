@@ -4017,3 +4017,1265 @@ H:/VITIS-WORKSPACE/accel_test_system/preprocessplat/ps7_cortexa9_0/standalone_do
 H:/VITIS-WORKSPACE/accel_test_system/preprocessplat/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
 
 TRACE::2023-10-08.21:31:17::SCWMssOS::Sw design exists and opened at  H:/VITIS-WORKSPACE/accel_test_system/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:41:43::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:43::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:43::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:43::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:41:43::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:43::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:41:43::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-12-04.20:41:48::SCWPlatform::Opened new HwDB with name design_1_wrapper
+TRACE::2023-12-04.20:41:48::SCWReader::Active system found as  accel_hardware_platform
+TRACE::2023-12-04.20:41:48::SCWReader::Handling sysconfig accel_hardware_platform
+TRACE::2023-12-04.20:41:48::SCWDomain::checking for install qemu data   : 
+TRACE::2023-12-04.20:41:48::SCWDomain:: Using the QEMU Data from install at  : H:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-12-04.20:41:48::SCWDomain:: Using the QEMU args  from install at  : H:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-12-04.20:41:48::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:48::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:48::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:48::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:41:48::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:48::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:41:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-12-04.20:41:48::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-12-04.20:41:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:41:48::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:48::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:48::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:48::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:41:48::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:48::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:41:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-12-04.20:41:48::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-12-04.20:41:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:41:48::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:48::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:48::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:48::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:41:48::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:48::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:41:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-12-04.20:41:48::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-12-04.20:41:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:41:48::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2023-12-04.20:41:48::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:48::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:48::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:48::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:41:48::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:48::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:41:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-12-04.20:41:48::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-12-04.20:41:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:41:48::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:41:48::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-12-04.20:41:48::SCWMssOS::No sw design opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:41:48::SCWMssOS::mss exists loading the mss file  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:41:48::SCWMssOS::Opened the sw design from mss  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:41:48::SCWMssOS::Adding the swdes entry H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2023-12-04.20:41:48::SCWMssOS::updating the scw layer about changes
+TRACE::2023-12-04.20:41:49::SCWMssOS::Opened the sw design.  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:41:49::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:41:49::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:41:49::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-12-04.20:41:49::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-12-04.20:41:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:41:49::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:41:49::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:41:49::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:41:49::SCWMssOS:: library already available in sw design:  xilffs:4.5
+TRACE::2023-12-04.20:41:49::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:41:49::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:41:49::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-12-04.20:41:49::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-12-04.20:41:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:41:49::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:41:49::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:41:49::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:41:49::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2023-12-04.20:41:49::SCWMssOS::Saving the mss changes H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:41:49::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-12-04.20:41:49::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-12-04.20:41:49::SCWMssOS::Commit changes completed.
+TRACE::2023-12-04.20:41:49::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-12-04.20:41:49::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-12-04.20:41:49::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:41:49::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:41:49::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-12-04.20:41:49::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-12-04.20:41:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:41:49::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:41:49::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:41:49::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:41:49::SCWReader::No isolation master present  
+TRACE::2023-12-04.20:41:49::SCWDomain::checking for install qemu data   : 
+TRACE::2023-12-04.20:41:49::SCWDomain:: Using the QEMU Data from install at  : H:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-12-04.20:41:49::SCWDomain:: Using the QEMU args  from install at  : H:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-12-04.20:41:49::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:41:49::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:41:49::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-12-04.20:41:49::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-12-04.20:41:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:41:49::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:41:49::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:41:49::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-12-04.20:41:49::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-12-04.20:41:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:41:49::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:41:49::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:41:49::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-12-04.20:41:49::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-12-04.20:41:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:41:49::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:41:49::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:41:49::SCWMssOS::No sw design opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:41:49::SCWMssOS::mss exists loading the mss file  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:41:49::SCWMssOS::Opened the sw design from mss  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:41:49::SCWMssOS::Adding the swdes entry H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2023-12-04.20:41:49::SCWMssOS::updating the scw layer about changes
+TRACE::2023-12-04.20:41:49::SCWMssOS::Opened the sw design.  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:41:49::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:41:49::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:41:49::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-12-04.20:41:49::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-12-04.20:41:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:41:49::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:41:49::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:41:49::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:41:49::SCWMssOS:: library already available in sw design:  xilffs:4.5
+TRACE::2023-12-04.20:41:49::SCWMssOS::Saving the mss changes H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:41:49::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-12-04.20:41:49::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-12-04.20:41:49::SCWMssOS::Commit changes completed.
+TRACE::2023-12-04.20:41:49::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-12-04.20:41:49::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-12-04.20:41:49::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:41:49::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:41:49::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:41:49::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-12-04.20:41:49::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-12-04.20:41:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:41:49::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:41:49::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:41:49::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:41:49::SCWReader::No isolation master present  
+TRACE::2023-12-04.20:42:40::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:40::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:40::SCWPlatform:: Platform location is H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/tempdsa
+TRACE::2023-12-04.20:42:40::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:40::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:42:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:42:44::SCWMssOS::Doing hw sync for the mss in domain: zynq_fsbl
+TRACE::2023-12-04.20:42:44::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:42:44::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:42:44::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:42:44::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:42:44::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:42:44::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:42:44::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-12-04.20:42:44::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-12-04.20:42:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:42:44::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:42:44::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:42:44::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:42:44::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:42:44::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:42:44::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:42:44::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-12-04.20:42:44::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-12-04.20:42:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:42:44::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:42:44::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:42:44::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:42:44::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:44::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:44::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:44::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/tempdsa
+TRACE::2023-12-04.20:42:44::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:44::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:42:44::SCWPlatform::update - Opened existing hwdb design_1_wrapper_0
+TRACE::2023-12-04.20:42:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:42:44::SCWMssOS::Doing hw sync for the mss in domain: standalone_domain
+TRACE::2023-12-04.20:42:44::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:42:44::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:42:44::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:42:44::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:42:44::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:42:44::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:42:44::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-12-04.20:42:44::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-12-04.20:42:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:42:44::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:42:44::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:42:44::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:42:44::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:42:44::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/hardwareplatform.xsa
+TRACE::2023-12-04.20:42:44::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:42:44::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-12-04.20:42:44::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-12-04.20:42:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:42:44::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:42:44::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:42:44::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:42:44::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:44::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:44::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:44::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/tempdsa
+TRACE::2023-12-04.20:42:44::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:44::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:42:44::SCWPlatform::update - Opened existing hwdb design_1_wrapper_0
+TRACE::2023-12-04.20:42:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:42:44::SCWMssOS::Saving the mss changes H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:42:44::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-12-04.20:42:44::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-12-04.20:42:44::SCWMssOS::Commit changes completed.
+TRACE::2023-12-04.20:42:44::SCWMssOS::Completed hw sync for the mss in domain: zynq_fsbl
+TRACE::2023-12-04.20:42:44::SCWMssOS::Removing the swdes entry for  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:42:44::SCWMssOS::Saving the mss changes H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:42:44::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-12-04.20:42:44::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-12-04.20:42:44::SCWMssOS::Commit changes completed.
+TRACE::2023-12-04.20:42:44::SCWMssOS::Completed hw sync for the mss in domain: standalone_domain
+TRACE::2023-12-04.20:42:44::SCWMssOS::Removing the swdes entry for  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:42:44::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:44::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:44::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:44::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:42:44::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:44::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:42:44::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-12-04.20:42:47::SCWPlatform::Opened new HwDB with name design_1_wrapper_1
+TRACE::2023-12-04.20:42:47::SCWMssOS::Saving the mss changes H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:42:47::SCWMssOS::Adding the swdes entry, mss present, able to open swdb H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2023-12-04.20:42:47::SCWMssOS::Writing the mss file completed H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:42:47::SCWMssOS::Commit changes completed.
+TRACE::2023-12-04.20:42:47::SCWMssOS::Saving the mss changes H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:42:47::SCWMssOS::Adding the swdes entry, mss present, able to open swdb H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2023-12-04.20:42:47::SCWMssOS::Writing the mss file completed H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:42:47::SCWMssOS::Commit changes completed.
+TRACE::2023-12-04.20:42:47::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:47::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:47::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:47::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:42:47::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:42:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-12-04.20:42:47::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-12-04.20:42:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:42:47::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:42:47::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:42:47::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:42:47::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:47::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:47::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:47::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:42:47::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:42:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-12-04.20:42:47::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-12-04.20:42:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:42:47::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:42:47::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:42:47::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:42:47::SCWWriter::formatted JSON is {
+	"platformName":	"accel_hardware_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"accel_hardware_platform",
+	"platHandOff":	"H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"accel_hardware_platform",
+	"systems":	[{
+			"systemName":	"accel_hardware_platform",
+			"systemDesc":	"accel_hardware_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"accel_hardware_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"5cc76efb4ecbf28bedd14c17b8d8fa5b",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.5", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"H:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"H:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"ef33b4750f25bdbdbe376e96f1e5c0c9",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-12-04.20:42:48::SCWPlatform::Clearing the existing platform
+TRACE::2023-12-04.20:42:48::SCWSystem::Clearing the existing sysconfig
+TRACE::2023-12-04.20:42:48::SCWBDomain::clearing the fsbl build
+TRACE::2023-12-04.20:42:48::SCWMssOS::Removing the swdes entry for  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:42:48::SCWMssOS::Removing the swdes entry for  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:42:48::SCWSystem::Clearing the domains completed.
+TRACE::2023-12-04.20:42:48::SCWPlatform::Clearing the opened hw db.
+TRACE::2023-12-04.20:42:48::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:48::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:48::SCWPlatform:: Platform location is H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:42:48::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:48::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:42:48::SCWPlatform::Removing the HwDB with name H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:48::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:48::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:48::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:48::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:42:48::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:48::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:42:48::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-12-04.20:42:52::SCWPlatform::Opened new HwDB with name design_1_wrapper_2
+TRACE::2023-12-04.20:42:52::SCWReader::Active system found as  accel_hardware_platform
+TRACE::2023-12-04.20:42:52::SCWReader::Handling sysconfig accel_hardware_platform
+TRACE::2023-12-04.20:42:52::SCWDomain::checking for install qemu data   : 
+TRACE::2023-12-04.20:42:52::SCWDomain:: Using the QEMU Data from install at  : H:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-12-04.20:42:52::SCWDomain:: Using the QEMU args  from install at  : H:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-12-04.20:42:52::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:42:52::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:42:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:42:52::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:42:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:42:52::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:42:52::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:42:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:42:52::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:42:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:42:52::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:42:52::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:42:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:42:52::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:42:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:42:52::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2023-12-04.20:42:52::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:42:52::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:42:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:42:52::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:42:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:42:52::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:42:52::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-12-04.20:42:52::SCWMssOS::No sw design opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:42:52::SCWMssOS::mss exists loading the mss file  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:42:52::SCWMssOS::Opened the sw design from mss  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:42:52::SCWMssOS::Adding the swdes entry H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2023-12-04.20:42:52::SCWMssOS::updating the scw layer about changes
+TRACE::2023-12-04.20:42:52::SCWMssOS::Opened the sw design.  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:42:52::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:42:52::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:42:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:42:52::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:42:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:42:52::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:42:52::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:42:52::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:42:52::SCWMssOS:: library already available in sw design:  xilffs:4.5
+TRACE::2023-12-04.20:42:52::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:42:52::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:42:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:42:52::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:42:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:42:52::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:42:52::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:42:52::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:42:52::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2023-12-04.20:42:52::SCWMssOS::Saving the mss changes H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:42:52::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-12-04.20:42:52::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-12-04.20:42:52::SCWMssOS::Commit changes completed.
+TRACE::2023-12-04.20:42:52::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-12-04.20:42:52::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-12-04.20:42:52::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:42:52::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:42:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:42:52::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:42:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:42:52::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:42:52::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:42:52::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:42:52::SCWReader::No isolation master present  
+TRACE::2023-12-04.20:42:52::SCWDomain::checking for install qemu data   : 
+TRACE::2023-12-04.20:42:52::SCWDomain:: Using the QEMU Data from install at  : H:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-12-04.20:42:52::SCWDomain:: Using the QEMU args  from install at  : H:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-12-04.20:42:52::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:42:52::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:42:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:42:52::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:42:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:42:52::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:42:52::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:42:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:42:52::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:42:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:42:52::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:42:52::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:42:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:42:52::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:42:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:42:52::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:42:52::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:42:52::SCWMssOS::No sw design opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:42:52::SCWMssOS::mss exists loading the mss file  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:42:52::SCWMssOS::Opened the sw design from mss  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:42:52::SCWMssOS::Adding the swdes entry H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2023-12-04.20:42:52::SCWMssOS::updating the scw layer about changes
+TRACE::2023-12-04.20:42:52::SCWMssOS::Opened the sw design.  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:42:52::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:42:52::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:42:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:42:52::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:42:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:42:52::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:42:52::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:42:52::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:42:52::SCWMssOS:: library already available in sw design:  xilffs:4.5
+TRACE::2023-12-04.20:42:52::SCWMssOS::Saving the mss changes H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:42:52::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-12-04.20:42:52::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-12-04.20:42:52::SCWMssOS::Commit changes completed.
+TRACE::2023-12-04.20:42:52::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-12-04.20:42:52::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-12-04.20:42:52::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:42:52::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:52::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:42:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:42:52::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:42:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:42:52::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:42:52::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:42:52::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:42:52::SCWReader::No isolation master present  
+LOG::2023-12-04.20:42:56::SCWPlatform::Started generating the artifacts platform accel_hardware_platform
+TRACE::2023-12-04.20:42:56::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-12-04.20:42:56::SCWPlatform::Started generating the artifacts for system configuration accel_hardware_platform
+LOG::2023-12-04.20:42:56::SCWSystem::Checking the domain zynq_fsbl
+LOG::2023-12-04.20:42:56::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2023-12-04.20:42:56::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2023-12-04.20:42:56::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2023-12-04.20:42:56::SCWSystem::Checking the domain standalone_domain
+LOG::2023-12-04.20:42:56::SCWSystem::Not a boot domain 
+LOG::2023-12-04.20:42:56::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-12-04.20:42:56::SCWDomain::Generating domain artifcats
+TRACE::2023-12-04.20:42:56::SCWMssOS::Generating standalone artifcats
+TRACE::2023-12-04.20:42:56::SCWMssOS::Copying the qemu file from  H:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/export/accel_hardware_platform/sw/accel_hardware_platform/qemu/
+TRACE::2023-12-04.20:42:56::SCWMssOS::Copying the qemu file from  H:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/export/accel_hardware_platform/sw/accel_hardware_platform/standalone_domain/qemu/
+TRACE::2023-12-04.20:42:56::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-12-04.20:42:56::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:56::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:56::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:56::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:42:56::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:56::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:42:56::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:42:56::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:42:56::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:42:56::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:42:56::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:42:56::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:42:56::SCWMssOS::Completed writing the mss file at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2023-12-04.20:42:56::SCWMssOS::Mss edits present, copying mssfile into export location H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:42:56::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-12-04.20:42:56::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-12-04.20:42:56::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2023-12-04.20:42:56::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-12-04.20:42:56::SCWMssOS::Copying to export directory.
+TRACE::2023-12-04.20:42:56::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-12-04.20:42:56::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-12-04.20:42:56::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-12-04.20:42:56::SCWSystem::Completed Processing the sysconfig accel_hardware_platform
+LOG::2023-12-04.20:42:56::SCWPlatform::Completed generating the artifacts for system configuration accel_hardware_platform
+TRACE::2023-12-04.20:42:56::SCWPlatform::Started preparing the platform 
+TRACE::2023-12-04.20:42:56::SCWSystem::Writing the bif file for system config accel_hardware_platform
+TRACE::2023-12-04.20:42:56::SCWSystem::dir created 
+TRACE::2023-12-04.20:42:56::SCWSystem::Writing the bif 
+TRACE::2023-12-04.20:42:56::SCWPlatform::Started writing the spfm file 
+TRACE::2023-12-04.20:42:56::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-12-04.20:42:56::SCWPlatform::Completed generating the platform
+TRACE::2023-12-04.20:42:56::SCWMssOS::Saving the mss changes H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:42:56::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-12-04.20:42:56::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-12-04.20:42:56::SCWMssOS::Commit changes completed.
+TRACE::2023-12-04.20:42:56::SCWMssOS::Saving the mss changes H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:42:56::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-12-04.20:42:56::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-12-04.20:42:56::SCWMssOS::Commit changes completed.
+TRACE::2023-12-04.20:42:56::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:56::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:56::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:56::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:42:56::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:56::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:42:56::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:42:56::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:42:56::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:42:56::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:42:56::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:42:56::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:42:56::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:56::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:56::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:56::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:42:56::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:56::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:42:56::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:42:56::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:42:56::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:42:56::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:42:56::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:42:56::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:42:56::SCWWriter::formatted JSON is {
+	"platformName":	"accel_hardware_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"accel_hardware_platform",
+	"platHandOff":	"H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"accel_hardware_platform",
+	"systems":	[{
+			"systemName":	"accel_hardware_platform",
+			"systemDesc":	"accel_hardware_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"accel_hardware_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"5cc76efb4ecbf28bedd14c17b8d8fa5b",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.5", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"H:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"H:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"ef33b4750f25bdbdbe376e96f1e5c0c9",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-12-04.20:42:56::SCWPlatform::updated the xpfm file.
+TRACE::2023-12-04.20:42:56::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:56::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:56::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:56::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:42:56::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:56::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:42:56::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:42:56::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:42:56::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:42:56::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:42:56::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:42:56::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:42:59::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:59::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:59::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:59::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:42:59::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:42:59::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:42:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:42:59::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:42:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:42:59::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:42:59::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:42:59::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:43:00::SCWMssOS::In reload Mss file.
+TRACE::2023-12-04.20:43:00::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:00::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:00::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:00::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:43:00::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:00::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:43:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:43:00::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:43:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:43:00::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:43:00::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:43:00::SCWMssOS::No sw design opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:43:00::SCWMssOS::mss exists loading the mss file  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:43:00::SCWMssOS::Opened the sw design from mss  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:43:00::SCWMssOS::Adding the swdes entry H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2023-12-04.20:43:00::SCWMssOS::updating the scw layer about changes
+TRACE::2023-12-04.20:43:00::SCWMssOS::Opened the sw design.  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:43:00::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:00::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:00::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:00::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:43:00::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:00::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:43:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:43:00::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:43:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:43:00::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:43:00::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:43:00::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:43:00::SCWMssOS:: library already available in sw design:  xilffs:4.5
+TRACE::2023-12-04.20:43:00::SCWMssOS::Saving the mss changes H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:43:00::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-12-04.20:43:00::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-12-04.20:43:00::SCWMssOS::Commit changes completed.
+TRACE::2023-12-04.20:43:00::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:00::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:00::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:00::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:43:00::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:00::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:43:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:43:00::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:43:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:43:00::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:43:00::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:43:00::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:43:00::SCWMssOS::Removing the swdes entry for  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:43:04::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:04::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:04::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:04::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:43:04::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:04::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:43:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:43:04::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:43:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:43:04::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:43:04::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:43:04::SCWMssOS::No sw design opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:43:04::SCWMssOS::mss exists loading the mss file  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:43:04::SCWMssOS::Opened the sw design from mss  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:43:04::SCWMssOS::Adding the swdes entry H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2023-12-04.20:43:04::SCWMssOS::updating the scw layer about changes
+TRACE::2023-12-04.20:43:04::SCWMssOS::Opened the sw design.  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:43:06::SCWMssOS::In reload Mss file.
+TRACE::2023-12-04.20:43:06::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:06::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:06::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:06::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:43:06::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:06::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:43:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:43:06::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:43:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:43:06::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:43:06::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:43:06::SCWMssOS::No sw design opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:43:06::SCWMssOS::mss exists loading the mss file  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:43:06::SCWMssOS::Opened the sw design from mss  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:43:06::SCWMssOS::Adding the swdes entry H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2023-12-04.20:43:06::SCWMssOS::updating the scw layer about changes
+TRACE::2023-12-04.20:43:07::SCWMssOS::Opened the sw design.  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:43:07::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:07::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:07::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:07::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:43:07::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:07::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:43:07::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:43:07::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:43:07::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:43:07::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:43:07::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:43:07::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:43:07::SCWMssOS:: library already available in sw design:  xilffs:4.5
+TRACE::2023-12-04.20:43:07::SCWMssOS::Saving the mss changes H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:43:07::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-12-04.20:43:07::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-12-04.20:43:07::SCWMssOS::Commit changes completed.
+TRACE::2023-12-04.20:43:07::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:07::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:07::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:07::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:43:07::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:07::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:43:07::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:43:07::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:43:07::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:43:07::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:43:07::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:43:07::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:43:07::SCWMssOS::Removing the swdes entry for  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:43:07::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:07::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:07::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:07::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:43:07::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:07::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:43:07::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:43:07::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:43:07::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:43:07::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:07::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:43:07::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:07::SCWMssOS::In reload Mss file.
+TRACE::2023-12-04.20:43:07::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:07::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:07::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:07::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:43:07::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:07::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:43:07::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:43:07::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:43:07::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:43:07::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:07::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-12-04.20:43:07::SCWMssOS::No sw design opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:07::SCWMssOS::mss exists loading the mss file  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:07::SCWMssOS::Opened the sw design from mss  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:07::SCWMssOS::Adding the swdes entry H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2023-12-04.20:43:07::SCWMssOS::updating the scw layer about changes
+TRACE::2023-12-04.20:43:07::SCWMssOS::Opened the sw design.  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:07::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:07::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:07::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:07::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:43:08::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:08::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:43:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:43:08::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:43:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:43:08::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:08::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:43:08::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:08::SCWMssOS:: library already available in sw design:  xilffs:4.5
+TRACE::2023-12-04.20:43:08::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:08::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:08::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:08::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:43:08::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:08::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:43:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:43:08::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:43:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:43:08::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:08::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:43:08::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:08::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2023-12-04.20:43:08::SCWMssOS::Saving the mss changes H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:08::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-12-04.20:43:08::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-12-04.20:43:08::SCWMssOS::Commit changes completed.
+TRACE::2023-12-04.20:43:08::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:08::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:08::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:08::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:43:08::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:08::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:43:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:43:08::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:43:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:43:08::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:08::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:43:08::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:08::SCWMssOS::Removing the swdes entry for  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:08::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:08::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:08::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:08::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:43:08::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:08::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:43:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:43:08::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:43:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:43:08::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:08::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-12-04.20:43:08::SCWMssOS::No sw design opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:08::SCWMssOS::mss exists loading the mss file  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:08::SCWMssOS::Opened the sw design from mss  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:08::SCWMssOS::Adding the swdes entry H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2023-12-04.20:43:08::SCWMssOS::updating the scw layer about changes
+TRACE::2023-12-04.20:43:08::SCWMssOS::Opened the sw design.  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:11::SCWMssOS::In reload Mss file.
+TRACE::2023-12-04.20:43:11::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:11::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:11::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:11::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:43:11::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:11::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:43:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:43:11::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:43:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:43:11::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:11::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-12-04.20:43:11::SCWMssOS::No sw design opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:11::SCWMssOS::mss exists loading the mss file  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:11::SCWMssOS::Opened the sw design from mss  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:11::SCWMssOS::Adding the swdes entry H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2023-12-04.20:43:11::SCWMssOS::updating the scw layer about changes
+TRACE::2023-12-04.20:43:11::SCWMssOS::Opened the sw design.  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:11::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:11::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:11::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:11::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:43:11::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:11::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:43:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:43:11::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:43:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:43:11::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:11::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:43:11::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:11::SCWMssOS:: library already available in sw design:  xilffs:4.5
+TRACE::2023-12-04.20:43:11::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:11::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:11::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:11::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:43:11::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:11::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:43:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:43:11::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:43:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:43:11::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:11::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:43:11::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:11::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2023-12-04.20:43:11::SCWMssOS::Saving the mss changes H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:11::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-12-04.20:43:11::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-12-04.20:43:11::SCWMssOS::Commit changes completed.
+TRACE::2023-12-04.20:43:11::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:11::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:11::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:11::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:43:11::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:43:11::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:43:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:43:11::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:43:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:43:11::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:11::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-04.20:43:11::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:43:11::SCWMssOS::Removing the swdes entry for  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+LOG::2023-12-04.20:47:13::SCWPlatform::Started generating the artifacts platform accel_hardware_platform
+TRACE::2023-12-04.20:47:13::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-12-04.20:47:13::SCWPlatform::Started generating the artifacts for system configuration accel_hardware_platform
+LOG::2023-12-04.20:47:13::SCWSystem::Checking the domain zynq_fsbl
+LOG::2023-12-04.20:47:13::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2023-12-04.20:47:13::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2023-12-04.20:47:13::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2023-12-04.20:47:13::SCWSystem::Checking the domain standalone_domain
+LOG::2023-12-04.20:47:13::SCWSystem::Not a boot domain 
+LOG::2023-12-04.20:47:13::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-12-04.20:47:13::SCWDomain::Generating domain artifcats
+TRACE::2023-12-04.20:47:13::SCWMssOS::Generating standalone artifcats
+TRACE::2023-12-04.20:47:13::SCWMssOS::Copying the qemu file from  H:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/export/accel_hardware_platform/sw/accel_hardware_platform/qemu/
+TRACE::2023-12-04.20:47:13::SCWMssOS::Copying the qemu file from  H:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/export/accel_hardware_platform/sw/accel_hardware_platform/standalone_domain/qemu/
+TRACE::2023-12-04.20:47:13::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-12-04.20:47:13::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:47:13::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:47:13::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:47:13::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:47:13::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:47:13::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:47:13::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:47:13::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:47:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:47:13::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:47:13::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-12-04.20:47:13::SCWMssOS::No sw design opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:47:13::SCWMssOS::mss exists loading the mss file  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:47:13::SCWMssOS::Opened the sw design from mss  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:47:13::SCWMssOS::Adding the swdes entry H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2023-12-04.20:47:13::SCWMssOS::updating the scw layer about changes
+TRACE::2023-12-04.20:47:13::SCWMssOS::Opened the sw design.  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:47:13::SCWMssOS::Completed writing the mss file at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2023-12-04.20:47:13::SCWMssOS::Mss edits present, copying mssfile into export location H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:47:13::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-12-04.20:47:13::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-12-04.20:47:13::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2023-12-04.20:47:13::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-12-04.20:47:13::SCWMssOS::Copying to export directory.
+TRACE::2023-12-04.20:47:13::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-12-04.20:47:13::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-12-04.20:47:13::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-12-04.20:47:13::SCWSystem::Completed Processing the sysconfig accel_hardware_platform
+LOG::2023-12-04.20:47:13::SCWPlatform::Completed generating the artifacts for system configuration accel_hardware_platform
+TRACE::2023-12-04.20:47:13::SCWPlatform::Started preparing the platform 
+TRACE::2023-12-04.20:47:13::SCWSystem::Writing the bif file for system config accel_hardware_platform
+TRACE::2023-12-04.20:47:13::SCWSystem::dir created 
+TRACE::2023-12-04.20:47:13::SCWSystem::Writing the bif 
+TRACE::2023-12-04.20:47:13::SCWPlatform::Started writing the spfm file 
+TRACE::2023-12-04.20:47:13::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-12-04.20:47:13::SCWPlatform::Completed generating the platform
+TRACE::2023-12-04.20:47:13::SCWMssOS::Saving the mss changes H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:47:13::SCWMssOS::Adding the swdes entry, mss present, able to open swdb H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system_0
+TRACE::2023-12-04.20:47:13::SCWMssOS::Writing the mss file completed H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:47:13::SCWMssOS::Commit changes completed.
+TRACE::2023-12-04.20:47:13::SCWMssOS::Saving the mss changes H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:47:13::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-12-04.20:47:13::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-12-04.20:47:13::SCWMssOS::Commit changes completed.
+TRACE::2023-12-04.20:47:13::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:47:13::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:47:13::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:47:13::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:47:13::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:47:13::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:47:13::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:47:13::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:47:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:47:13::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:47:13::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_0||
+
+TRACE::2023-12-04.20:47:13::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-04.20:47:13::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:47:13::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:47:13::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:47:13::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:47:13::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:47:13::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:47:13::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:47:13::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:47:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:47:13::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:47:13::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_0||
+
+TRACE::2023-12-04.20:47:13::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:47:13::SCWWriter::formatted JSON is {
+	"platformName":	"accel_hardware_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"accel_hardware_platform",
+	"platHandOff":	"H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"accel_hardware_platform",
+	"systems":	[{
+			"systemName":	"accel_hardware_platform",
+			"systemDesc":	"accel_hardware_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"accel_hardware_platform",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"5cc76efb4ecbf28bedd14c17b8d8fa5b",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.5", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"H:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"H:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"ef33b4750f25bdbdbe376e96f1e5c0c9",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-12-04.20:47:13::SCWPlatform::updated the xpfm file.
+TRACE::2023-12-04.20:47:13::SCWPlatform::Trying to open the hw design at H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:47:13::SCWPlatform::DSA given H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:47:13::SCWPlatform::DSA absoulate path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:47:13::SCWPlatform::DSA directory H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw
+TRACE::2023-12-04.20:47:13::SCWPlatform:: Platform Path H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-04.20:47:13::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-12-04.20:47:13::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2023-12-04.20:47:13::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2023-12-04.20:47:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-04.20:47:13::SCWMssOS::Checking the sw design at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-04.20:47:13::SCWMssOS::DEBUG:  swdes dump  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_0||
+
+TRACE::2023-12-04.20:47:13::SCWMssOS::Sw design exists and opened at  H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss

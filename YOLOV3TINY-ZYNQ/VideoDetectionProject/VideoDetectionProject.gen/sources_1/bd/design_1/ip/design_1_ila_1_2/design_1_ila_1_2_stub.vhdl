@@ -1,7 +1,7 @@
 -- Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
--- Date        : Sat Sep 16 16:15:58 2023
+-- Date        : Mon Dec  4 19:55:11 2023
 -- Host        : DESKTOP-0QC1VIS running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode synth_stub -rename_top design_1_ila_1_2 -prefix
 --               design_1_ila_1_2_ design_1_ila_1_1_stub.vhdl

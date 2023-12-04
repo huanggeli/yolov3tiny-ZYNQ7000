@@ -27,3 +27,12 @@ bsp reload
 catch {bsp regenerate}
 platform generate -domains standalone_domain 
 catch {platform remove preprocessplat}
+platform active {accel_hardware_platform}
+platform config -updatehw {H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/design_1_wrapper.xsa}
+platform generate -domains 
+bsp reload
+bsp reload
+domain active {zynq_fsbl}
+bsp reload
+bsp reload
+platform generate -domains 

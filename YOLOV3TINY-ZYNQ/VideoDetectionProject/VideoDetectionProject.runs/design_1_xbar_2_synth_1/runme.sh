@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='H:/Vivado/PREPROCESSTEST-basebroadOK/PREPROCESSTEST-basebroadOK.runs/design_1_xbar_2_synth_1'
+HD_PWD='C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_xbar_2_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

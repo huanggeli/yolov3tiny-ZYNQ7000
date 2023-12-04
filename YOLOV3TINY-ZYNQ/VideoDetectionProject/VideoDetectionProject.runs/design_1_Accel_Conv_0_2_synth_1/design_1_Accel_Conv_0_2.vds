@@ -1,0 +1,1657 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Dec  4 19:54:48 2023
+# Process ID: 28556
+# Current directory: C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_Accel_Conv_0_2_synth_1
+# Command line: vivado.exe -log design_1_Accel_Conv_0_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_Accel_Conv_0_2.tcl
+# Log file: C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_Accel_Conv_0_2_synth_1/design_1_Accel_Conv_0_2.vds
+# Journal file: C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_Accel_Conv_0_2_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_Accel_Conv_0_2.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/IP'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/IP/accel_conv_ip'. The path is contained within another repository.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'H:/Xilinx/Vivado/2021.1/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.cache/ip 
+Command: synth_design -top design_1_Accel_Conv_0_2 -part xc7z035ffg676-2 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z035'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z035'
+INFO: [Device 21-403] Loading part xc7z035ffg676-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 16400
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1363.293 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_Accel_Conv_0_2' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_Accel_Conv_0_2/synth/design_1_Accel_Conv_0_2.v:59]
+INFO: [Synth 8-6157] synthesizing module 'Accel_Conv' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/Accel_Conv.v:1]
+INFO: [Synth 8-6157] synthesizing module 'global_para_gen' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/global_para_gen.v:1]
+INFO: [Synth 8-226] default block is never used [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/global_para_gen.v:84]
+INFO: [Synth 8-226] default block is never used [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/global_para_gen.v:118]
+INFO: [Synth 8-6155] done synthesizing module 'global_para_gen' (1#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/global_para_gen.v:1]
+INFO: [Synth 8-6157] synthesizing module 'interface_axilite_ctrl' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/interface_axilite_ctrl.v:4]
+INFO: [Synth 8-226] default block is never used [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/interface_axilite_ctrl.v:203]
+INFO: [Synth 8-226] default block is never used [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/interface_axilite_ctrl.v:320]
+INFO: [Synth 8-6155] done synthesizing module 'interface_axilite_ctrl' (2#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/interface_axilite_ctrl.v:4]
+WARNING: [Synth 8-689] width (5) of port connection 'S_AXI_AWADDR' does not match port width (4) of module 'interface_axilite_ctrl' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/Accel_Conv.v:300]
+WARNING: [Synth 8-689] width (5) of port connection 'S_AXI_ARADDR' does not match port width (4) of module 'interface_axilite_ctrl' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/Accel_Conv.v:311]
+INFO: [Synth 8-6157] synthesizing module 'generate_ctrl_signal' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/generate_ctrl_signal.v:1]
+INFO: [Synth 8-6157] synthesizing module 'com_ctrl_task' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_ctrl_task.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'com_ctrl_task' (3#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_ctrl_task.v:1]
+INFO: [Synth 8-6157] synthesizing module 'com_ctrl_task__parameterized0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_ctrl_task.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'com_ctrl_task__parameterized0' (3#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_ctrl_task.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'generate_ctrl_signal' (4#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/generate_ctrl_signal.v:1]
+INFO: [Synth 8-6157] synthesizing module 'interface_axis_slave' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/interface_axis_slave.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'interface_axis_slave' (5#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/interface_axis_slave.v:1]
+INFO: [Synth 8-6157] synthesizing module 'interface_axis_master' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/interface_axis_master.v:1]
+INFO: [Synth 8-226] default block is never used [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/interface_axis_master.v:55]
+INFO: [Synth 8-6155] done synthesizing module 'interface_axis_master' (6#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/interface_axis_master.v:1]
+INFO: [Synth 8-6157] synthesizing module 'axis_buf_sel' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/axis_buf_sel.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'axis_buf_sel' (7#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/axis_buf_sel.v:1]
+INFO: [Synth 8-6157] synthesizing module 'global_data_beat' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/global_data_beat.v:1]
+INFO: [Synth 8-6157] synthesizing module 'com_shift_reg' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_shift_reg.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'com_shift_reg' (8#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_shift_reg.v:1]
+INFO: [Synth 8-6157] synthesizing module 'com_shift_reg__parameterized0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_shift_reg.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'com_shift_reg__parameterized0' (8#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_shift_reg.v:1]
+INFO: [Synth 8-6157] synthesizing module 'com_shift_reg__parameterized1' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_shift_reg.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'com_shift_reg__parameterized1' (8#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_shift_reg.v:1]
+WARNING: [Synth 8-689] width (16) of port connection 'si' does not match port width (12) of module 'com_shift_reg__parameterized1' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/global_data_beat.v:138]
+WARNING: [Synth 8-689] width (16) of port connection 'so' does not match port width (12) of module 'com_shift_reg__parameterized1' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/global_data_beat.v:139]
+INFO: [Synth 8-6157] synthesizing module 'com_shift_reg__parameterized2' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_shift_reg.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'com_shift_reg__parameterized2' (8#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_shift_reg.v:1]
+WARNING: [Synth 8-689] width (16) of port connection 'si' does not match port width (12) of module 'com_shift_reg__parameterized2' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/global_data_beat.v:146]
+WARNING: [Synth 8-689] width (16) of port connection 'so' does not match port width (12) of module 'com_shift_reg__parameterized2' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/global_data_beat.v:147]
+INFO: [Synth 8-6157] synthesizing module 'com_shift_reg__parameterized3' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_shift_reg.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'com_shift_reg__parameterized3' (8#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_shift_reg.v:1]
+INFO: [Synth 8-6157] synthesizing module 'com_negedge_detect' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_negedge_detect.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'com_negedge_detect' (9#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_negedge_detect.v:1]
+INFO: [Synth 8-226] default block is never used [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/global_data_beat.v:192]
+INFO: [Synth 8-6155] done synthesizing module 'global_data_beat' (10#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/global_data_beat.v:1]
+INFO: [Synth 8-6157] synthesizing module 'accel_top' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/accel_top.v:1]
+INFO: [Synth 8-6157] synthesizing module 'buffer_ifm_1x8' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/buffer_ifm_1x8.v:1]
+INFO: [Synth 8-6157] synthesizing module 'com_dual_port_ram' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_dual_port_ram.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'com_dual_port_ram' (11#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_dual_port_ram.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'buffer_ifm_1x8' (12#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/buffer_ifm_1x8.v:1]
+INFO: [Synth 8-6157] synthesizing module 'buffer_weight_1x8x8' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/buffer_weight_1x8x8.v:1]
+INFO: [Synth 8-6157] synthesizing module 'buffer_weight_1x8' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/buffer_weight_1x8.v:1]
+INFO: [Synth 8-6157] synthesizing module 'com_simple_dual_port_ram' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_simple_dual_port_ram.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'com_simple_dual_port_ram' (13#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_simple_dual_port_ram.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'buffer_weight_1x8' (14#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/buffer_weight_1x8.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'buffer_weight_1x8x8' (15#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/buffer_weight_1x8x8.v:1]
+INFO: [Synth 8-6157] synthesizing module 'buffer_bias' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/buffer_bias.v:1]
+INFO: [Synth 8-6157] synthesizing module 'com_simple_dual_port_ram__parameterized0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_simple_dual_port_ram.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'com_simple_dual_port_ram__parameterized0' (15#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_simple_dual_port_ram.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'buffer_bias' (16#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/buffer_bias.v:1]
+INFO: [Synth 8-6157] synthesizing module 'module_sub_zero_point_1x8' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/module_sub_zero_point_1x8.v:1]
+INFO: [Synth 8-6157] synthesizing module 'cal_sub_zero_point' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/cal_sub_zero_point.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'cal_sub_zero_point' (17#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/cal_sub_zero_point.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'module_sub_zero_point_1x8' (18#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/module_sub_zero_point_1x8.v:1]
+INFO: [Synth 8-6157] synthesizing module 'linebuffer_3x3_collect' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/linebuffer_3x3_collect.v:1]
+INFO: [Synth 8-6157] synthesizing module 'linebuffer_3x3_type_x6' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/linebuffer_3x3_type_x6.v:1]
+INFO: [Synth 8-6157] synthesizing module 'com_shift_reg__parameterized4' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_shift_reg.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'com_shift_reg__parameterized4' (18#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_shift_reg.v:1]
+INFO: [Synth 8-6157] synthesizing module 'com_shift_reg__parameterized5' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_shift_reg.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'com_shift_reg__parameterized5' (18#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_shift_reg.v:1]
+INFO: [Synth 8-6157] synthesizing module 'com_shift_reg__parameterized6' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_shift_reg.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'com_shift_reg__parameterized6' (18#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_shift_reg.v:1]
+INFO: [Synth 8-6157] synthesizing module 'com_shift_reg__parameterized7' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_shift_reg.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'com_shift_reg__parameterized7' (18#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_shift_reg.v:1]
+INFO: [Synth 8-6157] synthesizing module 'com_shift_reg__parameterized8' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_shift_reg.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'com_shift_reg__parameterized8' (18#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_shift_reg.v:1]
+INFO: [Synth 8-6157] synthesizing module 'com_shift_reg__parameterized9' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_shift_reg.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'com_shift_reg__parameterized9' (18#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_shift_reg.v:1]
+INFO: [Synth 8-6157] synthesizing module 'com_mux_int_6sel1' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_mux_int8_6sel1.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'com_mux_int_6sel1' (19#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_mux_int8_6sel1.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'linebuffer_3x3_type_x6' (20#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/linebuffer_3x3_type_x6.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'linebuffer_3x3_collect' (21#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/linebuffer_3x3_collect.v:1]
+INFO: [Synth 8-6157] synthesizing module 'module_conv_kernel_1x2x8x4' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/module_conv_kernel_1x2x8x4.v:1]
+INFO: [Synth 8-6157] synthesizing module 'module_conv_kernel_1x2x8' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/module_conv_kernel_1x2x8.v:1]
+INFO: [Synth 8-6157] synthesizing module 'module_conv_kernel_1x2' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/module_conv_kernel_1x2.v:1]
+INFO: [Synth 8-6157] synthesizing module 'cal_mult_int8_x2' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/cal_mul_int8_x2.v:1]
+INFO: [Synth 8-6157] synthesizing module 'cal_mult_int8_x2_dsp' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/cal_mul_int8_x2_dsp.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'cal_mult_int8_x2_dsp' (22#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/cal_mul_int8_x2_dsp.v:2]
+WARNING: [Synth 8-7071] port 'out' of module 'cal_mult_int8_x2_dsp' is unconnected for instance 'u_cal_mult_int8_x2_dsp' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/cal_mul_int8_x2.v:14]
+WARNING: [Synth 8-7023] instance 'u_cal_mult_int8_x2_dsp' of module 'cal_mult_int8_x2_dsp' has 7 connections declared, but only 6 given [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/cal_mul_int8_x2.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'cal_mult_int8_x2' (23#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/cal_mul_int8_x2.v:1]
+INFO: [Synth 8-6157] synthesizing module 'cal_addtree_int16_x9' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/cal_addtree_int16_x9.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'cal_addtree_int16_x9' (24#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/cal_addtree_int16_x9.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'module_conv_kernel_1x2' (25#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/module_conv_kernel_1x2.v:1]
+INFO: [Synth 8-6157] synthesizing module 'cal_addtree_int18_x9' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/cal_addtree_int18_x9.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'cal_addtree_int18_x9' (26#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/cal_addtree_int18_x9.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'module_conv_kernel_1x2x8' (27#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/module_conv_kernel_1x2x8.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'module_conv_kernel_1x2x8x4' (28#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/module_conv_kernel_1x2x8x4.v:1]
+INFO: [Synth 8-6157] synthesizing module 'module_acc_1x8' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/module_acc_1x8.v:1]
+INFO: [Synth 8-6157] synthesizing module 'module_acc' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/module_acc.v:1]
+INFO: [Synth 8-6157] synthesizing module 'com_dual_port_ram__parameterized0' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_dual_port_ram.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'com_dual_port_ram__parameterized0' (28#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_dual_port_ram.v:1]
+INFO: [Synth 8-6157] synthesizing module 'cal_acc' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/cal_acc.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'cal_acc' (29#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/cal_acc.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'module_acc' (30#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/module_acc.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'module_acc_1x8' (31#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/module_acc_1x8.v:1]
+INFO: [Synth 8-6157] synthesizing module 'module_quant_1x8' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/module_quant_1x8.v:1]
+INFO: [Synth 8-6157] synthesizing module 'module_quant' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/module_quant.v:1]
+INFO: [Synth 8-6157] synthesizing module 'cal_sat_int18_int16' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/cal_sat_int18_int16.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'cal_sat_int18_int16' (32#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/cal_sat_int18_int16.v:1]
+INFO: [Synth 8-6157] synthesizing module 'cal_scale' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/cal_scale.v:1]
+INFO: [Synth 8-6157] synthesizing module 'cal_scale_mul' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/cal_scale_mul.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'cal_scale_mul' (33#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/cal_scale_mul.v:2]
+INFO: [Synth 8-6157] synthesizing module 'cal_scale_shift' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/cal_scale_shift.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'cal_scale_shift' (34#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/cal_scale_shift.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'cal_scale' (35#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/cal_scale.v:1]
+INFO: [Synth 8-6157] synthesizing module 'cal_sat_int16_int8' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/cal_sat_int16_int8.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'cal_sat_int16_int8' (36#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/cal_sat_int16_int8.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'module_quant' (37#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/module_quant.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'module_quant_1x8' (38#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/module_quant_1x8.v:1]
+INFO: [Synth 8-6157] synthesizing module 'module_leaky_relu_1x8' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/module_leaky_relu_1x8.v:1]
+INFO: [Synth 8-6157] synthesizing module 'com_simple_dual_port_ram__parameterized1' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_simple_dual_port_ram.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'com_simple_dual_port_ram__parameterized1' (38#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_simple_dual_port_ram.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'module_leaky_relu_1x8' (39#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/module_leaky_relu_1x8.v:1]
+INFO: [Synth 8-6157] synthesizing module 'module_relu_1x8' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/module_relu_1x8.v:1]
+INFO: [Synth 8-6157] synthesizing module 'cal_relu' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/cal_relu.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'cal_relu' (40#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/cal_relu.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'module_relu_1x8' (41#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/module_relu_1x8.v:1]
+INFO: [Synth 8-6157] synthesizing module 'linebuffer_2x2_collect' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/linebuffer_2x2_collect.v:1]
+INFO: [Synth 8-6157] synthesizing module 'linebuffer_2x2_type_x4' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/linebuffer_2x2_type_x6.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'linebuffer_2x2_type_x4' (42#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/linebuffer_2x2_type_x6.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'linebuffer_2x2_collect' (43#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/linebuffer_2x2_collect.v:1]
+INFO: [Synth 8-6157] synthesizing module 'module_pool_kernel_1x8' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/module_pool_kernel_1x8.v:1]
+INFO: [Synth 8-6157] synthesizing module 'module_pool_kernel' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/module_pool_kernel.v:1]
+INFO: [Synth 8-6157] synthesizing module 'cal_max_2x2' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/cal_max_2x2.v:1]
+INFO: [Synth 8-6157] synthesizing module 'cal_comparator' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/cal_comparator.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'cal_comparator' (44#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/cal_comparator.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'cal_max_2x2' (45#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/cal_max_2x2.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'module_pool_kernel' (46#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/module_pool_kernel.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'module_pool_kernel_1x8' (47#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/module_pool_kernel_1x8.v:1]
+INFO: [Synth 8-6157] synthesizing module 'buffer_ofm' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/buffer_ofm.v:1]
+INFO: [Synth 8-6157] synthesizing module 'com_simple_dual_port_ram__parameterized2' [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_simple_dual_port_ram.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'com_simple_dual_port_ram__parameterized2' (47#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/com_simple_dual_port_ram.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'buffer_ofm' (48#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/buffer_ofm.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'accel_top' (49#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/accel_top.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Accel_Conv' (50#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ipshared/8eea/Accel_Conv.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_Accel_Conv_0_2' (51#1) [c:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.gen/sources_1/bd/design_1/ip/design_1_Accel_Conv_0_2/synth/design_1_Accel_Conv_0_2.v:59]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1363.293 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1363.293 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1363.293 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1450.875 ; gain = 4.160
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 1769.336 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1833.598 ; gain = 64.262
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:31 . Memory (MB): peak = 1833.598 ; gain = 470.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z035ffg676-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:31 . Memory (MB): peak = 1833.598 ; gain = 470.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:31 . Memory (MB): peak = 1833.598 ; gain = 470.305
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'curr_state_reg' in module 'com_ctrl_task'
+INFO: [Synth 8-802] inferred FSM for state register 'curr_state_reg' in module 'com_ctrl_task__parameterized0'
+INFO: [Synth 8-802] inferred FSM for state register 'curr_state_reg' in module 'interface_axis_slave'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                               00 |                               00
+                 RUNNING |                               01 |                               01
+                 PENDING |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'curr_state_reg' using encoding 'sequential' in module 'com_ctrl_task'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                               00 |                               00
+                 RUNNING |                               01 |                               01
+                 PENDING |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'curr_state_reg' using encoding 'sequential' in module 'com_ctrl_task__parameterized0'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                               00 |                               00
+                     SET |                               01 |                               01
+                  FINISH |                               10 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'curr_state_reg' using encoding 'sequential' in module 'interface_axis_slave'
+INFO: [Synth 8-3971] The signal "com_dual_port_ram:/RAM_reg" was recognized as a true dual port RAM template.
+INFO: [Synth 8-3971] The signal "com_dual_port_ram__parameterized0:/RAM_reg" was recognized as a true dual port RAM template.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:33 . Memory (MB): peak = 1833.598 ; gain = 470.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   32 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 2     
+	   3 Input   18 Bit       Adders := 288   
+	   2 Input   18 Bit       Adders := 8     
+	   4 Input   17 Bit       Adders := 1     
+	   2 Input   16 Bit       Adders := 297   
+	   2 Input    9 Bit       Adders := 9     
+	   3 Input    8 Bit       Adders := 8     
+	   2 Input    8 Bit       Adders := 8     
+	   2 Input    7 Bit       Adders := 16    
+	   2 Input    4 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 2     
++---Registers : 
+	               72 Bit    Registers := 64    
+	               64 Bit    Registers := 1     
+	               32 Bit    Registers := 5     
+	               18 Bit    Registers := 320   
+	               16 Bit    Registers := 24    
+	               12 Bit    Registers := 13    
+	                9 Bit    Registers := 292   
+	                8 Bit    Registers := 10289 
+	                7 Bit    Registers := 16    
+	                4 Bit    Registers := 3     
+	                3 Bit    Registers := 3     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 96    
++---RAMs : 
+	             256K Bit	(4096 X 64 bit)          RAMs := 1     
+	              72K Bit	(4096 X 18 bit)          RAMs := 8     
+	              64K Bit	(8192 X 8 bit)          RAMs := 8     
++---Muxes : 
+	   2 Input   64 Bit        Muxes := 6     
+	   2 Input   32 Bit        Muxes := 4     
+	   4 Input   32 Bit        Muxes := 5     
+	   2 Input   18 Bit        Muxes := 24    
+	   2 Input   16 Bit        Muxes := 4     
+	   2 Input   12 Bit        Muxes := 4     
+	   4 Input   12 Bit        Muxes := 2     
+	   7 Input    9 Bit        Muxes := 1     
+	   4 Input    9 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 40    
+	   7 Input    8 Bit        Muxes := 1     
+	   4 Input    8 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 4     
+	   2 Input    2 Bit        Muxes := 8     
+	   2 Input    1 Bit        Muxes := 19    
+	   5 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 900 (col length:140)
+BRAMs: 1000 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP DOUT_reg, operation Mode is: ((D'+A2)*B'')'.
+DSP Report: register D_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_PORT_REG_reg is absorbed into DSP DOUT_reg.
+DSP Report: register DOUT_reg is absorbed into DSP DOUT_reg.
+DSP Report: register MULT_RES_reg is absorbed into DSP DOUT_reg.
+DSP Report: register A_Plus_D_reg is absorbed into DSP DOUT_reg.
+DSP Report: operator MULT_RES0 is absorbed into DSP DOUT_reg.
+DSP Report: operator A_Plus_D0 is absorbed into DSP DOUT_reg.
+DSP Report: Generating DSP dout_reg, operation Mode is: (A2*B2)'.
+DSP Report: register scale_d_reg is absorbed into DSP dout_reg.
+DSP Report: register val_d_reg is absorbed into DSP dout_reg.
+DSP Report: register dout_reg is absorbed into DSP dout_reg.
+DSP Report: register dout_t_reg is absorbed into DSP dout_reg.
+DSP Report: operator dout_t0 is absorbed into DSP dout_reg.
+DSP Report: Generating DSP dout_reg, operation Mode is: (A2*B2)'.
+DSP Report: register scale_d_reg is absorbed into DSP dout_reg.
+DSP Report: register val_d_reg is absorbed into DSP dout_reg.
+DSP Report: register dout_reg is absorbed into DSP dout_reg.
+DSP Report: register dout_t_reg is absorbed into DSP dout_reg.
+DSP Report: operator dout_t0 is absorbed into DSP dout_reg.
+DSP Report: Generating DSP dout_reg, operation Mode is: (A2*B2)'.
+DSP Report: register scale_d_reg is absorbed into DSP dout_reg.
+DSP Report: register val_d_reg is absorbed into DSP dout_reg.
+DSP Report: register dout_reg is absorbed into DSP dout_reg.
+DSP Report: register dout_t_reg is absorbed into DSP dout_reg.
+DSP Report: operator dout_t0 is absorbed into DSP dout_reg.
+DSP Report: Generating DSP dout_reg, operation Mode is: (A2*B2)'.
+DSP Report: register scale_d_reg is absorbed into DSP dout_reg.
+DSP Report: register val_d_reg is absorbed into DSP dout_reg.
+DSP Report: register dout_reg is absorbed into DSP dout_reg.
+DSP Report: register dout_t_reg is absorbed into DSP dout_reg.
+DSP Report: operator dout_t0 is absorbed into DSP dout_reg.
+DSP Report: Generating DSP dout_reg, operation Mode is: (A2*B2)'.
+DSP Report: register scale_d_reg is absorbed into DSP dout_reg.
+DSP Report: register val_d_reg is absorbed into DSP dout_reg.
+DSP Report: register dout_reg is absorbed into DSP dout_reg.
+DSP Report: register dout_t_reg is absorbed into DSP dout_reg.
+DSP Report: operator dout_t0 is absorbed into DSP dout_reg.
+DSP Report: Generating DSP dout_reg, operation Mode is: (A2*B2)'.
+DSP Report: register scale_d_reg is absorbed into DSP dout_reg.
+DSP Report: register val_d_reg is absorbed into DSP dout_reg.
+DSP Report: register dout_reg is absorbed into DSP dout_reg.
+DSP Report: register dout_t_reg is absorbed into DSP dout_reg.
+DSP Report: operator dout_t0 is absorbed into DSP dout_reg.
+DSP Report: Generating DSP dout_reg, operation Mode is: (A2*B2)'.
+DSP Report: register scale_d_reg is absorbed into DSP dout_reg.
+DSP Report: register val_d_reg is absorbed into DSP dout_reg.
+DSP Report: register dout_reg is absorbed into DSP dout_reg.
+DSP Report: register dout_t_reg is absorbed into DSP dout_reg.
+DSP Report: operator dout_t0 is absorbed into DSP dout_reg.
+DSP Report: Generating DSP dout_reg, operation Mode is: (A2*B2)'.
+DSP Report: register scale_d_reg is absorbed into DSP dout_reg.
+DSP Report: register val_d_reg is absorbed into DSP dout_reg.
+DSP Report: register dout_reg is absorbed into DSP dout_reg.
+DSP Report: register dout_t_reg is absorbed into DSP dout_reg.
+DSP Report: operator dout_t0 is absorbed into DSP dout_reg.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:01:00 . Memory (MB): peak = 1833.598 ; gain = 470.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping Report (see note below)
++--------------------------------+-------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                     | RTL Object                                      | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++--------------------------------+-------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|u_accel_topi_1/u_module_acc_1x8 | u_module_acc_0/u_com_dual_port_ram_ofm/RAM_reg  | 4 K x 18(READ_FIRST)   | W |   | 4 K x 18(WRITE_FIRST)  |   | R | Port A and B     | 0      | 2      | 
+|u_accel_topi_1/u_module_acc_1x8 | u_module_acc_1/u_com_dual_port_ram_ofm/RAM_reg  | 4 K x 18(READ_FIRST)   | W |   | 4 K x 18(WRITE_FIRST)  |   | R | Port A and B     | 0      | 2      | 
+|u_accel_topi_1/u_module_acc_1x8 | u_module_acc_2/u_com_dual_port_ram_ofm/RAM_reg  | 4 K x 18(READ_FIRST)   | W |   | 4 K x 18(WRITE_FIRST)  |   | R | Port A and B     | 0      | 2      | 
+|u_accel_topi_1/u_module_acc_1x8 | u_module_acc_3/u_com_dual_port_ram_ofm/RAM_reg  | 4 K x 18(READ_FIRST)   | W |   | 4 K x 18(WRITE_FIRST)  |   | R | Port A and B     | 0      | 2      | 
+|u_accel_topi_1/u_module_acc_1x8 | u_module_acc_4/u_com_dual_port_ram_ofm/RAM_reg  | 4 K x 18(READ_FIRST)   | W |   | 4 K x 18(WRITE_FIRST)  |   | R | Port A and B     | 0      | 2      | 
+|u_accel_topi_1/u_module_acc_1x8 | u_module_acc_5/u_com_dual_port_ram_ofm/RAM_reg  | 4 K x 18(READ_FIRST)   | W |   | 4 K x 18(WRITE_FIRST)  |   | R | Port A and B     | 0      | 2      | 
+|u_accel_topi_1/u_module_acc_1x8 | u_module_acc_6/u_com_dual_port_ram_ofm/RAM_reg  | 4 K x 18(READ_FIRST)   | W |   | 4 K x 18(WRITE_FIRST)  |   | R | Port A and B     | 0      | 2      | 
+|u_accel_topi_1/u_module_acc_1x8 | u_module_acc_7/u_com_dual_port_ram_ofm/RAM_reg  | 4 K x 18(READ_FIRST)   | W |   | 4 K x 18(WRITE_FIRST)  |   | R | Port A and B     | 0      | 2      | 
+|design_1_Accel_Conv_0_2         | u_buffer_ifm_1x8/u_com_dual_port_ram_0/RAM_reg  | 8 K x 8(READ_FIRST)    | W |   | 8 K x 8(WRITE_FIRST)   |   | R | Port A and B     | 0      | 2      | 
+|design_1_Accel_Conv_0_2         | u_buffer_ifm_1x8/u_com_dual_port_ram_1/RAM_reg  | 8 K x 8(READ_FIRST)    | W |   | 8 K x 8(WRITE_FIRST)   |   | R | Port A and B     | 0      | 2      | 
+|design_1_Accel_Conv_0_2         | u_buffer_ifm_1x8/u_com_dual_port_ram_2/RAM_reg  | 8 K x 8(READ_FIRST)    | W |   | 8 K x 8(WRITE_FIRST)   |   | R | Port A and B     | 0      | 2      | 
+|design_1_Accel_Conv_0_2         | u_buffer_ifm_1x8/u_com_dual_port_ram_3/RAM_reg  | 8 K x 8(READ_FIRST)    | W |   | 8 K x 8(WRITE_FIRST)   |   | R | Port A and B     | 0      | 2      | 
+|design_1_Accel_Conv_0_2         | u_buffer_ifm_1x8/u_com_dual_port_ram_4/RAM_reg  | 8 K x 8(READ_FIRST)    | W |   | 8 K x 8(WRITE_FIRST)   |   | R | Port A and B     | 0      | 2      | 
+|design_1_Accel_Conv_0_2         | u_buffer_ifm_1x8/u_com_dual_port_ram_5/RAM_reg  | 8 K x 8(READ_FIRST)    | W |   | 8 K x 8(WRITE_FIRST)   |   | R | Port A and B     | 0      | 2      | 
+|design_1_Accel_Conv_0_2         | u_buffer_ifm_1x8/u_com_dual_port_ram_6/RAM_reg  | 8 K x 8(READ_FIRST)    | W |   | 8 K x 8(WRITE_FIRST)   |   | R | Port A and B     | 0      | 2      | 
+|design_1_Accel_Conv_0_2         | u_buffer_ifm_1x8/u_com_dual_port_ram_7/RAM_reg  | 8 K x 8(READ_FIRST)    | W |   | 8 K x 8(WRITE_FIRST)   |   | R | Port A and B     | 0      | 2      | 
+|design_1_Accel_Conv_0_2         | u_buffer_ofm/u_com_simple_dual_port_ram/RAM_reg | 4 K x 64(READ_FIRST)   | W |   | 4 K x 64(WRITE_FIRST)  |   | R | Port A and B     | 1      | 7      | 
++--------------------------------+-------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++-----------------------------+----------------------------------------------------------------------------------+----------------+----------------------+--------------+
+|Module Name                  | RTL Object                                                                       | Inference      | Size (Depth x Width) | Primitives   | 
++-----------------------------+----------------------------------------------------------------------------------+----------------+----------------------+--------------+
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_0/u_com_simple_dual_port_ram_0/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_0/u_com_simple_dual_port_ram_1/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_0/u_com_simple_dual_port_ram_2/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_0/u_com_simple_dual_port_ram_3/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_0/u_com_simple_dual_port_ram_4/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_0/u_com_simple_dual_port_ram_5/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_0/u_com_simple_dual_port_ram_6/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_0/u_com_simple_dual_port_ram_7/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_1/u_com_simple_dual_port_ram_0/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_1/u_com_simple_dual_port_ram_1/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_1/u_com_simple_dual_port_ram_2/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_1/u_com_simple_dual_port_ram_3/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_1/u_com_simple_dual_port_ram_4/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_1/u_com_simple_dual_port_ram_5/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_1/u_com_simple_dual_port_ram_6/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_1/u_com_simple_dual_port_ram_7/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_2/u_com_simple_dual_port_ram_0/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_2/u_com_simple_dual_port_ram_1/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_2/u_com_simple_dual_port_ram_2/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_2/u_com_simple_dual_port_ram_3/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_2/u_com_simple_dual_port_ram_4/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_2/u_com_simple_dual_port_ram_5/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_2/u_com_simple_dual_port_ram_6/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_2/u_com_simple_dual_port_ram_7/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_3/u_com_simple_dual_port_ram_0/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_3/u_com_simple_dual_port_ram_1/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_3/u_com_simple_dual_port_ram_2/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_3/u_com_simple_dual_port_ram_3/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_3/u_com_simple_dual_port_ram_4/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_3/u_com_simple_dual_port_ram_5/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_3/u_com_simple_dual_port_ram_6/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_3/u_com_simple_dual_port_ram_7/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_4/u_com_simple_dual_port_ram_0/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_4/u_com_simple_dual_port_ram_1/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_4/u_com_simple_dual_port_ram_2/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_4/u_com_simple_dual_port_ram_3/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_4/u_com_simple_dual_port_ram_4/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_4/u_com_simple_dual_port_ram_5/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_4/u_com_simple_dual_port_ram_6/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_4/u_com_simple_dual_port_ram_7/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_5/u_com_simple_dual_port_ram_0/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_5/u_com_simple_dual_port_ram_1/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_5/u_com_simple_dual_port_ram_2/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_5/u_com_simple_dual_port_ram_3/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_5/u_com_simple_dual_port_ram_4/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_5/u_com_simple_dual_port_ram_5/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_5/u_com_simple_dual_port_ram_6/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_5/u_com_simple_dual_port_ram_7/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_6/u_com_simple_dual_port_ram_0/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_6/u_com_simple_dual_port_ram_1/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_6/u_com_simple_dual_port_ram_2/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_6/u_com_simple_dual_port_ram_3/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_6/u_com_simple_dual_port_ram_4/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_6/u_com_simple_dual_port_ram_5/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_6/u_com_simple_dual_port_ram_6/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_6/u_com_simple_dual_port_ram_7/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_7/u_com_simple_dual_port_ram_0/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_7/u_com_simple_dual_port_ram_1/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_7/u_com_simple_dual_port_ram_2/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_7/u_com_simple_dual_port_ram_3/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_7/u_com_simple_dual_port_ram_4/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_7/u_com_simple_dual_port_ram_5/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_7/u_com_simple_dual_port_ram_6/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_7/u_com_simple_dual_port_ram_7/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|u_accel_topi_1/u_buffer_bias | u_com_simple_dual_port_ram_0/RAM_reg                                             | User Attribute | 128 x 18             | RAM64M x 12  | 
+|u_accel_topi_1/u_buffer_bias | u_com_simple_dual_port_ram_1/RAM_reg                                             | User Attribute | 128 x 18             | RAM64M x 12  | 
+|u_accel_topi_1/u_buffer_bias | u_com_simple_dual_port_ram_2/RAM_reg                                             | User Attribute | 128 x 18             | RAM64M x 12  | 
+|u_accel_topi_1/u_buffer_bias | u_com_simple_dual_port_ram_3/RAM_reg                                             | User Attribute | 128 x 18             | RAM64M x 12  | 
+|u_accel_topi_1/u_buffer_bias | u_com_simple_dual_port_ram_4/RAM_reg                                             | User Attribute | 128 x 18             | RAM64M x 12  | 
+|u_accel_topi_1/u_buffer_bias | u_com_simple_dual_port_ram_5/RAM_reg                                             | User Attribute | 128 x 18             | RAM64M x 12  | 
+|u_accel_topi_1/u_buffer_bias | u_com_simple_dual_port_ram_6/RAM_reg                                             | User Attribute | 128 x 18             | RAM64M x 12  | 
+|u_accel_topi_1/u_buffer_bias | u_com_simple_dual_port_ram_7/RAM_reg                                             | User Attribute | 128 x 18             | RAM64M x 12  | 
+|design_1_Accel_Conv_0_2      | inst_module_leaky_relu_1x8/u_com_simple_dual_port_ram_0/RAM_reg                  | User Attribute | 256 x 8              | RAM64M x 12  | 
+|design_1_Accel_Conv_0_2      | inst_module_leaky_relu_1x8/u_com_simple_dual_port_ram_1/RAM_reg                  | User Attribute | 256 x 8              | RAM64M x 12  | 
+|design_1_Accel_Conv_0_2      | inst_module_leaky_relu_1x8/u_com_simple_dual_port_ram_2/RAM_reg                  | User Attribute | 256 x 8              | RAM64M x 12  | 
+|design_1_Accel_Conv_0_2      | inst_module_leaky_relu_1x8/u_com_simple_dual_port_ram_3/RAM_reg                  | User Attribute | 256 x 8              | RAM64M x 12  | 
+|design_1_Accel_Conv_0_2      | inst_module_leaky_relu_1x8/u_com_simple_dual_port_ram_4/RAM_reg                  | User Attribute | 256 x 8              | RAM64M x 12  | 
+|design_1_Accel_Conv_0_2      | inst_module_leaky_relu_1x8/u_com_simple_dual_port_ram_5/RAM_reg                  | User Attribute | 256 x 8              | RAM64M x 12  | 
+|design_1_Accel_Conv_0_2      | inst_module_leaky_relu_1x8/u_com_simple_dual_port_ram_6/RAM_reg                  | User Attribute | 256 x 8              | RAM64M x 12  | 
+|design_1_Accel_Conv_0_2      | inst_module_leaky_relu_1x8/u_com_simple_dual_port_ram_7/RAM_reg                  | User Attribute | 256 x 8              | RAM64M x 12  | 
++-----------------------------+----------------------------------------------------------------------------------+----------------+----------------------+--------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+
+DSP: Preliminary Mapping Report (see note below)
++---------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name          | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++---------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_mult_int8_x2_dsp | ((D'+A2)*B'')' | 9      | 10     | -      | 25     | 35     | 1    | 2    | -    | 1    | 1     | 1    | 1    | 
+|cal_scale_mul        | (A2*B2)'       | 16     | 16     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|cal_scale_mul        | (A2*B2)'       | 16     | 16     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|cal_scale_mul        | (A2*B2)'       | 16     | 16     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|cal_scale_mul        | (A2*B2)'       | 16     | 16     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|cal_scale_mul        | (A2*B2)'       | 16     | 16     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|cal_scale_mul        | (A2*B2)'       | 16     | 16     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|cal_scale_mul        | (A2*B2)'       | 16     | 16     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|cal_scale_mul        | (A2*B2)'       | 16     | 16     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 1    | 1    | 
++---------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:41 ; elapsed = 00:01:08 . Memory (MB): peak = 1833.598 ; gain = 470.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:41 ; elapsed = 00:01:08 . Memory (MB): peak = 1833.598 ; gain = 470.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping Report
++--------------------------------+-------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                     | RTL Object                                      | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++--------------------------------+-------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|u_accel_topi_1/u_module_acc_1x8 | u_module_acc_0/u_com_dual_port_ram_ofm/RAM_reg  | 4 K x 18(READ_FIRST)   | W |   | 4 K x 18(WRITE_FIRST)  |   | R | Port A and B     | 0      | 2      | 
+|u_accel_topi_1/u_module_acc_1x8 | u_module_acc_1/u_com_dual_port_ram_ofm/RAM_reg  | 4 K x 18(READ_FIRST)   | W |   | 4 K x 18(WRITE_FIRST)  |   | R | Port A and B     | 0      | 2      | 
+|u_accel_topi_1/u_module_acc_1x8 | u_module_acc_2/u_com_dual_port_ram_ofm/RAM_reg  | 4 K x 18(READ_FIRST)   | W |   | 4 K x 18(WRITE_FIRST)  |   | R | Port A and B     | 0      | 2      | 
+|u_accel_topi_1/u_module_acc_1x8 | u_module_acc_3/u_com_dual_port_ram_ofm/RAM_reg  | 4 K x 18(READ_FIRST)   | W |   | 4 K x 18(WRITE_FIRST)  |   | R | Port A and B     | 0      | 2      | 
+|u_accel_topi_1/u_module_acc_1x8 | u_module_acc_4/u_com_dual_port_ram_ofm/RAM_reg  | 4 K x 18(READ_FIRST)   | W |   | 4 K x 18(WRITE_FIRST)  |   | R | Port A and B     | 0      | 2      | 
+|u_accel_topi_1/u_module_acc_1x8 | u_module_acc_5/u_com_dual_port_ram_ofm/RAM_reg  | 4 K x 18(READ_FIRST)   | W |   | 4 K x 18(WRITE_FIRST)  |   | R | Port A and B     | 0      | 2      | 
+|u_accel_topi_1/u_module_acc_1x8 | u_module_acc_6/u_com_dual_port_ram_ofm/RAM_reg  | 4 K x 18(READ_FIRST)   | W |   | 4 K x 18(WRITE_FIRST)  |   | R | Port A and B     | 0      | 2      | 
+|u_accel_topi_1/u_module_acc_1x8 | u_module_acc_7/u_com_dual_port_ram_ofm/RAM_reg  | 4 K x 18(READ_FIRST)   | W |   | 4 K x 18(WRITE_FIRST)  |   | R | Port A and B     | 0      | 2      | 
+|design_1_Accel_Conv_0_2         | u_buffer_ifm_1x8/u_com_dual_port_ram_0/RAM_reg  | 8 K x 8(READ_FIRST)    | W |   | 8 K x 8(WRITE_FIRST)   |   | R | Port A and B     | 0      | 2      | 
+|design_1_Accel_Conv_0_2         | u_buffer_ifm_1x8/u_com_dual_port_ram_1/RAM_reg  | 8 K x 8(READ_FIRST)    | W |   | 8 K x 8(WRITE_FIRST)   |   | R | Port A and B     | 0      | 2      | 
+|design_1_Accel_Conv_0_2         | u_buffer_ifm_1x8/u_com_dual_port_ram_2/RAM_reg  | 8 K x 8(READ_FIRST)    | W |   | 8 K x 8(WRITE_FIRST)   |   | R | Port A and B     | 0      | 2      | 
+|design_1_Accel_Conv_0_2         | u_buffer_ifm_1x8/u_com_dual_port_ram_3/RAM_reg  | 8 K x 8(READ_FIRST)    | W |   | 8 K x 8(WRITE_FIRST)   |   | R | Port A and B     | 0      | 2      | 
+|design_1_Accel_Conv_0_2         | u_buffer_ifm_1x8/u_com_dual_port_ram_4/RAM_reg  | 8 K x 8(READ_FIRST)    | W |   | 8 K x 8(WRITE_FIRST)   |   | R | Port A and B     | 0      | 2      | 
+|design_1_Accel_Conv_0_2         | u_buffer_ifm_1x8/u_com_dual_port_ram_5/RAM_reg  | 8 K x 8(READ_FIRST)    | W |   | 8 K x 8(WRITE_FIRST)   |   | R | Port A and B     | 0      | 2      | 
+|design_1_Accel_Conv_0_2         | u_buffer_ifm_1x8/u_com_dual_port_ram_6/RAM_reg  | 8 K x 8(READ_FIRST)    | W |   | 8 K x 8(WRITE_FIRST)   |   | R | Port A and B     | 0      | 2      | 
+|design_1_Accel_Conv_0_2         | u_buffer_ifm_1x8/u_com_dual_port_ram_7/RAM_reg  | 8 K x 8(READ_FIRST)    | W |   | 8 K x 8(WRITE_FIRST)   |   | R | Port A and B     | 0      | 2      | 
+|design_1_Accel_Conv_0_2         | u_buffer_ofm/u_com_simple_dual_port_ram/RAM_reg | 4 K x 64(READ_FIRST)   | W |   | 4 K x 64(WRITE_FIRST)  |   | R | Port A and B     | 1      | 7      | 
++--------------------------------+-------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+
+Distributed RAM: Final Mapping Report
++-----------------------------+----------------------------------------------------------------------------------+----------------+----------------------+--------------+
+|Module Name                  | RTL Object                                                                       | Inference      | Size (Depth x Width) | Primitives   | 
++-----------------------------+----------------------------------------------------------------------------------+----------------+----------------------+--------------+
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_0/u_com_simple_dual_port_ram_0/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_0/u_com_simple_dual_port_ram_1/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_0/u_com_simple_dual_port_ram_2/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_0/u_com_simple_dual_port_ram_3/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_0/u_com_simple_dual_port_ram_4/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_0/u_com_simple_dual_port_ram_5/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_0/u_com_simple_dual_port_ram_6/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_0/u_com_simple_dual_port_ram_7/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_1/u_com_simple_dual_port_ram_0/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_1/u_com_simple_dual_port_ram_1/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_1/u_com_simple_dual_port_ram_2/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_1/u_com_simple_dual_port_ram_3/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_1/u_com_simple_dual_port_ram_4/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_1/u_com_simple_dual_port_ram_5/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_1/u_com_simple_dual_port_ram_6/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_1/u_com_simple_dual_port_ram_7/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_2/u_com_simple_dual_port_ram_0/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_2/u_com_simple_dual_port_ram_1/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_2/u_com_simple_dual_port_ram_2/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_2/u_com_simple_dual_port_ram_3/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_2/u_com_simple_dual_port_ram_4/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_2/u_com_simple_dual_port_ram_5/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_2/u_com_simple_dual_port_ram_6/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_2/u_com_simple_dual_port_ram_7/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_3/u_com_simple_dual_port_ram_0/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_3/u_com_simple_dual_port_ram_1/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_3/u_com_simple_dual_port_ram_2/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_3/u_com_simple_dual_port_ram_3/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_3/u_com_simple_dual_port_ram_4/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_3/u_com_simple_dual_port_ram_5/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_3/u_com_simple_dual_port_ram_6/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_3/u_com_simple_dual_port_ram_7/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_4/u_com_simple_dual_port_ram_0/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_4/u_com_simple_dual_port_ram_1/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_4/u_com_simple_dual_port_ram_2/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_4/u_com_simple_dual_port_ram_3/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_4/u_com_simple_dual_port_ram_4/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_4/u_com_simple_dual_port_ram_5/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_4/u_com_simple_dual_port_ram_6/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_4/u_com_simple_dual_port_ram_7/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_5/u_com_simple_dual_port_ram_0/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_5/u_com_simple_dual_port_ram_1/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_5/u_com_simple_dual_port_ram_2/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_5/u_com_simple_dual_port_ram_3/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_5/u_com_simple_dual_port_ram_4/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_5/u_com_simple_dual_port_ram_5/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_5/u_com_simple_dual_port_ram_6/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_5/u_com_simple_dual_port_ram_7/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_6/u_com_simple_dual_port_ram_0/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_6/u_com_simple_dual_port_ram_1/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_6/u_com_simple_dual_port_ram_2/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_6/u_com_simple_dual_port_ram_3/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_6/u_com_simple_dual_port_ram_4/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_6/u_com_simple_dual_port_ram_5/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_6/u_com_simple_dual_port_ram_6/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_6/u_com_simple_dual_port_ram_7/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_7/u_com_simple_dual_port_ram_0/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_7/u_com_simple_dual_port_ram_1/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_7/u_com_simple_dual_port_ram_2/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_7/u_com_simple_dual_port_ram_3/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_7/u_com_simple_dual_port_ram_4/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_7/u_com_simple_dual_port_ram_5/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_7/u_com_simple_dual_port_ram_6/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|design_1_Accel_Conv_0_2      | u_buffer_weight_1x8x8/u_buffer_weight_1x8_7/u_com_simple_dual_port_ram_7/RAM_reg | User Attribute | 128 x 72             | RAM64M x 48  | 
+|u_accel_topi_1/u_buffer_bias | u_com_simple_dual_port_ram_0/RAM_reg                                             | User Attribute | 128 x 18             | RAM64M x 12  | 
+|u_accel_topi_1/u_buffer_bias | u_com_simple_dual_port_ram_1/RAM_reg                                             | User Attribute | 128 x 18             | RAM64M x 12  | 
+|u_accel_topi_1/u_buffer_bias | u_com_simple_dual_port_ram_2/RAM_reg                                             | User Attribute | 128 x 18             | RAM64M x 12  | 
+|u_accel_topi_1/u_buffer_bias | u_com_simple_dual_port_ram_3/RAM_reg                                             | User Attribute | 128 x 18             | RAM64M x 12  | 
+|u_accel_topi_1/u_buffer_bias | u_com_simple_dual_port_ram_4/RAM_reg                                             | User Attribute | 128 x 18             | RAM64M x 12  | 
+|u_accel_topi_1/u_buffer_bias | u_com_simple_dual_port_ram_5/RAM_reg                                             | User Attribute | 128 x 18             | RAM64M x 12  | 
+|u_accel_topi_1/u_buffer_bias | u_com_simple_dual_port_ram_6/RAM_reg                                             | User Attribute | 128 x 18             | RAM64M x 12  | 
+|u_accel_topi_1/u_buffer_bias | u_com_simple_dual_port_ram_7/RAM_reg                                             | User Attribute | 128 x 18             | RAM64M x 12  | 
+|design_1_Accel_Conv_0_2      | inst_module_leaky_relu_1x8/u_com_simple_dual_port_ram_0/RAM_reg                  | User Attribute | 256 x 8              | RAM64M x 12  | 
+|design_1_Accel_Conv_0_2      | inst_module_leaky_relu_1x8/u_com_simple_dual_port_ram_1/RAM_reg                  | User Attribute | 256 x 8              | RAM64M x 12  | 
+|design_1_Accel_Conv_0_2      | inst_module_leaky_relu_1x8/u_com_simple_dual_port_ram_2/RAM_reg                  | User Attribute | 256 x 8              | RAM64M x 12  | 
+|design_1_Accel_Conv_0_2      | inst_module_leaky_relu_1x8/u_com_simple_dual_port_ram_3/RAM_reg                  | User Attribute | 256 x 8              | RAM64M x 12  | 
+|design_1_Accel_Conv_0_2      | inst_module_leaky_relu_1x8/u_com_simple_dual_port_ram_4/RAM_reg                  | User Attribute | 256 x 8              | RAM64M x 12  | 
+|design_1_Accel_Conv_0_2      | inst_module_leaky_relu_1x8/u_com_simple_dual_port_ram_5/RAM_reg                  | User Attribute | 256 x 8              | RAM64M x 12  | 
+|design_1_Accel_Conv_0_2      | inst_module_leaky_relu_1x8/u_com_simple_dual_port_ram_6/RAM_reg                  | User Attribute | 256 x 8              | RAM64M x 12  | 
+|design_1_Accel_Conv_0_2      | inst_module_leaky_relu_1x8/u_com_simple_dual_port_ram_7/RAM_reg                  | User Attribute | 256 x 8              | RAM64M x 12  | 
++-----------------------------+----------------------------------------------------------------------------------+----------------+----------------------+--------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_module_acc_1x8/u_module_acc_0/u_com_dual_port_ram_ofm/RAM_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_module_acc_1x8/u_module_acc_0/u_com_dual_port_ram_ofm/RAM_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_module_acc_1x8/u_module_acc_1/u_com_dual_port_ram_ofm/RAM_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_module_acc_1x8/u_module_acc_1/u_com_dual_port_ram_ofm/RAM_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_module_acc_1x8/u_module_acc_2/u_com_dual_port_ram_ofm/RAM_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_module_acc_1x8/u_module_acc_2/u_com_dual_port_ram_ofm/RAM_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_module_acc_1x8/u_module_acc_3/u_com_dual_port_ram_ofm/RAM_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_module_acc_1x8/u_module_acc_3/u_com_dual_port_ram_ofm/RAM_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_module_acc_1x8/u_module_acc_4/u_com_dual_port_ram_ofm/RAM_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_module_acc_1x8/u_module_acc_4/u_com_dual_port_ram_ofm/RAM_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_module_acc_1x8/u_module_acc_5/u_com_dual_port_ram_ofm/RAM_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_module_acc_1x8/u_module_acc_5/u_com_dual_port_ram_ofm/RAM_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_module_acc_1x8/u_module_acc_6/u_com_dual_port_ram_ofm/RAM_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_module_acc_1x8/u_module_acc_6/u_com_dual_port_ram_ofm/RAM_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_module_acc_1x8/u_module_acc_7/u_com_dual_port_ram_ofm/RAM_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_module_acc_1x8/u_module_acc_7/u_com_dual_port_ram_ofm/RAM_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_buffer_ifm_1x8/u_com_dual_port_ram_0/RAM_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_buffer_ifm_1x8/u_com_dual_port_ram_0/RAM_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_buffer_ifm_1x8/u_com_dual_port_ram_1/RAM_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_buffer_ifm_1x8/u_com_dual_port_ram_1/RAM_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_buffer_ifm_1x8/u_com_dual_port_ram_2/RAM_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_buffer_ifm_1x8/u_com_dual_port_ram_2/RAM_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_buffer_ifm_1x8/u_com_dual_port_ram_3/RAM_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_buffer_ifm_1x8/u_com_dual_port_ram_3/RAM_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_buffer_ifm_1x8/u_com_dual_port_ram_4/RAM_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_buffer_ifm_1x8/u_com_dual_port_ram_4/RAM_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_buffer_ifm_1x8/u_com_dual_port_ram_5/RAM_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_buffer_ifm_1x8/u_com_dual_port_ram_5/RAM_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_buffer_ifm_1x8/u_com_dual_port_ram_6/RAM_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_buffer_ifm_1x8/u_com_dual_port_ram_6/RAM_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_buffer_ifm_1x8/u_com_dual_port_ram_7/RAM_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_buffer_ifm_1x8/u_com_dual_port_ram_7/RAM_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_buffer_ofm/u_com_simple_dual_port_ram/RAM_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_buffer_ofm/u_com_simple_dual_port_ram/RAM_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_buffer_ofm/u_com_simple_dual_port_ram/RAM_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_buffer_ofm/u_com_simple_dual_port_ram/RAM_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_buffer_ofm/u_com_simple_dual_port_ram/RAM_reg_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_buffer_ofm/u_com_simple_dual_port_ram/RAM_reg_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_buffer_ofm/u_com_simple_dual_port_ram/RAM_reg_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_accel_top/u_buffer_ofm/u_com_simple_dual_port_ram/RAM_reg_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:43 ; elapsed = 00:01:12 . Memory (MB): peak = 1833.598 ; gain = 470.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:44 ; elapsed = 00:01:16 . Memory (MB): peak = 1833.598 ; gain = 470.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:44 ; elapsed = 00:01:16 . Memory (MB): peak = 1833.598 ; gain = 470.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:45 ; elapsed = 00:01:18 . Memory (MB): peak = 1833.598 ; gain = 470.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:45 ; elapsed = 00:01:19 . Memory (MB): peak = 1833.598 ; gain = 470.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:45 ; elapsed = 00:01:19 . Memory (MB): peak = 1833.598 ; gain = 470.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:45 ; elapsed = 00:01:19 . Memory (MB): peak = 1833.598 ; gain = 470.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------------------+--------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name             | RTL Name                                                                                                           | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------------------+--------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|linebuffer_3x3_type_x6  | u_com_shift_reg_line_1_segment_1/genblk1[15].sreg_reg[15][7]                                                       | 15     | 8     | NO           | YES                | YES               | 8      | 0       | 
+|linebuffer_3x3_type_x6  | u_com_shift_reg_line_1_segment_2/genblk1[13].sreg_reg[13][7]                                                       | 13     | 8     | NO           | YES                | YES               | 8      | 0       | 
+|linebuffer_3x3_type_x6  | u_com_shift_reg_line_1_segment_3/genblk1[26].sreg_reg[26][7]                                                       | 26     | 8     | NO           | YES                | YES               | 0      | 8       | 
+|linebuffer_3x3_type_x6  | u_com_shift_reg_line_1_segment_4/genblk1[52].sreg_reg[52][7]                                                       | 52     | 8     | NO           | YES                | YES               | 0      | 16      | 
+|linebuffer_3x3_type_x6  | u_com_shift_reg_line_1_segment_5/genblk1[104].sreg_reg[104][7]                                                     | 104    | 8     | NO           | YES                | YES               | 0      | 32      | 
+|linebuffer_3x3_type_x6  | u_com_shift_reg_line_1_segment_6/genblk1[208].sreg_reg[208][7]                                                     | 208    | 8     | NO           | YES                | YES               | 0      | 56      | 
+|linebuffer_3x3_type_x6  | u_com_shift_reg_line_2_segment_1/genblk1[15].sreg_reg[15][7]                                                       | 15     | 8     | NO           | YES                | YES               | 8      | 0       | 
+|linebuffer_3x3_type_x6  | u_com_shift_reg_line_2_segment_2/genblk1[13].sreg_reg[13][7]                                                       | 13     | 8     | NO           | YES                | YES               | 8      | 0       | 
+|linebuffer_3x3_type_x6  | u_com_shift_reg_line_2_segment_3/genblk1[26].sreg_reg[26][7]                                                       | 26     | 8     | NO           | YES                | YES               | 0      | 8       | 
+|linebuffer_3x3_type_x6  | u_com_shift_reg_line_2_segment_4/genblk1[52].sreg_reg[52][7]                                                       | 52     | 8     | NO           | YES                | YES               | 0      | 16      | 
+|linebuffer_3x3_type_x6  | u_com_shift_reg_line_2_segment_5/genblk1[104].sreg_reg[104][7]                                                     | 104    | 8     | NO           | YES                | YES               | 0      | 32      | 
+|linebuffer_3x3_type_x6  | u_com_shift_reg_line_2_segment_6/genblk1[208].sreg_reg[208][7]                                                     | 208    | 8     | NO           | YES                | YES               | 0      | 56      | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_0/u_com_shift_reg_line_1_segment_1/genblk1[15].sreg_reg[15][7]   | 15     | 8     | NO           | YES                | YES               | 8      | 0       | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_0/u_com_shift_reg_line_1_segment_2/genblk1[13].sreg_reg[13][7]   | 13     | 8     | NO           | YES                | YES               | 8      | 0       | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_0/u_com_shift_reg_line_1_segment_3/genblk1[26].sreg_reg[26][7]   | 26     | 8     | NO           | YES                | YES               | 0      | 8       | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_0/u_com_shift_reg_line_1_segment_4/genblk1[52].sreg_reg[52][7]   | 52     | 8     | NO           | YES                | YES               | 0      | 16      | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_0/u_com_shift_reg_line_1_segment_5/genblk1[104].sreg_reg[104][7] | 104    | 8     | NO           | YES                | YES               | 0      | 32      | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_0/u_com_shift_reg_line_1_segment_6/genblk1[208].sreg_reg[208][7] | 208    | 8     | NO           | YES                | YES               | 0      | 56      | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_1/u_com_shift_reg_line_1_segment_1/genblk1[15].sreg_reg[15][7]   | 15     | 8     | NO           | YES                | YES               | 8      | 0       | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_1/u_com_shift_reg_line_1_segment_2/genblk1[13].sreg_reg[13][7]   | 13     | 8     | NO           | YES                | YES               | 8      | 0       | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_1/u_com_shift_reg_line_1_segment_3/genblk1[26].sreg_reg[26][7]   | 26     | 8     | NO           | YES                | YES               | 0      | 8       | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_1/u_com_shift_reg_line_1_segment_4/genblk1[52].sreg_reg[52][7]   | 52     | 8     | NO           | YES                | YES               | 0      | 16      | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_1/u_com_shift_reg_line_1_segment_5/genblk1[104].sreg_reg[104][7] | 104    | 8     | NO           | YES                | YES               | 0      | 32      | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_1/u_com_shift_reg_line_1_segment_6/genblk1[208].sreg_reg[208][7] | 208    | 8     | NO           | YES                | YES               | 0      | 56      | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_2/u_com_shift_reg_line_1_segment_1/genblk1[15].sreg_reg[15][7]   | 15     | 8     | NO           | YES                | YES               | 8      | 0       | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_2/u_com_shift_reg_line_1_segment_2/genblk1[13].sreg_reg[13][7]   | 13     | 8     | NO           | YES                | YES               | 8      | 0       | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_2/u_com_shift_reg_line_1_segment_3/genblk1[26].sreg_reg[26][7]   | 26     | 8     | NO           | YES                | YES               | 0      | 8       | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_2/u_com_shift_reg_line_1_segment_4/genblk1[52].sreg_reg[52][7]   | 52     | 8     | NO           | YES                | YES               | 0      | 16      | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_2/u_com_shift_reg_line_1_segment_5/genblk1[104].sreg_reg[104][7] | 104    | 8     | NO           | YES                | YES               | 0      | 32      | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_2/u_com_shift_reg_line_1_segment_6/genblk1[208].sreg_reg[208][7] | 208    | 8     | NO           | YES                | YES               | 0      | 56      | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_3/u_com_shift_reg_line_1_segment_1/genblk1[15].sreg_reg[15][7]   | 15     | 8     | NO           | YES                | YES               | 8      | 0       | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_3/u_com_shift_reg_line_1_segment_2/genblk1[13].sreg_reg[13][7]   | 13     | 8     | NO           | YES                | YES               | 8      | 0       | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_3/u_com_shift_reg_line_1_segment_3/genblk1[26].sreg_reg[26][7]   | 26     | 8     | NO           | YES                | YES               | 0      | 8       | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_3/u_com_shift_reg_line_1_segment_4/genblk1[52].sreg_reg[52][7]   | 52     | 8     | NO           | YES                | YES               | 0      | 16      | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_3/u_com_shift_reg_line_1_segment_5/genblk1[104].sreg_reg[104][7] | 104    | 8     | NO           | YES                | YES               | 0      | 32      | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_3/u_com_shift_reg_line_1_segment_6/genblk1[208].sreg_reg[208][7] | 208    | 8     | NO           | YES                | YES               | 0      | 56      | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_4/u_com_shift_reg_line_1_segment_1/genblk1[15].sreg_reg[15][7]   | 15     | 8     | NO           | YES                | YES               | 8      | 0       | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_4/u_com_shift_reg_line_1_segment_2/genblk1[13].sreg_reg[13][7]   | 13     | 8     | NO           | YES                | YES               | 8      | 0       | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_4/u_com_shift_reg_line_1_segment_3/genblk1[26].sreg_reg[26][7]   | 26     | 8     | NO           | YES                | YES               | 0      | 8       | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_4/u_com_shift_reg_line_1_segment_4/genblk1[52].sreg_reg[52][7]   | 52     | 8     | NO           | YES                | YES               | 0      | 16      | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_4/u_com_shift_reg_line_1_segment_5/genblk1[104].sreg_reg[104][7] | 104    | 8     | NO           | YES                | YES               | 0      | 32      | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_4/u_com_shift_reg_line_1_segment_6/genblk1[208].sreg_reg[208][7] | 208    | 8     | NO           | YES                | YES               | 0      | 56      | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_5/u_com_shift_reg_line_1_segment_1/genblk1[15].sreg_reg[15][7]   | 15     | 8     | NO           | YES                | YES               | 8      | 0       | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_5/u_com_shift_reg_line_1_segment_2/genblk1[13].sreg_reg[13][7]   | 13     | 8     | NO           | YES                | YES               | 8      | 0       | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_5/u_com_shift_reg_line_1_segment_3/genblk1[26].sreg_reg[26][7]   | 26     | 8     | NO           | YES                | YES               | 0      | 8       | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_5/u_com_shift_reg_line_1_segment_4/genblk1[52].sreg_reg[52][7]   | 52     | 8     | NO           | YES                | YES               | 0      | 16      | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_5/u_com_shift_reg_line_1_segment_5/genblk1[104].sreg_reg[104][7] | 104    | 8     | NO           | YES                | YES               | 0      | 32      | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_5/u_com_shift_reg_line_1_segment_6/genblk1[208].sreg_reg[208][7] | 208    | 8     | NO           | YES                | YES               | 0      | 56      | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_6/u_com_shift_reg_line_1_segment_1/genblk1[15].sreg_reg[15][7]   | 15     | 8     | NO           | YES                | YES               | 8      | 0       | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_6/u_com_shift_reg_line_1_segment_2/genblk1[13].sreg_reg[13][7]   | 13     | 8     | NO           | YES                | YES               | 8      | 0       | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_6/u_com_shift_reg_line_1_segment_3/genblk1[26].sreg_reg[26][7]   | 26     | 8     | NO           | YES                | YES               | 0      | 8       | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_6/u_com_shift_reg_line_1_segment_4/genblk1[52].sreg_reg[52][7]   | 52     | 8     | NO           | YES                | YES               | 0      | 16      | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_6/u_com_shift_reg_line_1_segment_5/genblk1[104].sreg_reg[104][7] | 104    | 8     | NO           | YES                | YES               | 0      | 32      | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_6/u_com_shift_reg_line_1_segment_6/genblk1[208].sreg_reg[208][7] | 208    | 8     | NO           | YES                | YES               | 0      | 56      | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_7/u_com_shift_reg_line_1_segment_1/genblk1[15].sreg_reg[15][7]   | 15     | 8     | NO           | YES                | YES               | 8      | 0       | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_7/u_com_shift_reg_line_1_segment_2/genblk1[13].sreg_reg[13][7]   | 13     | 8     | NO           | YES                | YES               | 8      | 0       | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_7/u_com_shift_reg_line_1_segment_3/genblk1[26].sreg_reg[26][7]   | 26     | 8     | NO           | YES                | YES               | 0      | 8       | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_7/u_com_shift_reg_line_1_segment_4/genblk1[52].sreg_reg[52][7]   | 52     | 8     | NO           | YES                | YES               | 0      | 16      | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_7/u_com_shift_reg_line_1_segment_5/genblk1[104].sreg_reg[104][7] | 104    | 8     | NO           | YES                | YES               | 0      | 32      | 
+|accel_top__GCB0         | u_linebuffer_2x2_collect/u_linebuffer_2x2_type_x4_7/u_com_shift_reg_line_1_segment_6/genblk1[208].sreg_reg[208][7] | 208    | 8     | NO           | YES                | YES               | 0      | 56      | 
+|Accel_Conv__GC0         | u_global_data_beat/u_com_shift_reg_2/genblk1[9].sreg_reg[9][0]                                                     | 10     | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|Accel_Conv__GC0         | u_global_data_beat/u_com_shift_reg_3/genblk1[18].sreg_reg[18][0]                                                   | 9      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|Accel_Conv__GC0         | u_global_data_beat/u_com_shift_reg_4/genblk1[2].sreg_reg[2][11]                                                    | 2      | 12    | NO           | NO                 | YES               | 12     | 0       | 
+|Accel_Conv__GC0         | u_global_data_beat/u_com_shift_reg_5/genblk1[7].sreg_reg[7][11]                                                    | 7      | 12    | NO           | NO                 | YES               | 12     | 0       | 
+|Accel_Conv__GC0         | u_global_data_beat/u_com_shift_reg_6/genblk1[10].sreg_reg[10][0]                                                   | 11     | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|design_1_Accel_Conv_0_2 | inst/u_global_data_beat/pool_valid_d3_s2_reg                                                                       | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|design_1_Accel_Conv_0_2 | inst/u_global_data_beat/pool_valid_d4_s1_reg                                                                       | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|design_1_Accel_Conv_0_2 | inst/u_global_data_beat/pool_zero_d3_s1_reg                                                                        | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++------------------------+--------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |  2813|
+|2     |DSP48E1  |   296|
+|4     |LUT1     |    91|
+|5     |LUT2     |   713|
+|6     |LUT3     | 10341|
+|7     |LUT4     |  5100|
+|8     |LUT5     |   414|
+|9     |LUT6     |  1136|
+|10    |RAM64M   |  3264|
+|11    |RAMB18E1 |     1|
+|12    |RAMB36E1 |    39|
+|14    |SRL16E   |   414|
+|15    |SRLC32E  |  2688|
+|16    |FDRE     | 15024|
+|17    |FDSE     |   243|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:45 ; elapsed = 00:01:19 . Memory (MB): peak = 1833.598 ; gain = 470.305
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:00:59 . Memory (MB): peak = 1833.598 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:45 ; elapsed = 00:01:19 . Memory (MB): peak = 1833.598 ; gain = 470.305
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.901 . Memory (MB): peak = 1833.598 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 6413 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1833.598 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 3264 instances were transformed.
+  RAM64M => RAM64M (RAMD64E(x4)): 3264 instances
+
+Synth Design complete, checksum: 19f353c8
+INFO: [Common 17-83] Releasing license: Synthesis
+203 Infos, 10 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:50 ; elapsed = 00:01:35 . Memory (MB): peak = 1833.598 ; gain = 470.305
+INFO: [Common 17-1381] The checkpoint 'C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_Accel_Conv_0_2_synth_1/design_1_Accel_Conv_0_2.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1833.598 ; gain = 0.000
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_Accel_Conv_0_2, cache-ID = 6733417043ac2f13
+INFO: [Coretcl 2-1174] Renamed 1097 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/huanggeli/Desktop/git/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.runs/design_1_Accel_Conv_0_2_synth_1/design_1_Accel_Conv_0_2.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1833.598 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file design_1_Accel_Conv_0_2_utilization_synth.rpt -pb design_1_Accel_Conv_0_2_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Dec  4 19:56:54 2023...

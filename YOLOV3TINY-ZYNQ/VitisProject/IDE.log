@@ -13718,3 +13718,111 @@ con
 
 21:33:18 INFO  : Launch script is exported to file 'H:\VITIS-WORKSPACE\accel_test_system\detection_displayloop_system\_ide\scripts\systemdebugger_detection_displayloop_system_standalone.tcl'
 21:33:46 INFO  : Disconnected from the channel tcfchan#11.
+20:41:38 INFO  : Launching XSCT server: xsct.bat -n  -interactive H:\yolov3tiny-ZYNQ7000\YOLOV3TINY-ZYNQ\VitisProject\temp_xsdb_launch_script.tcl
+20:41:41 INFO  : Platform repository initialization has completed.
+20:41:41 INFO  : XSCT server has started successfully.
+20:41:41 INFO  : plnx-install-location is set to ''
+20:41:41 INFO  : Registering command handlers for Vitis TCF services
+20:41:43 INFO  : Successfully done setting XSCT server connection channel  
+20:41:43 INFO  : Successfully done query RDI_DATADIR 
+20:41:43 INFO  : Successfully done setting workspace for the tool. 
+20:42:47 INFO  : Hardware specification for platform project 'accel_hardware_platform' is updated.
+20:42:56 INFO  : Result from executing command 'getProjects': accel_hardware_platform
+20:42:56 INFO  : Result from executing command 'getPlatforms': accel_hardware_platform|H:/VITIS-WORKSPACE/accel_test_system/accel_hardware_platform/export/accel_hardware_platform/accel_hardware_platform.xpfm
+20:43:07 INFO  : No changes in MSS file content so sources will not be generated.
+20:43:11 INFO  : No changes in MSS file content so sources will not be generated.
+20:43:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:43:42 INFO  : Jtag cable 'Digilent JTAG-HS1 210249854819' is selected.
+20:43:42 INFO  : 'jtag frequency' command is executed.
+20:43:42 INFO  : Context for 'APU' is selected.
+20:43:42 INFO  : System reset is completed.
+20:43:45 INFO  : 'after 3000' command is executed.
+20:43:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210249854819" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210249854819-23732093-0"}' command is executed.
+20:43:53 INFO  : Device configured successfully with "H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/detection_displayloop/_ide/bitstream/hardwareplatform.bit"
+20:43:53 INFO  : Context for 'APU' is selected.
+20:43:53 INFO  : Hardware design and registers information is loaded from 'H:/VITIS-WORKSPACE/accel_test_system/accel_hardware_platform/export/accel_hardware_platform/hw/hardwareplatform.xsa'.
+20:43:53 INFO  : 'configparams force-mem-access 1' command is executed.
+20:43:53 INFO  : Context for 'APU' is selected.
+20:43:53 INFO  : Sourcing of 'H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/detection_displayloop/_ide/psinit/ps7_init.tcl' is done.
+20:43:53 INFO  : 'ps7_init' command is executed.
+20:43:53 INFO  : 'ps7_post_config' command is executed.
+20:43:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:43:53 INFO  : The application 'H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/detection_displayloop/Debug/detection_displayloop.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:43:53 INFO  : 'configparams force-mem-access 0' command is executed.
+20:43:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210249854819" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210249854819-23732093-0"}
+fpga -file H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/detection_displayloop/_ide/bitstream/hardwareplatform.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw H:/VITIS-WORKSPACE/accel_test_system/accel_hardware_platform/export/accel_hardware_platform/hw/hardwareplatform.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/detection_displayloop/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/detection_displayloop/Debug/detection_displayloop.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:43:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:43:54 INFO  : 'con' command is executed.
+20:43:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:43:54 INFO  : Launch script is exported to file 'H:\yolov3tiny-ZYNQ7000\YOLOV3TINY-ZYNQ\VitisProject\detection_displayloop_system\_ide\scripts\systemdebugger_detection_displayloop_system_standalone.tcl'
+20:47:13 INFO  : Result from executing command 'getProjects': accel_hardware_platform
+20:47:13 INFO  : Result from executing command 'getPlatforms': accel_hardware_platform|H:/VITIS-WORKSPACE/accel_test_system/accel_hardware_platform/export/accel_hardware_platform/accel_hardware_platform.xpfm;accel_hardware_platform|H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/accel_hardware_platform/export/accel_hardware_platform/accel_hardware_platform.xpfm
+20:47:17 INFO  : Checking for BSP changes to sync application flags for project 'detection_displayloop'...
+20:47:25 INFO  : Disconnected from the channel tcfchan#2.
+20:47:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:47:26 INFO  : Jtag cable 'Digilent JTAG-HS1 210249854819' is selected.
+20:47:26 INFO  : 'jtag frequency' command is executed.
+20:47:26 INFO  : Context for 'APU' is selected.
+20:47:26 INFO  : System reset is completed.
+20:47:29 INFO  : 'after 3000' command is executed.
+20:47:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210249854819" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210249854819-23732093-0"}' command is executed.
+20:47:36 INFO  : Device configured successfully with "H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/detection_displayloop/_ide/bitstream/hardwareplatform.bit"
+20:47:36 INFO  : Context for 'APU' is selected.
+20:47:36 INFO  : Hardware design and registers information is loaded from 'H:/VITIS-WORKSPACE/accel_test_system/accel_hardware_platform/export/accel_hardware_platform/hw/hardwareplatform.xsa'.
+20:47:36 INFO  : 'configparams force-mem-access 1' command is executed.
+20:47:36 INFO  : Context for 'APU' is selected.
+20:47:36 INFO  : Sourcing of 'H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/detection_displayloop/_ide/psinit/ps7_init.tcl' is done.
+20:47:37 INFO  : 'ps7_init' command is executed.
+20:47:37 INFO  : 'ps7_post_config' command is executed.
+20:47:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:47:37 INFO  : The application 'H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/detection_displayloop/Debug/detection_displayloop.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:47:37 INFO  : 'configparams force-mem-access 0' command is executed.
+20:47:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210249854819" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210249854819-23732093-0"}
+fpga -file H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/detection_displayloop/_ide/bitstream/hardwareplatform.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw H:/VITIS-WORKSPACE/accel_test_system/accel_hardware_platform/export/accel_hardware_platform/hw/hardwareplatform.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/detection_displayloop/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow H:/yolov3tiny-ZYNQ7000/YOLOV3TINY-ZYNQ/VitisProject/detection_displayloop/Debug/detection_displayloop.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:47:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:47:37 INFO  : 'con' command is executed.
+20:47:37 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:47:37 INFO  : Launch script is exported to file 'H:\yolov3tiny-ZYNQ7000\YOLOV3TINY-ZYNQ\VitisProject\detection_displayloop_system\_ide\scripts\systemdebugger_detection_displayloop_system_standalone.tcl'
+20:51:57 INFO  : Disconnected from the channel tcfchan#5.

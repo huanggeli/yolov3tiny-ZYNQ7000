@@ -188,7 +188,7 @@ processing_system7_v5_5_tlm :: processing_system7_v5_5_tlm (sc_core::sc_module_n
         ,PS_PORB("PS_PORB")
     ,S_AXI_HP0_xtlm_brdg("S_AXI_HP0_xtlm_brdg")
     ,m_rp_bridge_M_AXI_GP0("m_rp_bridge_M_AXI_GP0")     
-        ,FCLK_CLK0_clk("FCLK_CLK0_clk", sc_time(7000.00053200004,sc_core::SC_PS))//clock period in picoseconds = 1000000/freq(in MZ)
+        ,FCLK_CLK0_clk("FCLK_CLK0_clk", sc_time(5000.0,sc_core::SC_PS))//clock period in picoseconds = 1000000/freq(in MZ)
         ,FCLK_CLK1_clk("FCLK_CLK1_clk", sc_time(10000.0,sc_core::SC_PS))//clock period in picoseconds = 1000000/freq(in MZ)
     ,prop(_prop)
     {

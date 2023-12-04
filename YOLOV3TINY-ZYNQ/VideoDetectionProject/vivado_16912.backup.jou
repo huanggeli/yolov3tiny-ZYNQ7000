@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Oct  8 21:03:41 2023
+# Process ID: 16912
+# Current directory: H:/Vivado/YOLOV3TINY-ZYNQ/VideoDetectionProject
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30632 H:\Vivado\YOLOV3TINY-ZYNQ\VideoDetectionProject\VideoDetectionProject.xpr
+# Log file: H:/Vivado/YOLOV3TINY-ZYNQ/VideoDetectionProject/vivado.log
+# Journal file: H:/Vivado/YOLOV3TINY-ZYNQ/VideoDetectionProject\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project H:/Vivado/YOLOV3TINY-ZYNQ/VideoDetectionProject/VideoDetectionProject.xpr
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file H:/Vivado/YOLOV3TINY-ZYNQ/VideoDetectionProject/hardwareplatform.xsa
