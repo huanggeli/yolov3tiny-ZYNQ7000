@@ -12,7 +12,10 @@ This project implements a real-time target detection system, using FPGA RTL logi
 Vivado 2021.1   
 Vitis 2021.1   
 Vivado HLS 2021.1
-##注意（attention）：若您采用的板卡架构不是zynq-7000，请检查DSP型号是否为DSPE1，若不是，则需要对卷积IP进行适配后再编译运行。
+
+## 注意（attention）：
+若您采用的板卡架构不是zynq-7000，请检查DSP型号是否为DSPE1，若不是，则需要对卷积IP进行适配后再编译运行。
+if your board is not zynq7000,Check whether the DSP model is DSPE1. If not, you need to adapt the convolutional IP before compiling and running.
 ## Usage
 
 ### step1-Set CNN parameters
