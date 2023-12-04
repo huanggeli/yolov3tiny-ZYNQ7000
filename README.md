@@ -7,11 +7,12 @@ This project implements a real-time target detection system, using FPGA RTL logi
 ## 硬件构成(hardware)： 
 正点原子 ALINX 7Z035B开发板   
 双目摄像头AN5642（0V5640） 
+
 ## 开发环境（env）： 
 Vivado 2021.1   
 Vitis 2021.1   
 Vivado HLS 2021.1
-
+##注意（attention）：若您采用的板卡架构不是zynq-7000，请检查DSP型号是否为DSPE1，若不是，则需要对卷积IP进行适配后再编译运行。
 ## Usage
 
 ### step1-Set CNN parameters
