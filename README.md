@@ -56,8 +56,8 @@ More detailed information is written in the readme under each folder.
 `VideoDetectionProject` : 包含了硬件设计，即vivado工程  
 `VitisProject` : 包含了软件设计，即VITIS工程  
 
-详细信息在各个子目录的readme中。
+详细信息在各个子目录的readme中,模块结构信息在根目录的`/design.pdf`中。  
 ## 自定义神经网络模型
-请查阅`/model training/readme.md`
-有疑问欢迎咨询邮箱hglmunckid@163.com，工程复现问题推荐在issue区查阅或提问。
+请查阅`/model training/readme.md`  
+有疑问欢迎咨询邮箱hglmunckid@163.com，工程复现问题推荐在issue区查阅或提问。  
 For any questions,feel free to contact email hglmunckid@163.com 
