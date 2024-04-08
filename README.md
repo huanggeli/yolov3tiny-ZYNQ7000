@@ -58,5 +58,6 @@ More detailed information is written in the readme under each folder.
 
 详细信息在各个子目录的readme中。
 ## 自定义神经网络模型
-努力完善中...
+请查阅`/model training/readme.md`
+有疑问欢迎咨询邮箱hglmunckid@163.com，工程复现问题推荐在issue区查阅或提问。
 For any questions,feel free to contact email hglmunckid@163.com 
