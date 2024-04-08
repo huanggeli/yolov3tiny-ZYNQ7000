@@ -1,7 +1,7 @@
 # YOLOv3tiny-zynq7000
 a Real-time image recognition project with RTL accelerator and ZNQ Architecture 
 ## 简介 
-本项目实现了一个实时目标检测系统，采用纯FPGA的RTL逻辑实现yolov3tiny的神经网络加速器，并利用zynq构建了图像采集及显示回路。 
+本项目实现了一个实时目标检测系统，采用纯FPGA的RTL逻辑实现yolov3tiny的神经网络加速器，并利用zynq构建了图像采集及显示回路。 本项目的加速器参考了项目https://github.com/adamgallas/fpga_accelerator_yolov3tiny ，本项目仅对zynq7000进行了针对性的重构，相关设计思路请参考源项目。
 ## Introduction: 
 This project implements a real-time target detection system, using FPGA RTL logic to implement yolov3tiny's neural network accelerator, and using zynq to build an image acquisition and display loop.
 ## 硬件构成(hardware)： 
